@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.vercel/
+.env*
+!.env.example
+!.env.funding.example
+test-results/
+out/
+*.log
+*.tsbuildinfo
+code/funding/data/
+code/funding/.codex/
+code/GameVideo/
+.DS_Store

@@ -1,0 +1,2962 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "f03127ce751c90907486ddd4133e6d93b05dabc4",
+  "sourceRepository": "https://github.com/kgr0831/Gammarupage",
+  "packagedDate": "2026-10-06",
+  "sourceFiles": [
+    {
+      "path": ".env.funding.example",
+      "bytes": 2645,
+      "sourceSha256": "1b14858c6d4b665d2c3d15289188d0c13ced13f067f7852516ed4771e9ebd93e",
+      "bundleSha256": "a5b3dbfb57f882b2267f2eada5b36003e51e320327aea8150aadc3140f4ba6e1"
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "bytes": 689,
+      "sourceSha256": "449292ce375f9e3268ea4f634fc5a9edb182b3e087831332e5918d0f374d46c2",
+      "bundleSha256": "449292ce375f9e3268ea4f634fc5a9edb182b3e087831332e5918d0f374d46c2"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 308,
+      "sourceSha256": "34df188ff2d0d1af17bfeb3c463c036ce664cee1bef9aadec6bd3f1aed7a0641",
+      "bundleSha256": "34df188ff2d0d1af17bfeb3c463c036ce664cee1bef9aadec6bd3f1aed7a0641"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 687,
+      "sourceSha256": "ec1b6e023814ae1a510b02ea62229e5eb035d75e39e3335d5ea7f5ce5654d567",
+      "bundleSha256": "ec1b6e023814ae1a510b02ea62229e5eb035d75e39e3335d5ea7f5ce5654d567"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 12,
+      "sourceSha256": "d631d88045f74623d568adfb4783b72e3d1b732330d749bc6c72e6648d4581d3",
+      "bundleSha256": "d631d88045f74623d568adfb4783b72e3d1b732330d749bc6c72e6648d4581d3"
+    },
+    {
+      "path": "Design.md",
+      "bytes": 10293,
+      "sourceSha256": "86f76017c31f3e0cfa0b9001baa382b27677812860f4b80c70119dc96a7d9c73",
+      "bundleSha256": "86f76017c31f3e0cfa0b9001baa382b27677812860f4b80c70119dc96a7d9c73"
+    },
+    {
+      "path": "GammaruIcon.png",
+      "bytes": 4738,
+      "sourceSha256": "0be71ee3cd9d5d2a1e84ec18922c133a9d85da419d4ba6e27ea66a7c159fc4e3",
+      "bundleSha256": "0be71ee3cd9d5d2a1e84ec18922c133a9d85da419d4ba6e27ea66a7c159fc4e3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6315,
+      "sourceSha256": "783b2244d359e2241ceea89f497b914c06356e33c97d721b0ef49118b33dc9bf",
+      "bundleSha256": "7f38e5807864a3314e766883ef5886290790997fe73a8d34911888ab6e07c690"
+    },
+    {
+      "path": "discord-notifier/.env.example",
+      "bytes": 306,
+      "sourceSha256": "e34a71c100bca0ae608b452e9d331d38b77a70e71c030e9705eb57bc4d9e27aa",
+      "bundleSha256": "e34a71c100bca0ae608b452e9d331d38b77a70e71c030e9705eb57bc4d9e27aa"
+    },
+    {
+      "path": "discord-notifier/README.md",
+      "bytes": 4260,
+      "sourceSha256": "179de56fcf172694cf0592dab57b51c6b9458b3653faed7a6925639d0de8f903",
+      "bundleSha256": "27d721f2b0e223677ab513767d7682978260c5ce1b6884f27ad4f02f815dd74b"
+    },
+    {
+      "path": "discord-notifier/index.js",
+      "bytes": 2137,
+      "sourceSha256": "7674bbc9a1d71f00369d4aac818e4414aa004f67eb9891a9757a1b7c5211457b",
+      "bundleSha256": "7674bbc9a1d71f00369d4aac818e4414aa004f67eb9891a9757a1b7c5211457b"
+    },
+    {
+      "path": "discord-notifier/package-lock.json",
+      "bytes": 262,
+      "sourceSha256": "4d9f4811a98f88318ef4aa1115060d7983a4f055c6813bf5c5957dcf724c501c",
+      "bundleSha256": "4d9f4811a98f88318ef4aa1115060d7983a4f055c6813bf5c5957dcf724c501c"
+    },
+    {
+      "path": "discord-notifier/package.json",
+      "bytes": 212,
+      "sourceSha256": "601b6291e242bd2192ac85373b1d179ce24de79491e3058c7e95aeed8173a4eb",
+      "bundleSha256": "601b6291e242bd2192ac85373b1d179ce24de79491e3058c7e95aeed8173a4eb"
+    },
+    {
+      "path": "discord-notifier/worker.mjs",
+      "bytes": 5795,
+      "sourceSha256": "6bb3d2ef3e2f37378fe69d513e51dfb9ac97800d1b269e10790fc65b288fe0ca",
+      "bundleSha256": "6bb3d2ef3e2f37378fe69d513e51dfb9ac97800d1b269e10790fc65b288fe0ca"
+    },
+    {
+      "path": "docs/dots-daily-brief.md",
+      "bytes": 23273,
+      "sourceSha256": "3e0a4e8a631cffd85f2a7babe86b734aa799d3a05759f159d5f6045f0e6121e9",
+      "bundleSha256": "b5ff362e4cd8796f85c9c5cef430809f8918525c8852982dac6345aade43b15e"
+    },
+    {
+      "path": "docs/dots-personal-brief.md",
+      "bytes": 13232,
+      "sourceSha256": "b873fccba51fb973e04a83ddb5d643a73784b09706a9c431abdd8065b247ead3",
+      "bundleSha256": "673a7372bb0643dc4fe7484ec0a0eabc52df1c202d9a36a5d4d425281627891b"
+    },
+    {
+      "path": "docs/gammaru-platform-plan.md",
+      "bytes": 21071,
+      "sourceSha256": "ad34c4e833a764c4cb8486337e5aa0f02113c5e5a797a0818c1a04c60f2b54a9",
+      "bundleSha256": "ad34c4e833a764c4cb8486337e5aa0f02113c5e5a797a0818c1a04c60f2b54a9"
+    },
+    {
+      "path": "docs/personal-Design.md",
+      "bytes": 10366,
+      "sourceSha256": "cf026d3bed73a4aa2e65e29061ca5651c15017136ad132c97c0c6179102f874e",
+      "bundleSha256": "cf026d3bed73a4aa2e65e29061ca5651c15017136ad132c97c0c6179102f874e"
+    },
+    {
+      "path": "docs/personal-brief-profile.md",
+      "bytes": 2641,
+      "sourceSha256": "7d5e2a512a1e577905c7b97f841873205f85c2580d839f033277b3a12f39780e",
+      "bundleSha256": "7d5e2a512a1e577905c7b97f841873205f85c2580d839f033277b3a12f39780e"
+    },
+    {
+      "path": "docs/personal-service.md",
+      "bytes": 7479,
+      "sourceSha256": "9b943d70c74a87769c6be76c723e0a39f15ef0cdb3535a8b046c52b38a3bae62",
+      "bundleSha256": "9b943d70c74a87769c6be76c723e0a39f15ef0cdb3535a8b046c52b38a3bae62"
+    },
+    {
+      "path": "docs/vercel-html-reports.md",
+      "bytes": 15148,
+      "sourceSha256": "c131b57a1fb2b949c18dcc2bfd68a0d26315a964787e2c6b6421c610f4e3d55c",
+      "bundleSha256": "5df92a2683b51b67d0af33e44ee22e6e00646cff78c813dc9a95865ce12eefa3"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 310,
+      "sourceSha256": "8841ebf6f476d2293dfbec57c36256ee5008c229b452e50fe5c3419eb58952fb",
+      "bundleSha256": "8841ebf6f476d2293dfbec57c36256ee5008c229b452e50fe5c3419eb58952fb"
+    },
+    {
+      "path": "funding/README.md",
+      "bytes": 16329,
+      "sourceSha256": "e4c7c7ff2aa254a6b57da6a2189d7f53620f32079b9b52b20517199ca46fbc8c",
+      "bundleSha256": "e4c7c7ff2aa254a6b57da6a2189d7f53620f32079b9b52b20517199ca46fbc8c"
+    },
+    {
+      "path": "funding/clock.mjs",
+      "bytes": 405,
+      "sourceSha256": "a3680ecc71b7d584c5f8d7236ba7196fad56e32f14f96d65b78d4f8f1a8b98eb",
+      "bundleSha256": "a3680ecc71b7d584c5f8d7236ba7196fad56e32f14f96d65b78d4f8f1a8b98eb"
+    },
+    {
+      "path": "funding/config.mjs",
+      "bytes": 1953,
+      "sourceSha256": "afc14b0c0e111e04b37cb016d8d3be865ba9d5c5f35e631858ffdb402a48c25d",
+      "bundleSha256": "afc14b0c0e111e04b37cb016d8d3be865ba9d5c5f35e631858ffdb402a48c25d"
+    },
+    {
+      "path": "funding/deploy/Caddyfile.example",
+      "bytes": 131,
+      "sourceSha256": "c9900844d7b780fa3b57a8df5fdeb34636b5de5f44c96ae14566f231ba9ce52c",
+      "bundleSha256": "c9900844d7b780fa3b57a8df5fdeb34636b5de5f44c96ae14566f231ba9ce52c"
+    },
+    {
+      "path": "funding/deploy/Caddyfile.platform.example",
+      "bytes": 129,
+      "sourceSha256": "5d44524ca5d51819ab7022b6246cd807e8d9a645b8a064ed83da31a2ef6815a5",
+      "bundleSha256": "5d44524ca5d51819ab7022b6246cd807e8d9a645b8a064ed83da31a2ef6815a5"
+    },
+    {
+      "path": "funding/deploy/gammaru-funding.service",
+      "bytes": 542,
+      "sourceSha256": "624001c8e1eaee6b2d231cdd633f0dd8d3da6a5baea59afc69f2500259b3d311",
+      "bundleSha256": "624001c8e1eaee6b2d231cdd633f0dd8d3da6a5baea59afc69f2500259b3d311"
+    },
+    {
+      "path": "funding/deploy/gammaru-platform.service",
+      "bytes": 643,
+      "sourceSha256": "2d1c16752731955128f0a737ce3ac0716289de669f4a179846caa5dc1e0edb61",
+      "bundleSha256": "2d1c16752731955128f0a737ce3ac0716289de669f4a179846caa5dc1e0edb61"
+    },
+    {
+      "path": "funding/personal-local.mjs",
+      "bytes": 2584,
+      "sourceSha256": "f12e953c06444f2865778ab767574817c9151c9a114d486c7d836c78dce8b213",
+      "bundleSha256": "f12e953c06444f2865778ab767574817c9151c9a114d486c7d836c78dce8b213"
+    },
+    {
+      "path": "funding/platform.mjs",
+      "bytes": 1760,
+      "sourceSha256": "37ff627181ef448f7d3a758c6fdafb9566cf0f14677cf1b67d38df6d625e3bb4",
+      "bundleSha256": "37ff627181ef448f7d3a758c6fdafb9566cf0f14677cf1b67d38df6d625e3bb4"
+    },
+    {
+      "path": "funding/portal/README.md",
+      "bytes": 9318,
+      "sourceSha256": "ccbb05a614f4bcb7a4a4a1387f4873719724353baa521ce46f6dcb02f64339fa",
+      "bundleSha256": "ccbb05a614f4bcb7a4a4a1387f4873719724353baa521ce46f6dcb02f64339fa"
+    },
+    {
+      "path": "funding/portal/config.mjs",
+      "bytes": 1172,
+      "sourceSha256": "708857c8a3402f207784901b67b7e4f8d46c1f4dce894816e1e6f32a3040183e",
+      "bundleSha256": "708857c8a3402f207784901b67b7e4f8d46c1f4dce894816e1e6f32a3040183e"
+    },
+    {
+      "path": "funding/portal/discord.mjs",
+      "bytes": 3119,
+      "sourceSha256": "034feb9251a8e30651633e5a5751ae75985aafe6fb019eb1fbe49c25f7c23b74",
+      "bundleSha256": "034feb9251a8e30651633e5a5751ae75985aafe6fb019eb1fbe49c25f7c23b74"
+    },
+    {
+      "path": "funding/portal/preview.mjs",
+      "bytes": 1075,
+      "sourceSha256": "84db62173fe436066f1080bc1dce03d645a7ffb7884e960f791f000b5a5509a5",
+      "bundleSha256": "84db62173fe436066f1080bc1dce03d645a7ffb7884e960f791f000b5a5509a5"
+    },
+    {
+      "path": "funding/portal/server.mjs",
+      "bytes": 16422,
+      "sourceSha256": "f55993212e46acae5539193faab616c4221ef8774625488b6e2d0bb9b700e179",
+      "bundleSha256": "f55993212e46acae5539193faab616c4221ef8774625488b6e2d0bb9b700e179"
+    },
+    {
+      "path": "funding/portal/store.mjs",
+      "bytes": 9634,
+      "sourceSha256": "2a9a651da6172ee8fa397b0beeca581656b3fcec55d691f8bda19aa4f5395131",
+      "bundleSha256": "2a9a651da6172ee8fa397b0beeca581656b3fcec55d691f8bda19aa4f5395131"
+    },
+    {
+      "path": "funding/portal/style.css",
+      "bytes": 7865,
+      "sourceSha256": "daf2ec1dd5a661f420d8a02e9fc9e7c17f1496cfa0599f922ec99b927c5ec334",
+      "bundleSha256": "daf2ec1dd5a661f420d8a02e9fc9e7c17f1496cfa0599f922ec99b927c5ec334"
+    },
+    {
+      "path": "funding/portal/tests/browser.mjs",
+      "bytes": 5843,
+      "sourceSha256": "cc93d500a088b7ae2011f7bd4473a4a3ba16df3e16ec3fd0ce76969eab98c1ff",
+      "bundleSha256": "cc93d500a088b7ae2011f7bd4473a4a3ba16df3e16ec3fd0ce76969eab98c1ff"
+    },
+    {
+      "path": "funding/portal/tests/helpers.mjs",
+      "bytes": 2870,
+      "sourceSha256": "eb5b52d8b631d233dc4cffccb3554a1568e44a39113f1c084714627017946fec",
+      "bundleSha256": "eb5b52d8b631d233dc4cffccb3554a1568e44a39113f1c084714627017946fec"
+    },
+    {
+      "path": "funding/portal/tests/portal.test.mjs",
+      "bytes": 12008,
+      "sourceSha256": "0d2be9145427af9f37899ce368d991ddf4dd691f2df0b56203f8aa6c8e376dde",
+      "bundleSha256": "0d2be9145427af9f37899ce368d991ddf4dd691f2df0b56203f8aa6c8e376dde"
+    },
+    {
+      "path": "funding/portal/views.mjs",
+      "bytes": 16544,
+      "sourceSha256": "816dfd62944a1e0b716e83f59a014abb118e5607c1489d5d438d3e01a80b2a6f",
+      "bundleSha256": "816dfd62944a1e0b716e83f59a014abb118e5607c1489d5d438d3e01a80b2a6f"
+    },
+    {
+      "path": "funding/preview.mjs",
+      "bytes": 1008,
+      "sourceSha256": "be1b7b86fa6dfc05c3a25a4ec55cbe49c3da89501faab860d883be79e2db62ad",
+      "bundleSha256": "be1b7b86fa6dfc05c3a25a4ec55cbe49c3da89501faab860d883be79e2db62ad"
+    },
+    {
+      "path": "funding/providers.mjs",
+      "bytes": 7722,
+      "sourceSha256": "e440df4f89833944dde7af30e0b42ac4df83987139bb95687fd7794b4025cf62",
+      "bundleSha256": "e440df4f89833944dde7af30e0b42ac4df83987139bb95687fd7794b4025cf62"
+    },
+    {
+      "path": "funding/public/app.js",
+      "bytes": 14638,
+      "sourceSha256": "21d519e189543b9c14b9140b3b4fa9757951b4add618bd77cb1040143b2078ca",
+      "bundleSha256": "21d519e189543b9c14b9140b3b4fa9757951b4add618bd77cb1040143b2078ca"
+    },
+    {
+      "path": "funding/public/index.html",
+      "bytes": 3968,
+      "sourceSha256": "fc8de73fc79dfc2a3fe2213ae788baccd1ea16d71669f8f0c8e728d7fb9e5e2e",
+      "bundleSha256": "fc8de73fc79dfc2a3fe2213ae788baccd1ea16d71669f8f0c8e728d7fb9e5e2e"
+    },
+    {
+      "path": "funding/public/style.css",
+      "bytes": 12580,
+      "sourceSha256": "d881bd0ec67359fe397c58b8a545cb0d7ec9011775a2a1eece3cda43ef3cecf0",
+      "bundleSha256": "d881bd0ec67359fe397c58b8a545cb0d7ec9011775a2a1eece3cda43ef3cecf0"
+    },
+    {
+      "path": "funding/schema.mjs",
+      "bytes": 5151,
+      "sourceSha256": "0a98e81c08377cf51c52f161fa44ac0e3b3625e8f6f71add6b0e74560e46fe68",
+      "bundleSha256": "0a98e81c08377cf51c52f161fa44ac0e3b3625e8f6f71add6b0e74560e46fe68"
+    },
+    {
+      "path": "funding/server.mjs",
+      "bytes": 8361,
+      "sourceSha256": "d3869ab73da1faaceca880924a92b3bc72a9f5f38a825f623607b52478fb855e",
+      "bundleSha256": "d3869ab73da1faaceca880924a92b3bc72a9f5f38a825f623607b52478fb855e"
+    },
+    {
+      "path": "funding/service.mjs",
+      "bytes": 4668,
+      "sourceSha256": "33df0100f7415dd354b23cc1f10f9d2929b6a08b67c7c65d0006ab5ac51785fc",
+      "bundleSha256": "33df0100f7415dd354b23cc1f10f9d2929b6a08b67c7c65d0006ab5ac51785fc"
+    },
+    {
+      "path": "funding/store.mjs",
+      "bytes": 7414,
+      "sourceSha256": "dbe744b16f5e7b4c3dd5967a45f482df55b5a616785d7503712317ed81ab1a9d",
+      "bundleSha256": "dbe744b16f5e7b4c3dd5967a45f482df55b5a616785d7503712317ed81ab1a9d"
+    },
+    {
+      "path": "funding/tests/browser.mjs",
+      "bytes": 3866,
+      "sourceSha256": "2fae3b8d4379b01b28857a0a6ab13a32c723d24cafa5b1622b4a7f7fabfc9ab5",
+      "bundleSha256": "2fae3b8d4379b01b28857a0a6ab13a32c723d24cafa5b1622b4a7f7fabfc9ab5"
+    },
+    {
+      "path": "funding/tests/fixtures.mjs",
+      "bytes": 2983,
+      "sourceSha256": "2e298d6be817907f6f562ecf8ea8845acb1135d03c0a433d101f9171e057b67e",
+      "bundleSha256": "2e298d6be817907f6f562ecf8ea8845acb1135d03c0a433d101f9171e057b67e"
+    },
+    {
+      "path": "funding/tests/funding.test.mjs",
+      "bytes": 11849,
+      "sourceSha256": "09a9a444ec680f8074d7362b3ea61cd9514db960fb1b9ada53ddca69fdb64d4d",
+      "bundleSha256": "09a9a444ec680f8074d7362b3ea61cd9514db960fb1b9ada53ddca69fdb64d4d"
+    },
+    {
+      "path": "funding/vercel/access.mjs",
+      "bytes": 680,
+      "sourceSha256": "1fe0e6f987027753cea7a6123931ee214a5af369ee9a231ec59a79a09d923b9a",
+      "bundleSha256": "1fe0e6f987027753cea7a6123931ee214a5af369ee9a231ec59a79a09d923b9a"
+    },
+    {
+      "path": "funding/vercel/config.mjs",
+      "bytes": 2831,
+      "sourceSha256": "dc0c00f308e3e6947eb008d2585f839901d2d105a2749cdbf11f75b89b38d3b2",
+      "bundleSha256": "dc0c00f308e3e6947eb008d2585f839901d2d105a2749cdbf11f75b89b38d3b2"
+    },
+    {
+      "path": "funding/vercel/handler.d.mts",
+      "bytes": 141,
+      "sourceSha256": "4a427312a805be8602444356ca2c0978240a9c8dd90517bc3e8aeb8d87e20ef9",
+      "bundleSha256": "4a427312a805be8602444356ca2c0978240a9c8dd90517bc3e8aeb8d87e20ef9"
+    },
+    {
+      "path": "funding/vercel/handler.mjs",
+      "bytes": 35888,
+      "sourceSha256": "6156f99e366b1b9f4c197402462475eeda05e40b28a91f0f0394e312cd4537ff",
+      "bundleSha256": "6156f99e366b1b9f4c197402462475eeda05e40b28a91f0f0394e312cd4537ff"
+    },
+    {
+      "path": "funding/vercel/local-files.mjs",
+      "bytes": 1658,
+      "sourceSha256": "58e6f0b7d42ce5941ab072f3ec06f03f83dd0e0f8f39b5ea338a590b2e079c8f",
+      "bundleSha256": "58e6f0b7d42ce5941ab072f3ec06f03f83dd0e0f8f39b5ea338a590b2e079c8f"
+    },
+    {
+      "path": "funding/vercel/member-progress.mjs",
+      "bytes": 1850,
+      "sourceSha256": "b05e88b2264e40c410857050481fd15c4a47d4f777f061184c29122abc20968b",
+      "bundleSha256": "b05e88b2264e40c410857050481fd15c4a47d4f777f061184c29122abc20968b"
+    },
+    {
+      "path": "funding/vercel/notify.mjs",
+      "bytes": 9553,
+      "sourceSha256": "583acbc4da2f363fa55285c494c821f8aded788881c7bc2508781521eb42de42",
+      "bundleSha256": "583acbc4da2f363fa55285c494c821f8aded788881c7bc2508781521eb42de42"
+    },
+    {
+      "path": "funding/vercel/opportunities.mjs",
+      "bytes": 11485,
+      "sourceSha256": "1f6ae8f4fae256641f75acd3d4ac0fdd08a99ae4b62356fe7e40d5b5497d7e9c",
+      "bundleSha256": "1f6ae8f4fae256641f75acd3d4ac0fdd08a99ae4b62356fe7e40d5b5497d7e9c"
+    },
+    {
+      "path": "funding/vercel/paths.mjs",
+      "bytes": 891,
+      "sourceSha256": "3326cc7786d2a9d34f3889f861f6f7ac7ff77581c8ca973c3aad01aeecec3d13",
+      "bundleSha256": "3326cc7786d2a9d34f3889f861f6f7ac7ff77581c8ca973c3aad01aeecec3d13"
+    },
+    {
+      "path": "funding/vercel/personal-account.mjs",
+      "bytes": 2235,
+      "sourceSha256": "95143e99f693d61be19e3696040ceb3289f7794658fec983fa9779facff38159",
+      "bundleSha256": "95143e99f693d61be19e3696040ceb3289f7794658fec983fa9779facff38159"
+    },
+    {
+      "path": "funding/vercel/personal-profile.mjs",
+      "bytes": 4119,
+      "sourceSha256": "8e378d3f187e93c39afb1085cf106af09f0bf3e6ea347a91a2c1fa233c17cf2e",
+      "bundleSha256": "8e378d3f187e93c39afb1085cf106af09f0bf3e6ea347a91a2c1fa233c17cf2e"
+    },
+    {
+      "path": "funding/vercel/progress-views.mjs",
+      "bytes": 9974,
+      "sourceSha256": "9a6063146c19d2137620fae2a73d05a4f67e08f8ab1c2bef59312de7a2280d6f",
+      "bundleSha256": "9a6063146c19d2137620fae2a73d05a4f67e08f8ab1c2bef59312de7a2280d6f"
+    },
+    {
+      "path": "funding/vercel/reader.mjs",
+      "bytes": 12395,
+      "sourceSha256": "294485c22da754ae5daf71b137f5a75a3d37f63f58d6b237a5ff44be83d68c76",
+      "bundleSha256": "294485c22da754ae5daf71b137f5a75a3d37f63f58d6b237a5ff44be83d68c76"
+    },
+    {
+      "path": "funding/vercel/report-versions.mjs",
+      "bytes": 527,
+      "sourceSha256": "8636f825761a7dfa12465b0c513d3c4be51d105faded9c61d4c99fa089bc66a4",
+      "bundleSha256": "8636f825761a7dfa12465b0c513d3c4be51d105faded9c61d4c99fa089bc66a4"
+    },
+    {
+      "path": "funding/vercel/router.d.mts",
+      "bytes": 166,
+      "sourceSha256": "8b412d34f4087c0e0b84537f4f52038b408465b141285f08182eb6cee68952b4",
+      "bundleSha256": "8b412d34f4087c0e0b84537f4f52038b408465b141285f08182eb6cee68952b4"
+    },
+    {
+      "path": "funding/vercel/router.mjs",
+      "bytes": 1462,
+      "sourceSha256": "63803418c69bd6411ab1787d2bcb4adeafc24bde62391449baf854bb4fec9cce",
+      "bundleSha256": "63803418c69bd6411ab1787d2bcb4adeafc24bde62391449baf854bb4fec9cce"
+    },
+    {
+      "path": "funding/vercel/storage.mjs",
+      "bytes": 11471,
+      "sourceSha256": "3a827d07cb26eee207ad92f7b5d7a0e863657593b106d9fdf3e3812f1ce2b43d",
+      "bundleSha256": "3a827d07cb26eee207ad92f7b5d7a0e863657593b106d9fdf3e3812f1ce2b43d"
+    },
+    {
+      "path": "funding/vercel/tests/approval-notice.test.mjs",
+      "bytes": 5415,
+      "sourceSha256": "0598b7cad4445bcd9ec82b8aeef09991b4b1c2ce623e878713cdf1a450204a20",
+      "bundleSha256": "0598b7cad4445bcd9ec82b8aeef09991b4b1c2ce623e878713cdf1a450204a20"
+    },
+    {
+      "path": "funding/vercel/tests/blob-cas.test.mjs",
+      "bytes": 1988,
+      "sourceSha256": "92a628ca11753842b507db88476d8613adaa4941b96db2fabee1db9eb8377b50",
+      "bundleSha256": "92a628ca11753842b507db88476d8613adaa4941b96db2fabee1db9eb8377b50"
+    },
+    {
+      "path": "funding/vercel/tests/browser.mjs",
+      "bytes": 33025,
+      "sourceSha256": "0986600e3e42eeaa7b26da382807da11a081e542b983eb95abbb44e8beb1a515",
+      "bundleSha256": "0986600e3e42eeaa7b26da382807da11a081e542b983eb95abbb44e8beb1a515"
+    },
+    {
+      "path": "funding/vercel/tests/channel-notifications.test.mjs",
+      "bytes": 7324,
+      "sourceSha256": "22ec8a7381fb481a28489ef9ef0b4dfdc035d5a8cf2ce489b1f52a7ba4df6ba5",
+      "bundleSha256": "22ec8a7381fb481a28489ef9ef0b4dfdc035d5a8cf2ce489b1f52a7ba4df6ba5"
+    },
+    {
+      "path": "funding/vercel/tests/helpers.mjs",
+      "bytes": 3175,
+      "sourceSha256": "a1282dd412e666496be88940185cb3991c7109a9763cdbde5c018a17eef04379",
+      "bundleSha256": "a1282dd412e666496be88940185cb3991c7109a9763cdbde5c018a17eef04379"
+    },
+    {
+      "path": "funding/vercel/tests/local-files.test.mjs",
+      "bytes": 1113,
+      "sourceSha256": "c73f7436d768d30da99eda6f8cae46659a606770ecd94682c5f54c956354098f",
+      "bundleSha256": "c73f7436d768d30da99eda6f8cae46659a606770ecd94682c5f54c956354098f"
+    },
+    {
+      "path": "funding/vercel/tests/member-login.test.mjs",
+      "bytes": 5821,
+      "sourceSha256": "bdb3f5b76848252e42fe23fe7769b6fd75a87b949f648bde28411a68b0f3a194",
+      "bundleSha256": "bdb3f5b76848252e42fe23fe7769b6fd75a87b949f648bde28411a68b0f3a194"
+    },
+    {
+      "path": "funding/vercel/tests/oauth-browser.mjs",
+      "bytes": 4407,
+      "sourceSha256": "fb93da15becdaa9856319c874179af50b738af63f6a246ac47b87d698ed68db2",
+      "bundleSha256": "fb93da15becdaa9856319c874179af50b738af63f6a246ac47b87d698ed68db2"
+    },
+    {
+      "path": "funding/vercel/tests/opportunities.test.mjs",
+      "bytes": 10512,
+      "sourceSha256": "9b6da45ca2765acf64ce4b1008ade327249e08eb0f87c7bc1043b6e421fa146d",
+      "bundleSha256": "9b6da45ca2765acf64ce4b1008ade327249e08eb0f87c7bc1043b6e421fa146d"
+    },
+    {
+      "path": "funding/vercel/tests/personal-account.test.mjs",
+      "bytes": 7790,
+      "sourceSha256": "92cc35c010debd385d09c1c6de401e5d44168c73da034318491de1e908b36c52",
+      "bundleSha256": "92cc35c010debd385d09c1c6de401e5d44168c73da034318491de1e908b36c52"
+    },
+    {
+      "path": "funding/vercel/tests/personal-mount.test.mjs",
+      "bytes": 18859,
+      "sourceSha256": "89ed9ab733e2fa60dc8580c18971871e29ce30d6f6559c0287ad93059740a575",
+      "bundleSha256": "89ed9ab733e2fa60dc8580c18971871e29ce30d6f6559c0287ad93059740a575"
+    },
+    {
+      "path": "funding/vercel/tests/personal-profile.test.mjs",
+      "bytes": 5079,
+      "sourceSha256": "b5f6d6ccdcd7f4b23bcf90775575555a9b93f7082384ac4abe2eb08c4534c8d4",
+      "bundleSha256": "b5f6d6ccdcd7f4b23bcf90775575555a9b93f7082384ac4abe2eb08c4534c8d4"
+    },
+    {
+      "path": "funding/vercel/tests/personal-sharing.test.mjs",
+      "bytes": 12962,
+      "sourceSha256": "8d24d1be798f6e94ea8a2c26a8c8fbbd4e7f5bff643fa3cd74e68f89b87fee25",
+      "bundleSha256": "8d24d1be798f6e94ea8a2c26a8c8fbbd4e7f5bff643fa3cd74e68f89b87fee25"
+    },
+    {
+      "path": "funding/vercel/tests/personal.test.mjs",
+      "bytes": 9237,
+      "sourceSha256": "5541b65612a6c6cc47a9b306bfbab0ba7271335f83fbbd90d0a826e76ed8938c",
+      "bundleSha256": "5541b65612a6c6cc47a9b306bfbab0ba7271335f83fbbd90d0a826e76ed8938c"
+    },
+    {
+      "path": "funding/vercel/tests/publisher-guide.test.mjs",
+      "bytes": 4350,
+      "sourceSha256": "e68fb77546244cf2c04aa4df4a6a4cc875b26015656b8f78e38ffb1ebebd8231",
+      "bundleSha256": "e68fb77546244cf2c04aa4df4a6a4cc875b26015656b8f78e38ffb1ebebd8231"
+    },
+    {
+      "path": "funding/vercel/tests/publishing-recovery.test.mjs",
+      "bytes": 5589,
+      "sourceSha256": "c8b6b7cedb11eaba66c0cf12fa00f7949886135f6a48c08d39f2107fe78a7e63",
+      "bundleSha256": "c8b6b7cedb11eaba66c0cf12fa00f7949886135f6a48c08d39f2107fe78a7e63"
+    },
+    {
+      "path": "funding/vercel/tests/reissue.test.mjs",
+      "bytes": 12421,
+      "sourceSha256": "42a2b070da96c9fefa3df4edc8bb6c5cfd88edff89eab387d23e9f498b782a01",
+      "bundleSha256": "42a2b070da96c9fefa3df4edc8bb6c5cfd88edff89eab387d23e9f498b782a01"
+    },
+    {
+      "path": "funding/vercel/tests/reports.test.mjs",
+      "bytes": 12705,
+      "sourceSha256": "ead5378288c032466354aeca3ad282430cab2e6a271995831720ecc22ad7ee6a",
+      "bundleSha256": "ead5378288c032466354aeca3ad282430cab2e6a271995831720ecc22ad7ee6a"
+    },
+    {
+      "path": "funding/vercel/tests/service-isolation.test.mjs",
+      "bytes": 4460,
+      "sourceSha256": "26f44688290fe6549fa36f863e010cf9668ea1190d673896e0ba0b161a9e25aa",
+      "bundleSha256": "26f44688290fe6549fa36f863e010cf9668ea1190d673896e0ba0b161a9e25aa"
+    },
+    {
+      "path": "funding/vercel/tests/worker-jobs.test.mjs",
+      "bytes": 10429,
+      "sourceSha256": "d93b7bded439af8f539be2445b3f29b2fc175d1097e9b261381c61082ba1c52b",
+      "bundleSha256": "d93b7bded439af8f539be2445b3f29b2fc175d1097e9b261381c61082ba1c52b"
+    },
+    {
+      "path": "funding/vercel/views.mjs",
+      "bytes": 31841,
+      "sourceSha256": "9c091e36d3a574582a23cfd65751852af0e47febed357fb690b9d273eced2d0f",
+      "bundleSha256": "9c091e36d3a574582a23cfd65751852af0e47febed357fb690b9d273eced2d0f"
+    },
+    {
+      "path": "funding/vercel/worker-jobs.mjs",
+      "bytes": 7539,
+      "sourceSha256": "8c034f64484828cf8f4c539778af90a6134637110c8d1cb12d7ac0d5517272cb",
+      "bundleSha256": "8c034f64484828cf8f4c539778af90a6134637110c8d1cb12d7ac0d5517272cb"
+    },
+    {
+      "path": "gammaruInfo.md",
+      "bytes": 12730,
+      "sourceSha256": "b0879053b9b23136e213917085ad2edf67d0fcd50b47ff870baf453acd586f26",
+      "bundleSha256": "b0879053b9b23136e213917085ad2edf67d0fcd50b47ff870baf453acd586f26"
+    },
+    {
+      "path": "next-env.d.ts",
+      "bytes": 303,
+      "sourceSha256": "b8b3a344484b959af5e4e3fc1a1609dac3cb9ece0cdeb6c145be29bc4c491000",
+      "bundleSha256": "b8b3a344484b959af5e4e3fc1a1609dac3cb9ece0cdeb6c145be29bc4c491000"
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 1220,
+      "sourceSha256": "afdd97005e455215f35dbc878ff61044f32472c69172d11da4c568a2796196eb",
+      "bundleSha256": "afdd97005e455215f35dbc878ff61044f32472c69172d11da4c568a2796196eb"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 258377,
+      "sourceSha256": "784fc0f81b620933965a45b059a9f967d8f893da4eec00ca569bac55fd13df62",
+      "bundleSha256": "784fc0f81b620933965a45b059a9f967d8f893da4eec00ca569bac55fd13df62"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2319,
+      "sourceSha256": "6d8db9e3d98f9f4e43203f48e0bc547850592982e1ae5b3d2766b0a781435a21",
+      "bundleSha256": "6d8db9e3d98f9f4e43203f48e0bc547850592982e1ae5b3d2766b0a781435a21"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-001/cover.avif",
+      "bytes": 2769,
+      "sourceSha256": "92a93f1ae79d5176336711b5fda5161376ed72ea9d9250ca7ce49aa1967fdbe6",
+      "bundleSha256": "92a93f1ae79d5176336711b5fda5161376ed72ea9d9250ca7ce49aa1967fdbe6"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-001/cover.webp",
+      "bytes": 3714,
+      "sourceSha256": "f1267152138a39546e5ec280c78a41909affba113327e447651e665a20aa632f",
+      "bundleSha256": "f1267152138a39546e5ec280c78a41909affba113327e447651e665a20aa632f"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-001/screenshot-01.avif",
+      "bytes": 19728,
+      "sourceSha256": "245b4496ac53e17914a249a76f1e7007348eff41dd4590cdac90543a5e2974ce",
+      "bundleSha256": "245b4496ac53e17914a249a76f1e7007348eff41dd4590cdac90543a5e2974ce"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-001/screenshot-01.webp",
+      "bytes": 29760,
+      "sourceSha256": "f8be4dcb4f2d92c395d762e6c9e987a2dafd50160b1196bf20cc49fa00eb68cf",
+      "bundleSha256": "f8be4dcb4f2d92c395d762e6c9e987a2dafd50160b1196bf20cc49fa00eb68cf"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-001/screenshot-02.avif",
+      "bytes": 22478,
+      "sourceSha256": "37f350b77418ae48d83c82d2395b94b42a15a52fabc76c645197143ae3f7738a",
+      "bundleSha256": "37f350b77418ae48d83c82d2395b94b42a15a52fabc76c645197143ae3f7738a"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-001/screenshot-02.webp",
+      "bytes": 33094,
+      "sourceSha256": "8ad34518a200291afd16477ce211da5ab4b492dea8ec29f52bc58f8ff4ff7d63",
+      "bundleSha256": "8ad34518a200291afd16477ce211da5ab4b492dea8ec29f52bc58f8ff4ff7d63"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-001/screenshot-03.avif",
+      "bytes": 17084,
+      "sourceSha256": "d7b97f0bb03f727d59bb6e2440cf77bde092b478f1f91c650860a4255c117483",
+      "bundleSha256": "d7b97f0bb03f727d59bb6e2440cf77bde092b478f1f91c650860a4255c117483"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-001/screenshot-03.webp",
+      "bytes": 26290,
+      "sourceSha256": "e88e1a2699071f6df4754acd47896bed2dcf719ad173bc182b8ecad2d58abb3a",
+      "bundleSha256": "e88e1a2699071f6df4754acd47896bed2dcf719ad173bc182b8ecad2d58abb3a"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-002/cover.avif",
+      "bytes": 33381,
+      "sourceSha256": "50bdd6d6928e620069e5d4c34ebd57f5fcf8c9eb4f45e5960a551a0020ee199d",
+      "bundleSha256": "50bdd6d6928e620069e5d4c34ebd57f5fcf8c9eb4f45e5960a551a0020ee199d"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-002/cover.webp",
+      "bytes": 48858,
+      "sourceSha256": "1a991f4d13b9f460c367f72ade4260f506fd834215051d5104f69cdbb51cff56",
+      "bundleSha256": "1a991f4d13b9f460c367f72ade4260f506fd834215051d5104f69cdbb51cff56"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-002/screenshot-01.avif",
+      "bytes": 49729,
+      "sourceSha256": "59d8a16bb23b4c45137935b14133191222c5e68a6104d07c53cd589398a10dbf",
+      "bundleSha256": "59d8a16bb23b4c45137935b14133191222c5e68a6104d07c53cd589398a10dbf"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-002/screenshot-01.webp",
+      "bytes": 69960,
+      "sourceSha256": "d2e1a83402176f716818da59ed28e64b5827d69d7bfc6da1340ae5003e4931f5",
+      "bundleSha256": "d2e1a83402176f716818da59ed28e64b5827d69d7bfc6da1340ae5003e4931f5"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-002/screenshot-02.avif",
+      "bytes": 31840,
+      "sourceSha256": "56afe7b2d21d77e5464c97ed3bc10418a8c9c62045a14f35505af3a0a09bff70",
+      "bundleSha256": "56afe7b2d21d77e5464c97ed3bc10418a8c9c62045a14f35505af3a0a09bff70"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-002/screenshot-02.webp",
+      "bytes": 45376,
+      "sourceSha256": "f957943e683384c949810d8bdd2f0de25efe8bb7edaec89d93e70555a3e57df2",
+      "bundleSha256": "f957943e683384c949810d8bdd2f0de25efe8bb7edaec89d93e70555a3e57df2"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-002/screenshot-03.avif",
+      "bytes": 62418,
+      "sourceSha256": "3da3af7fcac3cccc22b302c4daacfafbd8194434213dfa410c568695ea4999ef",
+      "bundleSha256": "3da3af7fcac3cccc22b302c4daacfafbd8194434213dfa410c568695ea4999ef"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-002/screenshot-03.webp",
+      "bytes": 81804,
+      "sourceSha256": "cdff083485cf58270ae1282dcccd84f44c8ee1017ae4cbdb6809a45ddfac32a6",
+      "bundleSha256": "cdff083485cf58270ae1282dcccd84f44c8ee1017ae4cbdb6809a45ddfac32a6"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-002/screenshot-04.avif",
+      "bytes": 26490,
+      "sourceSha256": "8049f9ca4a6a73c8e1657c9669c8d1fd379fcadc74f1919b9d0855ed33cd5e61",
+      "bundleSha256": "8049f9ca4a6a73c8e1657c9669c8d1fd379fcadc74f1919b9d0855ed33cd5e61"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-002/screenshot-04.webp",
+      "bytes": 39288,
+      "sourceSha256": "4e76ca3041331ed8e67eff83e429c12cbe57ba54f878c41f2e6c589594a04d5a",
+      "bundleSha256": "4e76ca3041331ed8e67eff83e429c12cbe57ba54f878c41f2e6c589594a04d5a"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-002/screenshot-05.avif",
+      "bytes": 61321,
+      "sourceSha256": "3466bbc084525eb3d69326654651c8b9d9a0cb8a54f7ad53e5febca3f8f52d4c",
+      "bundleSha256": "3466bbc084525eb3d69326654651c8b9d9a0cb8a54f7ad53e5febca3f8f52d4c"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-002/screenshot-05.webp",
+      "bytes": 81252,
+      "sourceSha256": "dcad316df997126aacdbb73706621463f5d15d784d143be3ef9d49ae9fbd9244",
+      "bundleSha256": "dcad316df997126aacdbb73706621463f5d15d784d143be3ef9d49ae9fbd9244"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-003/cover.avif",
+      "bytes": 69967,
+      "sourceSha256": "82648467bbcb91913e9ba7d02dfef92ff3a7590df2214c287d41dcbcf66ac376",
+      "bundleSha256": "82648467bbcb91913e9ba7d02dfef92ff3a7590df2214c287d41dcbcf66ac376"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-003/cover.webp",
+      "bytes": 81386,
+      "sourceSha256": "80838cef32cf867b57dfa7d8b2ecfac4eee241d371c03eb4a7737bb022fd8a2a",
+      "bundleSha256": "80838cef32cf867b57dfa7d8b2ecfac4eee241d371c03eb4a7737bb022fd8a2a"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-003/screenshot-01.avif",
+      "bytes": 92648,
+      "sourceSha256": "8fc45265e9f4ecca31430618ba79dc92136177977f8b9676d00e89afaab824a7",
+      "bundleSha256": "8fc45265e9f4ecca31430618ba79dc92136177977f8b9676d00e89afaab824a7"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-003/screenshot-01.webp",
+      "bytes": 106202,
+      "sourceSha256": "7a488a3a2cd7a50604a7d4a8e7659fcd7de37bbbeed18498e66ab82b42e596d5",
+      "bundleSha256": "7a488a3a2cd7a50604a7d4a8e7659fcd7de37bbbeed18498e66ab82b42e596d5"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-003/screenshot-02.avif",
+      "bytes": 25540,
+      "sourceSha256": "4e327d7f124494bfaa528dc51bd2a71db27f75669282103f5a4f0f532d62cf0a",
+      "bundleSha256": "4e327d7f124494bfaa528dc51bd2a71db27f75669282103f5a4f0f532d62cf0a"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-003/screenshot-02.webp",
+      "bytes": 42456,
+      "sourceSha256": "704fd76c0508fa5dd462d2efceeed2ae6e69d5920019540bd0bff886d0117047",
+      "bundleSha256": "704fd76c0508fa5dd462d2efceeed2ae6e69d5920019540bd0bff886d0117047"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-004/cover.avif",
+      "bytes": 57750,
+      "sourceSha256": "46ae083e9b0246d54be9cfc9f46287c0e89a01b2ca4730d1c8501ff6ace6c46e",
+      "bundleSha256": "46ae083e9b0246d54be9cfc9f46287c0e89a01b2ca4730d1c8501ff6ace6c46e"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-004/cover.webp",
+      "bytes": 72058,
+      "sourceSha256": "4b93bdd72b50bcfea94ad780bf0609e1c9bd0ae3bb0c788858232f0ff49441ea",
+      "bundleSha256": "4b93bdd72b50bcfea94ad780bf0609e1c9bd0ae3bb0c788858232f0ff49441ea"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-004/screenshot-01.avif",
+      "bytes": 61231,
+      "sourceSha256": "be83465a455ccb5465fe490751b38de4d257fd6e3428e87b3d683623edd5281d",
+      "bundleSha256": "be83465a455ccb5465fe490751b38de4d257fd6e3428e87b3d683623edd5281d"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-004/screenshot-01.webp",
+      "bytes": 88146,
+      "sourceSha256": "2f85d4d017a47fac987df7483077a7520389a25e40d23f0aa3b4f4cd2e8854b7",
+      "bundleSha256": "2f85d4d017a47fac987df7483077a7520389a25e40d23f0aa3b4f4cd2e8854b7"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-004/screenshot-02.avif",
+      "bytes": 34113,
+      "sourceSha256": "a03c6ae33cc8dd2ddda128f1d741fe36be0853f8de41c60541584f0d3f65e85d",
+      "bundleSha256": "a03c6ae33cc8dd2ddda128f1d741fe36be0853f8de41c60541584f0d3f65e85d"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-004/screenshot-02.webp",
+      "bytes": 41944,
+      "sourceSha256": "b64e17df3001ae845c098ffe85dd725f341f3f929e486c631bc07db7d7068b31",
+      "bundleSha256": "b64e17df3001ae845c098ffe85dd725f341f3f929e486c631bc07db7d7068b31"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-005/cover.avif",
+      "bytes": 3120,
+      "sourceSha256": "0ff162fb1e8861e0cd5448bb8176b3341734b56799c78b5bcf2f834d5d8d8c48",
+      "bundleSha256": "0ff162fb1e8861e0cd5448bb8176b3341734b56799c78b5bcf2f834d5d8d8c48"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-005/cover.webp",
+      "bytes": 7660,
+      "sourceSha256": "66554b7cc0f6599f19bc9e4bde2e3644ad033eeb57c12785a964413b066bb498",
+      "bundleSha256": "66554b7cc0f6599f19bc9e4bde2e3644ad033eeb57c12785a964413b066bb498"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-005/screenshot-01.avif",
+      "bytes": 2425,
+      "sourceSha256": "c439c3018c7d5736359c8838b625b56669586ce77311128b4a88a174b7cbea9a",
+      "bundleSha256": "c439c3018c7d5736359c8838b625b56669586ce77311128b4a88a174b7cbea9a"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-005/screenshot-01.webp",
+      "bytes": 5326,
+      "sourceSha256": "bb4bc5772015fecc8198ee9f2739a820fca1404ec4e8375288cc30a275728d0d",
+      "bundleSha256": "bb4bc5772015fecc8198ee9f2739a820fca1404ec4e8375288cc30a275728d0d"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-005/screenshot-02.avif",
+      "bytes": 2420,
+      "sourceSha256": "209b701df76528a656bd66548bc4400d60b8fe0451728b98c6da9e1a6bdb23ff",
+      "bundleSha256": "209b701df76528a656bd66548bc4400d60b8fe0451728b98c6da9e1a6bdb23ff"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-005/screenshot-02.webp",
+      "bytes": 6330,
+      "sourceSha256": "fcba2358473614fb3b2c6061bbc8a6f0b610d5bbde24bf5fd3c7fb8786292a39",
+      "bundleSha256": "fcba2358473614fb3b2c6061bbc8a6f0b610d5bbde24bf5fd3c7fb8786292a39"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-005/screenshot-03.avif",
+      "bytes": 10808,
+      "sourceSha256": "dc232c410bad41da59338d16cb7a2607c4f68d42f3d9f909d885ad4b84370713",
+      "bundleSha256": "dc232c410bad41da59338d16cb7a2607c4f68d42f3d9f909d885ad4b84370713"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-005/screenshot-03.webp",
+      "bytes": 20070,
+      "sourceSha256": "0ad132b510324c644e7151659a882d1c22a5e7eb609cbef86482999771ef7a51",
+      "bundleSha256": "0ad132b510324c644e7151659a882d1c22a5e7eb609cbef86482999771ef7a51"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-005/screenshot-04.avif",
+      "bytes": 2012,
+      "sourceSha256": "304686bc847f7ac51864fc28ed94ee44dc29c999507b4f35ce200c6a9d98e476",
+      "bundleSha256": "304686bc847f7ac51864fc28ed94ee44dc29c999507b4f35ce200c6a9d98e476"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-005/screenshot-04.webp",
+      "bytes": 3972,
+      "sourceSha256": "5d775a40da49ac61d25829a1a53ac96c4309b4abea0f3d790b05975e51316ca9",
+      "bundleSha256": "5d775a40da49ac61d25829a1a53ac96c4309b4abea0f3d790b05975e51316ca9"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-007/cover.avif",
+      "bytes": 8820,
+      "sourceSha256": "623b1e4e1d65d7270e9e88e7201d66ae0ea14d00668390f35041d603ad8e149b",
+      "bundleSha256": "623b1e4e1d65d7270e9e88e7201d66ae0ea14d00668390f35041d603ad8e149b"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-007/cover.webp",
+      "bytes": 11330,
+      "sourceSha256": "3ce68949aced68ceecce00207836c1cefaa449e1cfcab2ff7ffbb87d549a54bf",
+      "bundleSha256": "3ce68949aced68ceecce00207836c1cefaa449e1cfcab2ff7ffbb87d549a54bf"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-008/cover.avif",
+      "bytes": 45435,
+      "sourceSha256": "202abc2e727fd198cbb7996f7cbddd8456c0ab1b9cc8cdffb72a701fcd3e560a",
+      "bundleSha256": "202abc2e727fd198cbb7996f7cbddd8456c0ab1b9cc8cdffb72a701fcd3e560a"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-008/cover.webp",
+      "bytes": 60918,
+      "sourceSha256": "02e61eee47e61f16aa1b6b643eb94c7ace420b0be0ebfa2a0b89f13d8d4e439f",
+      "bundleSha256": "02e61eee47e61f16aa1b6b643eb94c7ace420b0be0ebfa2a0b89f13d8d4e439f"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-009/cover.avif",
+      "bytes": 183071,
+      "sourceSha256": "49f059991eba9d79037fd183cde8b408f45248c3c5b595a45000920240bdb9cd",
+      "bundleSha256": "49f059991eba9d79037fd183cde8b408f45248c3c5b595a45000920240bdb9cd"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-009/cover.webp",
+      "bytes": 235352,
+      "sourceSha256": "11f90d1761c9c1f30b424bd172ccade33d94d21ec7ed5d1bec78bdfd2a41f0ec",
+      "bundleSha256": "11f90d1761c9c1f30b424bd172ccade33d94d21ec7ed5d1bec78bdfd2a41f0ec"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-010/cover.avif",
+      "bytes": 44649,
+      "sourceSha256": "b02d28992a16e122bc9ced29761c36e43ade3b3a97dc06b7393ee08ade3b123e",
+      "bundleSha256": "b02d28992a16e122bc9ced29761c36e43ade3b3a97dc06b7393ee08ade3b123e"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-010/cover.webp",
+      "bytes": 57936,
+      "sourceSha256": "b9677e51c1205a988202c5ea507d69a30cd06943aa57dc85a5820467df4fa490",
+      "bundleSha256": "b9677e51c1205a988202c5ea507d69a30cd06943aa57dc85a5820467df4fa490"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-010/screenshot-01.avif",
+      "bytes": 65115,
+      "sourceSha256": "bc503728744b986c834858fa9cc2eacc1e9a33522b1ee362bfe668e01ed372b2",
+      "bundleSha256": "bc503728744b986c834858fa9cc2eacc1e9a33522b1ee362bfe668e01ed372b2"
+    },
+    {
+      "path": "public/archive/games/g-2025-gj-010/screenshot-01.webp",
+      "bytes": 74558,
+      "sourceSha256": "b96f62f5c7fb645e2df3fb86203d99be6930d32d74ad809c97ec40256b07c18c",
+      "bundleSha256": "b96f62f5c7fb645e2df3fb86203d99be6930d32d74ad809c97ec40256b07c18c"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/cover.avif",
+      "bytes": 69940,
+      "sourceSha256": "65b40efe9ea6bb85b2a809d46b4a8eaf05a64f58c62761910ec2d4a9119bc735",
+      "bundleSha256": "65b40efe9ea6bb85b2a809d46b4a8eaf05a64f58c62761910ec2d4a9119bc735"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/cover.webp",
+      "bytes": 105626,
+      "sourceSha256": "46ca465cdd121c61a4608d543d93c07f398d486ed33daee459c0c33f63d7f086",
+      "bundleSha256": "46ca465cdd121c61a4608d543d93c07f398d486ed33daee459c0c33f63d7f086"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/screenshot-01.avif",
+      "bytes": 108134,
+      "sourceSha256": "4c787060087847606579ffa4b7be842e11b336a7e762d1dc8cf94ddc5331e108",
+      "bundleSha256": "4c787060087847606579ffa4b7be842e11b336a7e762d1dc8cf94ddc5331e108"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/screenshot-01.webp",
+      "bytes": 148800,
+      "sourceSha256": "80322b4af85bfa2be2f3715181a8a19e6f704d4ffe259003ef588d1bb235a318",
+      "bundleSha256": "80322b4af85bfa2be2f3715181a8a19e6f704d4ffe259003ef588d1bb235a318"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/screenshot-02.avif",
+      "bytes": 79548,
+      "sourceSha256": "32817e9354be741269db821ae5f253fe9b14c03e15274ac04bbeffbca48660fb",
+      "bundleSha256": "32817e9354be741269db821ae5f253fe9b14c03e15274ac04bbeffbca48660fb"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/screenshot-02.webp",
+      "bytes": 117166,
+      "sourceSha256": "fc7022f48448fea29c4db57db1b0e28e3fc8ca5d569f19c01d15a4c0eb86ef3a",
+      "bundleSha256": "fc7022f48448fea29c4db57db1b0e28e3fc8ca5d569f19c01d15a4c0eb86ef3a"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/screenshot-03.avif",
+      "bytes": 62874,
+      "sourceSha256": "d57dd37ab0c0c03be520d3eb48411ff3e9bb21ffac0a63077f2571a860949818",
+      "bundleSha256": "d57dd37ab0c0c03be520d3eb48411ff3e9bb21ffac0a63077f2571a860949818"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/screenshot-03.webp",
+      "bytes": 92714,
+      "sourceSha256": "0b4810275d88a8b16326d2db215fc421a2171ff7650427e038854f872e5be13a",
+      "bundleSha256": "0b4810275d88a8b16326d2db215fc421a2171ff7650427e038854f872e5be13a"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/screenshot-04.avif",
+      "bytes": 86379,
+      "sourceSha256": "7fcba6716f59915960954d796e40e96d4c8bf9a09da3c8718b5a6b7809ba1a19",
+      "bundleSha256": "7fcba6716f59915960954d796e40e96d4c8bf9a09da3c8718b5a6b7809ba1a19"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/screenshot-04.webp",
+      "bytes": 114676,
+      "sourceSha256": "0120073011ccae50c4ffd012abd08f82c3e5d4d4a0cf8297d4d21766988ab696",
+      "bundleSha256": "0120073011ccae50c4ffd012abd08f82c3e5d4d4a0cf8297d4d21766988ab696"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/screenshot-05.avif",
+      "bytes": 61767,
+      "sourceSha256": "0b41760cccf58e7fa5e98894def95ec1213805ed1c5d750ae610f0ed63b9971d",
+      "bundleSha256": "0b41760cccf58e7fa5e98894def95ec1213805ed1c5d750ae610f0ed63b9971d"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/screenshot-05.webp",
+      "bytes": 84516,
+      "sourceSha256": "cc52dc0c2a0ba2730677d5e007c0071fa3e377466666cfe71f376815af1c35e9",
+      "bundleSha256": "cc52dc0c2a0ba2730677d5e007c0071fa3e377466666cfe71f376815af1c35e9"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/screenshot-06.avif",
+      "bytes": 57465,
+      "sourceSha256": "e096ddb95d068e5fdd73b2fee600ead96f20c1b8144fd294c1f04167f468ef8c",
+      "bundleSha256": "e096ddb95d068e5fdd73b2fee600ead96f20c1b8144fd294c1f04167f468ef8c"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-001/screenshot-06.webp",
+      "bytes": 89290,
+      "sourceSha256": "b265a9b880f5a7b4db668d51beabbafeb943821bec476c6edde95d3f5ef96f4d",
+      "bundleSha256": "b265a9b880f5a7b4db668d51beabbafeb943821bec476c6edde95d3f5ef96f4d"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-002/cover.avif",
+      "bytes": 62184,
+      "sourceSha256": "dad2a58a16c5524366e3d19317387844c0ba8734c42fc0a8c2dba8244380637e",
+      "bundleSha256": "dad2a58a16c5524366e3d19317387844c0ba8734c42fc0a8c2dba8244380637e"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-002/cover.webp",
+      "bytes": 86102,
+      "sourceSha256": "5ec6aa68941fe9dfb2ff04b51b0805648490c579ce931291eb6254d2bb2b6597",
+      "bundleSha256": "5ec6aa68941fe9dfb2ff04b51b0805648490c579ce931291eb6254d2bb2b6597"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-002/screenshot-01.avif",
+      "bytes": 263291,
+      "sourceSha256": "153a80d7130cb4cf6c30b0f99c7ad936f8efe478aaff3d7999020d49c2d02c6d",
+      "bundleSha256": "153a80d7130cb4cf6c30b0f99c7ad936f8efe478aaff3d7999020d49c2d02c6d"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-002/screenshot-01.webp",
+      "bytes": 267212,
+      "sourceSha256": "aa0915c47eed0f7cef5d7e29cf5f86acf5465a87bad21a19755d9146e9233a61",
+      "bundleSha256": "aa0915c47eed0f7cef5d7e29cf5f86acf5465a87bad21a19755d9146e9233a61"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-002/screenshot-02.avif",
+      "bytes": 74107,
+      "sourceSha256": "68a58e232a65b03e65dbd27caddc956224dfbadce99fdd52a5acce50b8ec7fc1",
+      "bundleSha256": "68a58e232a65b03e65dbd27caddc956224dfbadce99fdd52a5acce50b8ec7fc1"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-002/screenshot-02.webp",
+      "bytes": 100560,
+      "sourceSha256": "9b585428879491a704c772e4866d57f7cbb8b93e74de607ac736f14bc773dcad",
+      "bundleSha256": "9b585428879491a704c772e4866d57f7cbb8b93e74de607ac736f14bc773dcad"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-003/cover.avif",
+      "bytes": 90775,
+      "sourceSha256": "bca478010be2d85809a0905a09b5dd6818c4915b75c1af32b4a12abc95638468",
+      "bundleSha256": "bca478010be2d85809a0905a09b5dd6818c4915b75c1af32b4a12abc95638468"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-003/cover.webp",
+      "bytes": 102494,
+      "sourceSha256": "2b842b028d166bd2e01e5fa3bb550d76a5491abc0ff5c49c6a5884b25b385abd",
+      "bundleSha256": "2b842b028d166bd2e01e5fa3bb550d76a5491abc0ff5c49c6a5884b25b385abd"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-003/screenshot-01.avif",
+      "bytes": 40401,
+      "sourceSha256": "b5aaaac856e79849b5a6dda8666f0677d1caae0c2ed3e43ee0c58403274f71b5",
+      "bundleSha256": "b5aaaac856e79849b5a6dda8666f0677d1caae0c2ed3e43ee0c58403274f71b5"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-003/screenshot-01.webp",
+      "bytes": 49196,
+      "sourceSha256": "d349a5bf3a350942f0e12d3a935a72d53d7afaccef74e482903a3226bf5111bc",
+      "bundleSha256": "d349a5bf3a350942f0e12d3a935a72d53d7afaccef74e482903a3226bf5111bc"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-003/screenshot-02.avif",
+      "bytes": 74528,
+      "sourceSha256": "f3d0f374ebb14c004afcf89e89a36ac41bc4b8f69f8fab5f0f8c8470b20d3a3a",
+      "bundleSha256": "f3d0f374ebb14c004afcf89e89a36ac41bc4b8f69f8fab5f0f8c8470b20d3a3a"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-003/screenshot-02.webp",
+      "bytes": 80012,
+      "sourceSha256": "35d9f3e1cbcb34b658bc7acfa868358382ed04a7ff3cc8a96a71df4f262697ce",
+      "bundleSha256": "35d9f3e1cbcb34b658bc7acfa868358382ed04a7ff3cc8a96a71df4f262697ce"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-003/screenshot-03.avif",
+      "bytes": 45207,
+      "sourceSha256": "42823be0e7072f1cbbb5f135baec954709227c5e50785487ff11efa71e337c40",
+      "bundleSha256": "42823be0e7072f1cbbb5f135baec954709227c5e50785487ff11efa71e337c40"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-003/screenshot-03.webp",
+      "bytes": 55696,
+      "sourceSha256": "997f953c9dcc842b5115409b10bcc0dcbb8558fe8fd097908d2fbb4d079533e9",
+      "bundleSha256": "997f953c9dcc842b5115409b10bcc0dcbb8558fe8fd097908d2fbb4d079533e9"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-004/cover.avif",
+      "bytes": 45499,
+      "sourceSha256": "34f55a7b76e9773fe7825fd7d11c88424a145df06b6161c6b26cb14cc2046340",
+      "bundleSha256": "34f55a7b76e9773fe7825fd7d11c88424a145df06b6161c6b26cb14cc2046340"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-004/cover.webp",
+      "bytes": 65504,
+      "sourceSha256": "beaaa72c786eb36b4c804c9d33a84e44ddf499e74e5dbdee681597762b14cd7a",
+      "bundleSha256": "beaaa72c786eb36b4c804c9d33a84e44ddf499e74e5dbdee681597762b14cd7a"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-004/screenshot-01.avif",
+      "bytes": 25365,
+      "sourceSha256": "ec6b56b28a95b4c7a5c93fbda898f1a6653bdcc8bbc8e2b5a70653b7fc3d7b05",
+      "bundleSha256": "ec6b56b28a95b4c7a5c93fbda898f1a6653bdcc8bbc8e2b5a70653b7fc3d7b05"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-004/screenshot-01.webp",
+      "bytes": 41704,
+      "sourceSha256": "c48f2135dfc7881f534dce0a44fbd3d938d533b211342275606e41e96159d896",
+      "bundleSha256": "c48f2135dfc7881f534dce0a44fbd3d938d533b211342275606e41e96159d896"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-004/screenshot-02.avif",
+      "bytes": 16448,
+      "sourceSha256": "b550338b56fa41a13ed7473c91fedfe00fec0f0fba31bb383ec22ca4e6df0c7c",
+      "bundleSha256": "b550338b56fa41a13ed7473c91fedfe00fec0f0fba31bb383ec22ca4e6df0c7c"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-004/screenshot-02.webp",
+      "bytes": 26362,
+      "sourceSha256": "176b63e6d774bf4f7ea33fa9efbff8956589e3cd874d7a6b51f295f1309c47de",
+      "bundleSha256": "176b63e6d774bf4f7ea33fa9efbff8956589e3cd874d7a6b51f295f1309c47de"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-005/cover.avif",
+      "bytes": 65031,
+      "sourceSha256": "9ed30e8a3d78e6985452b4f2e24f10c951f64da521674cc1a62b86e68d244647",
+      "bundleSha256": "9ed30e8a3d78e6985452b4f2e24f10c951f64da521674cc1a62b86e68d244647"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-005/cover.webp",
+      "bytes": 83706,
+      "sourceSha256": "10b2cdaf9d525ae3b9ddbeb175677536fd5cec61530e2868b3de2da06899e95a",
+      "bundleSha256": "10b2cdaf9d525ae3b9ddbeb175677536fd5cec61530e2868b3de2da06899e95a"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-005/screenshot-01.avif",
+      "bytes": 25779,
+      "sourceSha256": "70d68d7d8f01c90c223a41ab7664b6d1bad4f5ca75cc3352935d24a23b02b4ca",
+      "bundleSha256": "70d68d7d8f01c90c223a41ab7664b6d1bad4f5ca75cc3352935d24a23b02b4ca"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-005/screenshot-01.webp",
+      "bytes": 28356,
+      "sourceSha256": "f63d29c0569a8d5ea66451468e384bb08c4613447139d867f5558ed3b2af6016",
+      "bundleSha256": "f63d29c0569a8d5ea66451468e384bb08c4613447139d867f5558ed3b2af6016"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-005/screenshot-02.avif",
+      "bytes": 21676,
+      "sourceSha256": "1fa6d636c984578219c941dec96beb663b52757f427ff0303c0dbefef11cbbb2",
+      "bundleSha256": "1fa6d636c984578219c941dec96beb663b52757f427ff0303c0dbefef11cbbb2"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-005/screenshot-02.webp",
+      "bytes": 24376,
+      "sourceSha256": "9d17e3a5c53290a76bfe4baf7a51128ffb58967bb9a0717aa67d6eed50943647",
+      "bundleSha256": "9d17e3a5c53290a76bfe4baf7a51128ffb58967bb9a0717aa67d6eed50943647"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-006/cover.avif",
+      "bytes": 8663,
+      "sourceSha256": "9d8c7b439e7a5b6dc890f6e5e6c723a065fef73a37599152eda2a8624bc60a9a",
+      "bundleSha256": "9d8c7b439e7a5b6dc890f6e5e6c723a065fef73a37599152eda2a8624bc60a9a"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-006/cover.webp",
+      "bytes": 14894,
+      "sourceSha256": "39c89833473254207ae9ab4daf59aa5352fbcb9d038096ff48c6e1ab50613be5",
+      "bundleSha256": "39c89833473254207ae9ab4daf59aa5352fbcb9d038096ff48c6e1ab50613be5"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-006/screenshot-01.avif",
+      "bytes": 8960,
+      "sourceSha256": "f5252c354b5ad36438a4ddd6f1d3778b68246002e6f1ea99d5b3d132b60bb7f5",
+      "bundleSha256": "f5252c354b5ad36438a4ddd6f1d3778b68246002e6f1ea99d5b3d132b60bb7f5"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-006/screenshot-01.webp",
+      "bytes": 13902,
+      "sourceSha256": "2b3dfe4f68d792bca446e7a84fdb0906c67d7abe330e12c865985f6dae203085",
+      "bundleSha256": "2b3dfe4f68d792bca446e7a84fdb0906c67d7abe330e12c865985f6dae203085"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-006/screenshot-02.avif",
+      "bytes": 22570,
+      "sourceSha256": "03047bbe67ddf4b480bc8ad43bad8bb08a1d93e89ea264f0aeae42149657fe28",
+      "bundleSha256": "03047bbe67ddf4b480bc8ad43bad8bb08a1d93e89ea264f0aeae42149657fe28"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-006/screenshot-02.webp",
+      "bytes": 31990,
+      "sourceSha256": "f82a0ac525284aea56622be3a299569ad20c28412653385f84509c46b49768de",
+      "bundleSha256": "f82a0ac525284aea56622be3a299569ad20c28412653385f84509c46b49768de"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-006/screenshot-03.avif",
+      "bytes": 16582,
+      "sourceSha256": "d630b55160a43bf511ea7d2eccd790ac71f42b911d7c1eaf0e84d6827713aa70",
+      "bundleSha256": "d630b55160a43bf511ea7d2eccd790ac71f42b911d7c1eaf0e84d6827713aa70"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-006/screenshot-03.webp",
+      "bytes": 25760,
+      "sourceSha256": "0a569b0d995c8d161bc137ba0e4c2d3342f816624cc00694f66012686f41922e",
+      "bundleSha256": "0a569b0d995c8d161bc137ba0e4c2d3342f816624cc00694f66012686f41922e"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-006/screenshot-04.avif",
+      "bytes": 8218,
+      "sourceSha256": "5ff40f648d971ca1d1c9aa28969e2efffc9af30ad5e9e94c0e44f6308938fe64",
+      "bundleSha256": "5ff40f648d971ca1d1c9aa28969e2efffc9af30ad5e9e94c0e44f6308938fe64"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-006/screenshot-04.webp",
+      "bytes": 17102,
+      "sourceSha256": "b590825b071321a6ac628305a0fdb3f84636f7adc4ed64bcd40da5c318cd37c5",
+      "bundleSha256": "b590825b071321a6ac628305a0fdb3f84636f7adc4ed64bcd40da5c318cd37c5"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-007/cover.avif",
+      "bytes": 11493,
+      "sourceSha256": "f35a349af9078a3c5c593e2af02191cd26957c96355ae174543168cd544dc866",
+      "bundleSha256": "f35a349af9078a3c5c593e2af02191cd26957c96355ae174543168cd544dc866"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-007/cover.webp",
+      "bytes": 16432,
+      "sourceSha256": "5d9563a2da15d4e22f7204bf28f93a7128475c1ef296e16b12bba62c8224d1c4",
+      "bundleSha256": "5d9563a2da15d4e22f7204bf28f93a7128475c1ef296e16b12bba62c8224d1c4"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-007/screenshot-01.avif",
+      "bytes": 15954,
+      "sourceSha256": "232c4fa48977f73034064264a0c573d24a75076aa636acfbc41ea564c0b3bff0",
+      "bundleSha256": "232c4fa48977f73034064264a0c573d24a75076aa636acfbc41ea564c0b3bff0"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-007/screenshot-01.webp",
+      "bytes": 24474,
+      "sourceSha256": "6b17920d89dbf1c3dc17ca0ca3554fa0e475e030ee0916321e2e985248e5c673",
+      "bundleSha256": "6b17920d89dbf1c3dc17ca0ca3554fa0e475e030ee0916321e2e985248e5c673"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-007/screenshot-02.avif",
+      "bytes": 34783,
+      "sourceSha256": "b6213fa9e6071719d67cab175a2f5a5c3ac7235e943d63962ac294ad0c68d8dd",
+      "bundleSha256": "b6213fa9e6071719d67cab175a2f5a5c3ac7235e943d63962ac294ad0c68d8dd"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-007/screenshot-02.webp",
+      "bytes": 49722,
+      "sourceSha256": "20d439bb68701742620f5fef3eddaeedaac01a6c5b6d9ed0aa4f17ec9e956c9b",
+      "bundleSha256": "20d439bb68701742620f5fef3eddaeedaac01a6c5b6d9ed0aa4f17ec9e956c9b"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-007/screenshot-03.avif",
+      "bytes": 43703,
+      "sourceSha256": "142d22481cd37db093404dc196e58074c09d28d8f657a51142f6ec4b9fe73fe5",
+      "bundleSha256": "142d22481cd37db093404dc196e58074c09d28d8f657a51142f6ec4b9fe73fe5"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-007/screenshot-03.webp",
+      "bytes": 61580,
+      "sourceSha256": "f98e97692c3c3c9592965a289f9c0771921f034c2dff48da72dac00cdc75087f",
+      "bundleSha256": "f98e97692c3c3c9592965a289f9c0771921f034c2dff48da72dac00cdc75087f"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-007/screenshot-04.avif",
+      "bytes": 24784,
+      "sourceSha256": "6e8fcbb681608867e32296eb80583a9c352e1351fd7eddfe2190990e1832c24d",
+      "bundleSha256": "6e8fcbb681608867e32296eb80583a9c352e1351fd7eddfe2190990e1832c24d"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-007/screenshot-04.webp",
+      "bytes": 35236,
+      "sourceSha256": "df3022946b5374204dce023c7b3ae159ec434faa2bbd4f31bc89a834c3d7ae1a",
+      "bundleSha256": "df3022946b5374204dce023c7b3ae159ec434faa2bbd4f31bc89a834c3d7ae1a"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-007/screenshot-05.avif",
+      "bytes": 33281,
+      "sourceSha256": "467ed1076a82650af66ea68aa9e8a9a8f5731514f46f5145eb3ff3ecb8855093",
+      "bundleSha256": "467ed1076a82650af66ea68aa9e8a9a8f5731514f46f5145eb3ff3ecb8855093"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-007/screenshot-05.webp",
+      "bytes": 49534,
+      "sourceSha256": "d5ade378e3f8058d636a59f9d78fc3e8a4b7ae74dbd6cb0843e494337abb65fe",
+      "bundleSha256": "d5ade378e3f8058d636a59f9d78fc3e8a4b7ae74dbd6cb0843e494337abb65fe"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-008/cover.avif",
+      "bytes": 33006,
+      "sourceSha256": "65c49d5c1f2605e5c78076e337867050e90ccde8830434e3efb5492133acac67",
+      "bundleSha256": "65c49d5c1f2605e5c78076e337867050e90ccde8830434e3efb5492133acac67"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-008/cover.webp",
+      "bytes": 49406,
+      "sourceSha256": "9e02fbfa86795605bead18e42af3d243db60cc74124e99b54bcdf38662d8bcea",
+      "bundleSha256": "9e02fbfa86795605bead18e42af3d243db60cc74124e99b54bcdf38662d8bcea"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-008/screenshot-01.avif",
+      "bytes": 100862,
+      "sourceSha256": "0829625f0b08661ca3f59e59d0f288ee4470228ea2c3d7f1837b9787cd99cd76",
+      "bundleSha256": "0829625f0b08661ca3f59e59d0f288ee4470228ea2c3d7f1837b9787cd99cd76"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-008/screenshot-01.webp",
+      "bytes": 129924,
+      "sourceSha256": "1a12dcae423ba65c5f625515506570e060994017806571f5251cb78030145095",
+      "bundleSha256": "1a12dcae423ba65c5f625515506570e060994017806571f5251cb78030145095"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-008/screenshot-02.avif",
+      "bytes": 55493,
+      "sourceSha256": "061253f8bd58e85dfdeccca3cd5970a27ad7cba7d475bcc0da1132d128dbb5ef",
+      "bundleSha256": "061253f8bd58e85dfdeccca3cd5970a27ad7cba7d475bcc0da1132d128dbb5ef"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-008/screenshot-02.webp",
+      "bytes": 73908,
+      "sourceSha256": "6b21aa485fedfcc073c83f883895de9b1681362aaa3fe4199233a1541c1bc70f",
+      "bundleSha256": "6b21aa485fedfcc073c83f883895de9b1681362aaa3fe4199233a1541c1bc70f"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-008/screenshot-03.avif",
+      "bytes": 33191,
+      "sourceSha256": "f81287e9a6b65f48c5facbf743833755f2ad5d7b30ac4d8363f6d21ab050fcdb",
+      "bundleSha256": "f81287e9a6b65f48c5facbf743833755f2ad5d7b30ac4d8363f6d21ab050fcdb"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-008/screenshot-03.webp",
+      "bytes": 45662,
+      "sourceSha256": "ab7e33403b74342efbc58fdb803de6f0dd458131dc815f74ccd57a7e13ec6f82",
+      "bundleSha256": "ab7e33403b74342efbc58fdb803de6f0dd458131dc815f74ccd57a7e13ec6f82"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-009/cover.avif",
+      "bytes": 26078,
+      "sourceSha256": "bc384091dd3267ce8307af5cbe7ac5ff0816c39108fad120ce9dfebdd47582e0",
+      "bundleSha256": "bc384091dd3267ce8307af5cbe7ac5ff0816c39108fad120ce9dfebdd47582e0"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-009/cover.webp",
+      "bytes": 38838,
+      "sourceSha256": "806aa1000b9777167469f08fb9fc67e8e01c28b10429839be68af987d23f95e5",
+      "bundleSha256": "806aa1000b9777167469f08fb9fc67e8e01c28b10429839be68af987d23f95e5"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-009/screenshot-01.avif",
+      "bytes": 19449,
+      "sourceSha256": "7d4a67e3a3aea493257d0277cc53c3bf088f43da49cc4d6138ab3e4e8eaf870c",
+      "bundleSha256": "7d4a67e3a3aea493257d0277cc53c3bf088f43da49cc4d6138ab3e4e8eaf870c"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-009/screenshot-01.webp",
+      "bytes": 35328,
+      "sourceSha256": "e200a8b083704b5adec02ce013fd6b202ce1d1eb184988917621f1b7f1730f74",
+      "bundleSha256": "e200a8b083704b5adec02ce013fd6b202ce1d1eb184988917621f1b7f1730f74"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-009/screenshot-02.avif",
+      "bytes": 20943,
+      "sourceSha256": "9448389597e579337ec796e17a6991199312787b0cec29da66bfbbb029220ad5",
+      "bundleSha256": "9448389597e579337ec796e17a6991199312787b0cec29da66bfbbb029220ad5"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-009/screenshot-02.webp",
+      "bytes": 35602,
+      "sourceSha256": "5143d7d42ddd0819b74137370df48dcfb289b92da7ec1cebf0dfa153606c8dde",
+      "bundleSha256": "5143d7d42ddd0819b74137370df48dcfb289b92da7ec1cebf0dfa153606c8dde"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-010/cover.avif",
+      "bytes": 26557,
+      "sourceSha256": "e0f16259f9ac07b09dfa69bbfc54750fc9fccb32abc700177c691bfacc500071",
+      "bundleSha256": "e0f16259f9ac07b09dfa69bbfc54750fc9fccb32abc700177c691bfacc500071"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-010/cover.webp",
+      "bytes": 35132,
+      "sourceSha256": "5cfeb582f7a11cb06ae75858effc24f1732be332d9f5a91fd1503239c32cadf0",
+      "bundleSha256": "5cfeb582f7a11cb06ae75858effc24f1732be332d9f5a91fd1503239c32cadf0"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-010/screenshot-01.avif",
+      "bytes": 132164,
+      "sourceSha256": "622ead3f16e3ef29dac1c5b97da968408f49cec37197013a0552d6366b09f689",
+      "bundleSha256": "622ead3f16e3ef29dac1c5b97da968408f49cec37197013a0552d6366b09f689"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-010/screenshot-01.webp",
+      "bytes": 165354,
+      "sourceSha256": "2c864fb37718f32c54ac725b323d681f63a3ac234bf40e3cbc95f32c39a591b9",
+      "bundleSha256": "2c864fb37718f32c54ac725b323d681f63a3ac234bf40e3cbc95f32c39a591b9"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-010/screenshot-02.avif",
+      "bytes": 26557,
+      "sourceSha256": "e0f16259f9ac07b09dfa69bbfc54750fc9fccb32abc700177c691bfacc500071",
+      "bundleSha256": "e0f16259f9ac07b09dfa69bbfc54750fc9fccb32abc700177c691bfacc500071"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-010/screenshot-02.webp",
+      "bytes": 35132,
+      "sourceSha256": "5cfeb582f7a11cb06ae75858effc24f1732be332d9f5a91fd1503239c32cadf0",
+      "bundleSha256": "5cfeb582f7a11cb06ae75858effc24f1732be332d9f5a91fd1503239c32cadf0"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-010/screenshot-03.avif",
+      "bytes": 49854,
+      "sourceSha256": "2f662704b6b9d1a58035b86d2e6b572f32182cb7e995b80223e8279ae3b2646a",
+      "bundleSha256": "2f662704b6b9d1a58035b86d2e6b572f32182cb7e995b80223e8279ae3b2646a"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-010/screenshot-03.webp",
+      "bytes": 61350,
+      "sourceSha256": "e0f9f261993b369219a08d19bbeae85b811db6d2639d1406702a773d17efb6e9",
+      "bundleSha256": "e0f9f261993b369219a08d19bbeae85b811db6d2639d1406702a773d17efb6e9"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-010/screenshot-04.avif",
+      "bytes": 11941,
+      "sourceSha256": "30611b15a825401c55c9dd18f9e97270d618e5f793866e102832de9503a4cde2",
+      "bundleSha256": "30611b15a825401c55c9dd18f9e97270d618e5f793866e102832de9503a4cde2"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-010/screenshot-04.webp",
+      "bytes": 20202,
+      "sourceSha256": "2ad2a7f2aa0e280c4b434816367d4ef2c8626492e0e14bfaa80fe06bbf2a56d7",
+      "bundleSha256": "2ad2a7f2aa0e280c4b434816367d4ef2c8626492e0e14bfaa80fe06bbf2a56d7"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-011/cover.avif",
+      "bytes": 30623,
+      "sourceSha256": "574cf9ee052cfd19172cda371b43fb20c2fc17b2181254cb34adc1739387798b",
+      "bundleSha256": "574cf9ee052cfd19172cda371b43fb20c2fc17b2181254cb34adc1739387798b"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-011/cover.webp",
+      "bytes": 44750,
+      "sourceSha256": "55e46f5c38e60080a6e513facd427931ba2309f2946119965a4c524a05c4cc26",
+      "bundleSha256": "55e46f5c38e60080a6e513facd427931ba2309f2946119965a4c524a05c4cc26"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-011/screenshot-01.avif",
+      "bytes": 38328,
+      "sourceSha256": "36dfaaf7bfb5aaf7f5cd416002aba2a02acd45010adae82b7137ba40d3e92b95",
+      "bundleSha256": "36dfaaf7bfb5aaf7f5cd416002aba2a02acd45010adae82b7137ba40d3e92b95"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-011/screenshot-01.webp",
+      "bytes": 57490,
+      "sourceSha256": "5f42f42798e0d695fa9590b26f0ac9318504c597f4e19b31b402b029eaea4145",
+      "bundleSha256": "5f42f42798e0d695fa9590b26f0ac9318504c597f4e19b31b402b029eaea4145"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-011/screenshot-02.avif",
+      "bytes": 29158,
+      "sourceSha256": "df29c33adffca53f89d953bad5c588b19e78b0975c92a3614defe686a0a210a0",
+      "bundleSha256": "df29c33adffca53f89d953bad5c588b19e78b0975c92a3614defe686a0a210a0"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-011/screenshot-02.webp",
+      "bytes": 49106,
+      "sourceSha256": "26680cc29c711d30059fc95ffa0ea9cf05da34157ceda33b4c4e467a9d048da5",
+      "bundleSha256": "26680cc29c711d30059fc95ffa0ea9cf05da34157ceda33b4c4e467a9d048da5"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-011/screenshot-03.avif",
+      "bytes": 26264,
+      "sourceSha256": "c4eddcb76ab9bd141e171b5ebddd1b7663f8494e58f751071bce817535628e20",
+      "bundleSha256": "c4eddcb76ab9bd141e171b5ebddd1b7663f8494e58f751071bce817535628e20"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-011/screenshot-03.webp",
+      "bytes": 40178,
+      "sourceSha256": "e44274a3c3150aa170447cc65050c843b8a24cc89912b602e7de558382155e33",
+      "bundleSha256": "e44274a3c3150aa170447cc65050c843b8a24cc89912b602e7de558382155e33"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-012/cover.avif",
+      "bytes": 1968,
+      "sourceSha256": "e5c21a4cb88e3ee2ad1ac85627f530ccb972d26df6cc9e0c040915e92f185f95",
+      "bundleSha256": "e5c21a4cb88e3ee2ad1ac85627f530ccb972d26df6cc9e0c040915e92f185f95"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-012/cover.webp",
+      "bytes": 4382,
+      "sourceSha256": "6a688bc1a6895abba3d1fbfa14e433284d230e2c5ba84c87a1543840db4c8ea9",
+      "bundleSha256": "6a688bc1a6895abba3d1fbfa14e433284d230e2c5ba84c87a1543840db4c8ea9"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-012/screenshot-01.avif",
+      "bytes": 339889,
+      "sourceSha256": "caaacd8d88a510e8eeaf1d5d73f377bc0fd1329b27ecc8be38b93750d0ce98e3",
+      "bundleSha256": "caaacd8d88a510e8eeaf1d5d73f377bc0fd1329b27ecc8be38b93750d0ce98e3"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-012/screenshot-01.webp",
+      "bytes": 370408,
+      "sourceSha256": "3114bed615c59474c15b4c5ccebe5197cb7844243508d84bdbee7ec5a70ef9bb",
+      "bundleSha256": "3114bed615c59474c15b4c5ccebe5197cb7844243508d84bdbee7ec5a70ef9bb"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-012/screenshot-02.avif",
+      "bytes": 247846,
+      "sourceSha256": "eadfb815c96508f586f19f0df52a424d709afd81e67990c3024a35b9b7c2ef8b",
+      "bundleSha256": "eadfb815c96508f586f19f0df52a424d709afd81e67990c3024a35b9b7c2ef8b"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-012/screenshot-02.webp",
+      "bytes": 294420,
+      "sourceSha256": "24dbe6d2d51d93965fb61a7b9cd77e254e2493a1a7123429cb5e946cfd79444a",
+      "bundleSha256": "24dbe6d2d51d93965fb61a7b9cd77e254e2493a1a7123429cb5e946cfd79444a"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-012/screenshot-03.avif",
+      "bytes": 13525,
+      "sourceSha256": "d618a2bb65abfa79cbfab9fede1ef0e560adf9e17d22b67db7823e09ea80220a",
+      "bundleSha256": "d618a2bb65abfa79cbfab9fede1ef0e560adf9e17d22b67db7823e09ea80220a"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-012/screenshot-03.webp",
+      "bytes": 23044,
+      "sourceSha256": "8a1bcf51b37a168e2473b62259b12ee5150ce05f243f1bbfd0c7b0c0aab1ba8b",
+      "bundleSha256": "8a1bcf51b37a168e2473b62259b12ee5150ce05f243f1bbfd0c7b0c0aab1ba8b"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-012/screenshot-04.avif",
+      "bytes": 13569,
+      "sourceSha256": "e99e990bf4eb873b68fa2338e9d8ee1597430177243fc23a89cfeb43ad1611d3",
+      "bundleSha256": "e99e990bf4eb873b68fa2338e9d8ee1597430177243fc23a89cfeb43ad1611d3"
+    },
+    {
+      "path": "public/archive/games/g-2025-su-012/screenshot-04.webp",
+      "bytes": 23328,
+      "sourceSha256": "5659a72825a1c691c220db42468844a9c2c02286042728f4de27c3e70a14a52a",
+      "bundleSha256": "5659a72825a1c691c220db42468844a9c2c02286042728f4de27c3e70a14a52a"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-001/cover.avif",
+      "bytes": 37935,
+      "sourceSha256": "0af2f00a4133cf3a5d8286a8d8d3f0e9e6282b6cf84ddc3a0ed4f06493bfa963",
+      "bundleSha256": "0af2f00a4133cf3a5d8286a8d8d3f0e9e6282b6cf84ddc3a0ed4f06493bfa963"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-001/cover.webp",
+      "bytes": 47546,
+      "sourceSha256": "49043acde2bdcc73c260b7b82964698921bd837994caae46a42eec66b40994c8",
+      "bundleSha256": "49043acde2bdcc73c260b7b82964698921bd837994caae46a42eec66b40994c8"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-001/screenshot-01.avif",
+      "bytes": 37935,
+      "sourceSha256": "0af2f00a4133cf3a5d8286a8d8d3f0e9e6282b6cf84ddc3a0ed4f06493bfa963",
+      "bundleSha256": "0af2f00a4133cf3a5d8286a8d8d3f0e9e6282b6cf84ddc3a0ed4f06493bfa963"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-001/screenshot-01.webp",
+      "bytes": 47546,
+      "sourceSha256": "49043acde2bdcc73c260b7b82964698921bd837994caae46a42eec66b40994c8",
+      "bundleSha256": "49043acde2bdcc73c260b7b82964698921bd837994caae46a42eec66b40994c8"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-002/cover.avif",
+      "bytes": 22752,
+      "sourceSha256": "72f689fb30b310a71e7b1ac4be7f09323b8017df051e9852cd39e67434aadc66",
+      "bundleSha256": "72f689fb30b310a71e7b1ac4be7f09323b8017df051e9852cd39e67434aadc66"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-002/cover.webp",
+      "bytes": 28852,
+      "sourceSha256": "d4a20ce5fe16631da7ac2c3ebf60a66f23f41173a9567a59fc9acc20532fd867",
+      "bundleSha256": "d4a20ce5fe16631da7ac2c3ebf60a66f23f41173a9567a59fc9acc20532fd867"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-002/screenshot-01.avif",
+      "bytes": 22752,
+      "sourceSha256": "72f689fb30b310a71e7b1ac4be7f09323b8017df051e9852cd39e67434aadc66",
+      "bundleSha256": "72f689fb30b310a71e7b1ac4be7f09323b8017df051e9852cd39e67434aadc66"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-002/screenshot-01.webp",
+      "bytes": 28852,
+      "sourceSha256": "d4a20ce5fe16631da7ac2c3ebf60a66f23f41173a9567a59fc9acc20532fd867",
+      "bundleSha256": "d4a20ce5fe16631da7ac2c3ebf60a66f23f41173a9567a59fc9acc20532fd867"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-002/screenshot-02.avif",
+      "bytes": 19551,
+      "sourceSha256": "73c71f3b3befa3cf6b0628ede0d8d48854080c0ed4dca223d1628967a32c4ca6",
+      "bundleSha256": "73c71f3b3befa3cf6b0628ede0d8d48854080c0ed4dca223d1628967a32c4ca6"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-002/screenshot-02.webp",
+      "bytes": 24990,
+      "sourceSha256": "7c8725a5ffeb6a0cb0f70b59443205055ce165ef0f960ee288151dfc29fca123",
+      "bundleSha256": "7c8725a5ffeb6a0cb0f70b59443205055ce165ef0f960ee288151dfc29fca123"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-003/cover.avif",
+      "bytes": 109219,
+      "sourceSha256": "2c3a1ec7b0168de34cffc73418b0d2ec7a75df30e379f6e2edc5d9ea1fd8a46b",
+      "bundleSha256": "2c3a1ec7b0168de34cffc73418b0d2ec7a75df30e379f6e2edc5d9ea1fd8a46b"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-003/cover.webp",
+      "bytes": 140984,
+      "sourceSha256": "55602c746df8350edbd7de1246f8d84999e8ee198debd9711550eb3147747536",
+      "bundleSha256": "55602c746df8350edbd7de1246f8d84999e8ee198debd9711550eb3147747536"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-003/screenshot-01.avif",
+      "bytes": 82124,
+      "sourceSha256": "29f4edd745ea4d4f025a9c3ea634b0a3ad35e3dcad47cbdaeb02f4bc61d29590",
+      "bundleSha256": "29f4edd745ea4d4f025a9c3ea634b0a3ad35e3dcad47cbdaeb02f4bc61d29590"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-003/screenshot-01.webp",
+      "bytes": 111668,
+      "sourceSha256": "c7c56f52adb09e24358659598ccdb659a5cfcab84bf7d1ac15ca96d3686db454",
+      "bundleSha256": "c7c56f52adb09e24358659598ccdb659a5cfcab84bf7d1ac15ca96d3686db454"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-003/screenshot-02.avif",
+      "bytes": 96786,
+      "sourceSha256": "fdf65885116eee653529278c22f0eba00de3ffcc62cd8d82a213ddb3a53a601d",
+      "bundleSha256": "fdf65885116eee653529278c22f0eba00de3ffcc62cd8d82a213ddb3a53a601d"
+    },
+    {
+      "path": "public/archive/games/g-2025-wi-003/screenshot-02.webp",
+      "bytes": 125848,
+      "sourceSha256": "bba2cd5edec1bf48959f191887cf53f15032584dace7b417e4e248cb502edbca",
+      "bundleSha256": "bba2cd5edec1bf48959f191887cf53f15032584dace7b417e4e248cb502edbca"
+    },
+    {
+      "path": "public/archive/manual-images/g-2026-wi-002/screenshot-01-4fc42cdbf100.avif",
+      "bytes": 7167,
+      "sourceSha256": "b99fcca4a0465790e174ccd954a25d79b1e69aa8c0a30cbb8da33dc80e4766da",
+      "bundleSha256": "b99fcca4a0465790e174ccd954a25d79b1e69aa8c0a30cbb8da33dc80e4766da"
+    },
+    {
+      "path": "public/archive/manual-images/g-2026-wi-002/screenshot-01-4fc42cdbf100.webp",
+      "bytes": 12004,
+      "sourceSha256": "715a054c9f09f6b8ec27c3591d817d4f87662f8908033fcde5f890e503eaa657",
+      "bundleSha256": "715a054c9f09f6b8ec27c3591d817d4f87662f8908033fcde5f890e503eaa657"
+    },
+    {
+      "path": "public/archive/manual-images/g-2026-wi-002/screenshot-02-20c74e3c0b8f.avif",
+      "bytes": 4678,
+      "sourceSha256": "e5f745bc5c608bd4577e56117e7ceff6021216a68ac3a6645215452e9a6b0d48",
+      "bundleSha256": "e5f745bc5c608bd4577e56117e7ceff6021216a68ac3a6645215452e9a6b0d48"
+    },
+    {
+      "path": "public/archive/manual-images/g-2026-wi-002/screenshot-02-20c74e3c0b8f.webp",
+      "bytes": 8460,
+      "sourceSha256": "9389ddfd6cc190c0f14342541af22d06995ba9cb16bb229f9fdef8adfdff7ab3",
+      "bundleSha256": "9389ddfd6cc190c0f14342541af22d06995ba9cb16bb229f9fdef8adfdff7ab3"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-001/cover-866bd104bcb7.avif",
+      "bytes": 37722,
+      "sourceSha256": "868ec6b3a41ffa285907b76f9deb22ac0769917ff64b6cc2fa7e3a244e6333f9",
+      "bundleSha256": "868ec6b3a41ffa285907b76f9deb22ac0769917ff64b6cc2fa7e3a244e6333f9"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-001/cover-866bd104bcb7.webp",
+      "bytes": 59872,
+      "sourceSha256": "26061ff4550a9dde5562a2000eafa02c80a421e3a6ef2fce3b60165aec14e1e4",
+      "bundleSha256": "26061ff4550a9dde5562a2000eafa02c80a421e3a6ef2fce3b60165aec14e1e4"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-001/screenshot-01-dc20dae9a949.avif",
+      "bytes": 35222,
+      "sourceSha256": "cc24ff7ac6dd3947e7f8054b84c8851c41170d1d434a04ad982a2a4d595dc183",
+      "bundleSha256": "cc24ff7ac6dd3947e7f8054b84c8851c41170d1d434a04ad982a2a4d595dc183"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-001/screenshot-01-dc20dae9a949.webp",
+      "bytes": 49474,
+      "sourceSha256": "f1fd10d911a9d31212ef1b679e332f9db0871247baf9e3ed0d7276b5b48950a0",
+      "bundleSha256": "f1fd10d911a9d31212ef1b679e332f9db0871247baf9e3ed0d7276b5b48950a0"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-001/screenshot-02-77318d3d7384.avif",
+      "bytes": 27210,
+      "sourceSha256": "62899d560a3b1a5d7e432096763f9d0e73fd1e3aab5288c1515397a83d90e396",
+      "bundleSha256": "62899d560a3b1a5d7e432096763f9d0e73fd1e3aab5288c1515397a83d90e396"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-001/screenshot-02-77318d3d7384.webp",
+      "bytes": 47226,
+      "sourceSha256": "31c3ddbe15cbf872c8341a287ac58d90baa73e75147b779c1a867901787a1fd6",
+      "bundleSha256": "31c3ddbe15cbf872c8341a287ac58d90baa73e75147b779c1a867901787a1fd6"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-003/cover-f69868f6a14c.avif",
+      "bytes": 8264,
+      "sourceSha256": "2c80c049b09c530d95a1043e90d898eb2595dff9cb0382e4c0cbaa293a608bf9",
+      "bundleSha256": "2c80c049b09c530d95a1043e90d898eb2595dff9cb0382e4c0cbaa293a608bf9"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-003/cover-f69868f6a14c.webp",
+      "bytes": 12558,
+      "sourceSha256": "0f5d5f725820cebcdf84c72ae111865b33e2952648e39bef7095f5bbcabf15bb",
+      "bundleSha256": "0f5d5f725820cebcdf84c72ae111865b33e2952648e39bef7095f5bbcabf15bb"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-003/screenshot-01-de4afb8f4a26.avif",
+      "bytes": 5996,
+      "sourceSha256": "b2e605f419cbb00ee58bcf4a88a8ad4f3b9130a2b49f310bbf8f70878ad99f81",
+      "bundleSha256": "b2e605f419cbb00ee58bcf4a88a8ad4f3b9130a2b49f310bbf8f70878ad99f81"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-003/screenshot-01-de4afb8f4a26.webp",
+      "bytes": 8908,
+      "sourceSha256": "24192c12e1142ebb1c8d95b8b316035249ad8a23546aa02168b7a60b3ed846cd",
+      "bundleSha256": "24192c12e1142ebb1c8d95b8b316035249ad8a23546aa02168b7a60b3ed846cd"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-003/screenshot-02-f590857d1495.avif",
+      "bytes": 14980,
+      "sourceSha256": "a5d52538ac4478ebf28f1cbc3820c86d87a1c8793f182bb94e58f8fff5e4e123",
+      "bundleSha256": "a5d52538ac4478ebf28f1cbc3820c86d87a1c8793f182bb94e58f8fff5e4e123"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-003/screenshot-02-f590857d1495.webp",
+      "bytes": 22818,
+      "sourceSha256": "024b3c8ca2cb1b507d6368bcc9af602d30bd5613d6da70303f6ac83ae01ab69c",
+      "bundleSha256": "024b3c8ca2cb1b507d6368bcc9af602d30bd5613d6da70303f6ac83ae01ab69c"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-004/cover-ccd005a1dd10.avif",
+      "bytes": 5300,
+      "sourceSha256": "558b34bdd785337eed004150b8839134e32c7475917c24539525a96c091b09b8",
+      "bundleSha256": "558b34bdd785337eed004150b8839134e32c7475917c24539525a96c091b09b8"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-004/cover-ccd005a1dd10.webp",
+      "bytes": 8328,
+      "sourceSha256": "cd4bc9f65d24503ca290eeb18513177392ddf0eadac7d6babb40f7b78e81ef7b",
+      "bundleSha256": "cd4bc9f65d24503ca290eeb18513177392ddf0eadac7d6babb40f7b78e81ef7b"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-004/screenshot-01-fa9afb3d6651.avif",
+      "bytes": 3125,
+      "sourceSha256": "4b6b95966401c0dfbb82333fda3a3ada1e2b29b7500ac5afb8da4fa8850818bb",
+      "bundleSha256": "4b6b95966401c0dfbb82333fda3a3ada1e2b29b7500ac5afb8da4fa8850818bb"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-004/screenshot-01-fa9afb3d6651.webp",
+      "bytes": 5376,
+      "sourceSha256": "c94eb8fe5c4cae2ae0feaabd093425671112344a724130105dd44e2d51509b50",
+      "bundleSha256": "c94eb8fe5c4cae2ae0feaabd093425671112344a724130105dd44e2d51509b50"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-004/screenshot-02-37b1c60892db.avif",
+      "bytes": 3114,
+      "sourceSha256": "bc328d995bdfab2dee9344702901e0d497010349eeb892453223c39682fa0b44",
+      "bundleSha256": "bc328d995bdfab2dee9344702901e0d497010349eeb892453223c39682fa0b44"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-004/screenshot-02-37b1c60892db.webp",
+      "bytes": 5338,
+      "sourceSha256": "4bc95b3d042f064443df5cf49e037d224bb3996f5215be80ef42b63ca019ee4f",
+      "bundleSha256": "4bc95b3d042f064443df5cf49e037d224bb3996f5215be80ef42b63ca019ee4f"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-005/cover-14de8802bf30.avif",
+      "bytes": 43373,
+      "sourceSha256": "f57f4685dbcd8bfcad94330283a7a6faa8c45a7738b9a2e08b3ab7578585a4c5",
+      "bundleSha256": "f57f4685dbcd8bfcad94330283a7a6faa8c45a7738b9a2e08b3ab7578585a4c5"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-005/cover-14de8802bf30.webp",
+      "bytes": 58052,
+      "sourceSha256": "1d74ae86213dfc8fca8a2651ebd69c55a8440436122946ebfa2d238c1d709e42",
+      "bundleSha256": "1d74ae86213dfc8fca8a2651ebd69c55a8440436122946ebfa2d238c1d709e42"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-005/screenshot-01-356eb7e8b03f.avif",
+      "bytes": 36137,
+      "sourceSha256": "29272125ebbe342068a356563101f061ddb9ae9dcb748adef7fe045a7d8fa469",
+      "bundleSha256": "29272125ebbe342068a356563101f061ddb9ae9dcb748adef7fe045a7d8fa469"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-005/screenshot-01-356eb7e8b03f.webp",
+      "bytes": 49706,
+      "sourceSha256": "3510637ee63dfd1c5a6cbe526b86659d18b031411ebf51b1ec217627c5b9a760",
+      "bundleSha256": "3510637ee63dfd1c5a6cbe526b86659d18b031411ebf51b1ec217627c5b9a760"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-005/screenshot-02-50c7d3b4a49f.avif",
+      "bytes": 47829,
+      "sourceSha256": "982589a6b1bdfdc1497eb0d30bc213f72bbdb94e1c09187d896abce8bf4eb05e",
+      "bundleSha256": "982589a6b1bdfdc1497eb0d30bc213f72bbdb94e1c09187d896abce8bf4eb05e"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-005/screenshot-02-50c7d3b4a49f.webp",
+      "bytes": 64854,
+      "sourceSha256": "91e7ff3a5c0e94b57fb900cbb38c32ae625222a650f6eb78016fd422218c84a3",
+      "bundleSha256": "91e7ff3a5c0e94b57fb900cbb38c32ae625222a650f6eb78016fd422218c84a3"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-006/cover-7d9cb157c93d.avif",
+      "bytes": 31146,
+      "sourceSha256": "405c1373a90c93cf3d3dc1d6844a88cb1559b05412f1c2c7d5cdbe44d0d838b4",
+      "bundleSha256": "405c1373a90c93cf3d3dc1d6844a88cb1559b05412f1c2c7d5cdbe44d0d838b4"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-006/cover-7d9cb157c93d.webp",
+      "bytes": 49434,
+      "sourceSha256": "518a1068fbd6c1f1c4600fba902ba24c530f7772150baa472993da822ba29816",
+      "bundleSha256": "518a1068fbd6c1f1c4600fba902ba24c530f7772150baa472993da822ba29816"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-006/screenshot-01-a6f2fa2c8af8.avif",
+      "bytes": 20622,
+      "sourceSha256": "c021c06322e64e9c8bf50c7b4e3a82b492b1030039218f456ba7af49c29405c2",
+      "bundleSha256": "c021c06322e64e9c8bf50c7b4e3a82b492b1030039218f456ba7af49c29405c2"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-006/screenshot-01-a6f2fa2c8af8.webp",
+      "bytes": 33370,
+      "sourceSha256": "de5a3b9c04d6e323af6e81a8453d44fd75d695f7ef4057d804500b45da1b14a6",
+      "bundleSha256": "de5a3b9c04d6e323af6e81a8453d44fd75d695f7ef4057d804500b45da1b14a6"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-006/screenshot-02-c54ca86546e9.avif",
+      "bytes": 15148,
+      "sourceSha256": "e67cfa17390e54d521377330bc2edf1cf164e38e4083c26f8d40c4c9eb9eaf5e",
+      "bundleSha256": "e67cfa17390e54d521377330bc2edf1cf164e38e4083c26f8d40c4c9eb9eaf5e"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-006/screenshot-02-c54ca86546e9.webp",
+      "bytes": 28818,
+      "sourceSha256": "5310a27a1ef90e4e98506126ca4a410ba981bf7e26de4a2cb5b044d8c2595afd",
+      "bundleSha256": "5310a27a1ef90e4e98506126ca4a410ba981bf7e26de4a2cb5b044d8c2595afd"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-008/cover-e597207c56a1.avif",
+      "bytes": 46067,
+      "sourceSha256": "dbe98a140579ef3c502bb4eb3ca3be7058a1e474ac904fbff6c4ae93442ada62",
+      "bundleSha256": "dbe98a140579ef3c502bb4eb3ca3be7058a1e474ac904fbff6c4ae93442ada62"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-008/cover-e597207c56a1.webp",
+      "bytes": 61246,
+      "sourceSha256": "ad7f905787bb92e43d4f8127c2968f60c3f5ef07f991ef58b0fef7cf4734a2de",
+      "bundleSha256": "ad7f905787bb92e43d4f8127c2968f60c3f5ef07f991ef58b0fef7cf4734a2de"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-008/screenshot-01-f4dedfa28cdb.avif",
+      "bytes": 74145,
+      "sourceSha256": "6d1c909bddbcf67287d513fcf3855229c33546992f9f45ffb3c3fe171d083117",
+      "bundleSha256": "6d1c909bddbcf67287d513fcf3855229c33546992f9f45ffb3c3fe171d083117"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-008/screenshot-01-f4dedfa28cdb.webp",
+      "bytes": 104880,
+      "sourceSha256": "f32f8b13c8a2cb70721c6083747b78c413e1f952c7e6b220e41e93748eac90ba",
+      "bundleSha256": "f32f8b13c8a2cb70721c6083747b78c413e1f952c7e6b220e41e93748eac90ba"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-008/screenshot-02-5af399b0b083.avif",
+      "bytes": 27787,
+      "sourceSha256": "3c07989f6ba6eb1d1b0dfd1076446f06987c995a98c2c04de8d76b11aa1436c8",
+      "bundleSha256": "3c07989f6ba6eb1d1b0dfd1076446f06987c995a98c2c04de8d76b11aa1436c8"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-008/screenshot-02-5af399b0b083.webp",
+      "bytes": 47174,
+      "sourceSha256": "2f3d1f0585e34de727f4b4e56339641addb6b5f19716d867b7ea101fe9caf382",
+      "bundleSha256": "2f3d1f0585e34de727f4b4e56339641addb6b5f19716d867b7ea101fe9caf382"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-009/cover-97f25ce61e5b.avif",
+      "bytes": 13979,
+      "sourceSha256": "e296fb80fa9cfe12ac888b513ce8a6646b4f555205bdd5c3df64e516c20ceee3",
+      "bundleSha256": "e296fb80fa9cfe12ac888b513ce8a6646b4f555205bdd5c3df64e516c20ceee3"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-009/cover-97f25ce61e5b.webp",
+      "bytes": 22478,
+      "sourceSha256": "0d7ca661490712d7540a8586b6540308e1dc6a20e8bb9f62b41a09527adbce01",
+      "bundleSha256": "0d7ca661490712d7540a8586b6540308e1dc6a20e8bb9f62b41a09527adbce01"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-009/screenshot-01-609cef2b5e1a.avif",
+      "bytes": 15601,
+      "sourceSha256": "e714cfc9a077b740bbb931a2a524da75e5d4cd9ef1889c3eae5564c36a14cf4d",
+      "bundleSha256": "e714cfc9a077b740bbb931a2a524da75e5d4cd9ef1889c3eae5564c36a14cf4d"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-009/screenshot-01-609cef2b5e1a.webp",
+      "bytes": 25338,
+      "sourceSha256": "bad8ee5bbe5d07db15a7478c00519e29cb407f73a60b4b8ce90d024685328c0b",
+      "bundleSha256": "bad8ee5bbe5d07db15a7478c00519e29cb407f73a60b4b8ce90d024685328c0b"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-009/screenshot-02-d36f4c180471.avif",
+      "bytes": 14306,
+      "sourceSha256": "2c052babe67c5eb57ae2fc004a21fdc3815d2312e405e7d014c90ca6acb094ca",
+      "bundleSha256": "2c052babe67c5eb57ae2fc004a21fdc3815d2312e405e7d014c90ca6acb094ca"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-009/screenshot-02-d36f4c180471.webp",
+      "bytes": 23552,
+      "sourceSha256": "3fc19de373d51c9023c536a42885ce400f8f91d1447fe7b61d18a7716467915a",
+      "bundleSha256": "3fc19de373d51c9023c536a42885ce400f8f91d1447fe7b61d18a7716467915a"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-010/cover-b86554fb477e.avif",
+      "bytes": 21536,
+      "sourceSha256": "38248bb6b111edee74af8764b0587a74b2b7a78adbcc06cccb6f23e2da2219a2",
+      "bundleSha256": "38248bb6b111edee74af8764b0587a74b2b7a78adbcc06cccb6f23e2da2219a2"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-010/cover-b86554fb477e.webp",
+      "bytes": 36510,
+      "sourceSha256": "ee6a086c72d791e94af6baf16e9453698c7e02e4f16d1f35e4f9432dcd5da535",
+      "bundleSha256": "ee6a086c72d791e94af6baf16e9453698c7e02e4f16d1f35e4f9432dcd5da535"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-010/screenshot-01-e5b2023de777.avif",
+      "bytes": 22539,
+      "sourceSha256": "f8edc10effb51f0fcdbb3193c857ed1dc46e1de3f00b6cc461a099c954a35b59",
+      "bundleSha256": "f8edc10effb51f0fcdbb3193c857ed1dc46e1de3f00b6cc461a099c954a35b59"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-010/screenshot-01-e5b2023de777.webp",
+      "bytes": 37410,
+      "sourceSha256": "6bcab035139302a00be6838fb2f322651991b794b45629ac967d9779ad939b16",
+      "bundleSha256": "6bcab035139302a00be6838fb2f322651991b794b45629ac967d9779ad939b16"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-010/screenshot-02-cfc46811f54b.avif",
+      "bytes": 24764,
+      "sourceSha256": "8ad2dda6fbfd233b3237f7046e4420fbebf6e0f77c3ca8695039610a72cffed3",
+      "bundleSha256": "8ad2dda6fbfd233b3237f7046e4420fbebf6e0f77c3ca8695039610a72cffed3"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-010/screenshot-02-cfc46811f54b.webp",
+      "bytes": 42020,
+      "sourceSha256": "285b1a05b8c119ab9604b55119bfad7b3fd60be6a29614ef4fa2b2d2df299072",
+      "bundleSha256": "285b1a05b8c119ab9604b55119bfad7b3fd60be6a29614ef4fa2b2d2df299072"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-011/cover-d9dbfd6129cf.avif",
+      "bytes": 40705,
+      "sourceSha256": "72dc0bc2207db42b28e311de89dac669311b2ca987613b79b5b13f48be6fefd5",
+      "bundleSha256": "72dc0bc2207db42b28e311de89dac669311b2ca987613b79b5b13f48be6fefd5"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-011/cover-d9dbfd6129cf.webp",
+      "bytes": 63018,
+      "sourceSha256": "ea3f3483750f333eb243cdf8f098be923f9a83852fb68eda011f3e6cc47d52e9",
+      "bundleSha256": "ea3f3483750f333eb243cdf8f098be923f9a83852fb68eda011f3e6cc47d52e9"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-011/screenshot-01-3367c5697aa1.avif",
+      "bytes": 29778,
+      "sourceSha256": "790acb932ce5655e0dc05efe9d64c928f0022cc1a26d278ca9ca3b19f2fccfe3",
+      "bundleSha256": "790acb932ce5655e0dc05efe9d64c928f0022cc1a26d278ca9ca3b19f2fccfe3"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-011/screenshot-01-3367c5697aa1.webp",
+      "bytes": 36808,
+      "sourceSha256": "237666adf1ee886d6cc7911f978bf042e2059463f202954dde2b8701d2f3e990",
+      "bundleSha256": "237666adf1ee886d6cc7911f978bf042e2059463f202954dde2b8701d2f3e990"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-011/screenshot-02-ce5d4d715a66.avif",
+      "bytes": 39050,
+      "sourceSha256": "4821369f1bf982b3d55adf10c4f642b595b8525f40e022bb4f3f0e32df8c2185",
+      "bundleSha256": "4821369f1bf982b3d55adf10c4f642b595b8525f40e022bb4f3f0e32df8c2185"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-011/screenshot-02-ce5d4d715a66.webp",
+      "bytes": 48498,
+      "sourceSha256": "5fd4b43b71fb70a9b3e5b4f3a50fafea9ef9cc642816cb6190c442b040b23ca1",
+      "bundleSha256": "5fd4b43b71fb70a9b3e5b4f3a50fafea9ef9cc642816cb6190c442b040b23ca1"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-012/cover-8d56fe06dbbe.avif",
+      "bytes": 3133,
+      "sourceSha256": "ed91e7459cc3ca5ea9f244774885bed4d6b8361bd16b25dc8ccdd8ee6cba91ad",
+      "bundleSha256": "ed91e7459cc3ca5ea9f244774885bed4d6b8361bd16b25dc8ccdd8ee6cba91ad"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-012/cover-8d56fe06dbbe.webp",
+      "bytes": 5140,
+      "sourceSha256": "72eeb42b572194b0a6c053021a09f91df0c49bbe7d2a66113b7512f2b2210139",
+      "bundleSha256": "72eeb42b572194b0a6c053021a09f91df0c49bbe7d2a66113b7512f2b2210139"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-012/screenshot-01-39c867120ff4.avif",
+      "bytes": 3615,
+      "sourceSha256": "0a54c3b752f6b2e906b7878efe0a2db7c524027014a1e25d338c8448de971dab",
+      "bundleSha256": "0a54c3b752f6b2e906b7878efe0a2db7c524027014a1e25d338c8448de971dab"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-012/screenshot-01-39c867120ff4.webp",
+      "bytes": 5642,
+      "sourceSha256": "d8e9627d0454284a80582364c248fcc9d510e5b81365e46af7a70da766441136",
+      "bundleSha256": "d8e9627d0454284a80582364c248fcc9d510e5b81365e46af7a70da766441136"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-012/screenshot-02-3cd8de5c5710.avif",
+      "bytes": 5974,
+      "sourceSha256": "78824218c5a4d59666a5febc80f4334ebf728bf8294fc98ea78d97a87205a00a",
+      "bundleSha256": "78824218c5a4d59666a5febc80f4334ebf728bf8294fc98ea78d97a87205a00a"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-012/screenshot-02-3cd8de5c5710.webp",
+      "bytes": 8270,
+      "sourceSha256": "4a95883b4490ef8c2394a3608ca6347c9b9f56b551d4bba66ba6e630d2e6414f",
+      "bundleSha256": "4a95883b4490ef8c2394a3608ca6347c9b9f56b551d4bba66ba6e630d2e6414f"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-013/cover-ef165f5427ac.avif",
+      "bytes": 21826,
+      "sourceSha256": "fe1e5b823698b2b9faee7a42151bdeccb4234906ed374aae34e0482f2d8df479",
+      "bundleSha256": "fe1e5b823698b2b9faee7a42151bdeccb4234906ed374aae34e0482f2d8df479"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-013/cover-ef165f5427ac.webp",
+      "bytes": 37140,
+      "sourceSha256": "bd60245c06ab113ebb9a6e824fa97445660aca66e323eb6dd17848e52b12a2ff",
+      "bundleSha256": "bd60245c06ab113ebb9a6e824fa97445660aca66e323eb6dd17848e52b12a2ff"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-013/screenshot-01-e511f95e20b0.avif",
+      "bytes": 19559,
+      "sourceSha256": "eb94f203370f1a1684b000fb16abf24804cbe004203272b5665e1cfaf3b11b78",
+      "bundleSha256": "eb94f203370f1a1684b000fb16abf24804cbe004203272b5665e1cfaf3b11b78"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-013/screenshot-01-e511f95e20b0.webp",
+      "bytes": 33230,
+      "sourceSha256": "ec42c96c92b3756273152f8e162bc5bf43b6c87692e96e10d76e65156c954bd6",
+      "bundleSha256": "ec42c96c92b3756273152f8e162bc5bf43b6c87692e96e10d76e65156c954bd6"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-013/screenshot-02-f90f9cfcb11e.avif",
+      "bytes": 19060,
+      "sourceSha256": "c8031d48d47bb5a8fdaff17c7a67f499fc9662a0b4a0c9e891db2217959b4ed9",
+      "bundleSha256": "c8031d48d47bb5a8fdaff17c7a67f499fc9662a0b4a0c9e891db2217959b4ed9"
+    },
+    {
+      "path": "public/archive/video-stills/g-2026-wi-013/screenshot-02-f90f9cfcb11e.webp",
+      "bytes": 33634,
+      "sourceSha256": "eac9252b434e6f85554e1dc74cf4499e38b7d0d38dc825926c525d92f3e7cbea",
+      "bundleSha256": "eac9252b434e6f85554e1dc74cf4499e38b7d0d38dc825926c525d92f3e7cbea"
+    },
+    {
+      "path": "public/brand/gammaru-3d.png",
+      "bytes": 597016,
+      "sourceSha256": "ac2660ae37ec37b20ae5bf8abde2ff9046b9f3bee92b85d76f14973fdf2b2d69",
+      "bundleSha256": "ac2660ae37ec37b20ae5bf8abde2ff9046b9f3bee92b85d76f14973fdf2b2d69"
+    },
+    {
+      "path": "public/brand/gammaru-logo.png",
+      "bytes": 6437,
+      "sourceSha256": "451e303b32e277331c0c1d5841fade01d0076436eb5c1c613bebc8e76430fd00",
+      "bundleSha256": "451e303b32e277331c0c1d5841fade01d0076436eb5c1c613bebc8e76430fd00"
+    },
+    {
+      "path": "public/brand/gammaru-mark.png",
+      "bytes": 3515,
+      "sourceSha256": "8790832e986b8a9aa96bf4c729ac3632d02fbc86ad711588472fe07c312b5559",
+      "bundleSha256": "8790832e986b8a9aa96bf4c729ac3632d02fbc86ad711588472fe07c312b5559"
+    },
+    {
+      "path": "public/brand/hero-end-frame-mobile.avif",
+      "bytes": 19613,
+      "sourceSha256": "7bbf0f1ec04c5541d194eecea5a7952beec04bed611af0bd4ab7a8a8300e5ba3",
+      "bundleSha256": "7bbf0f1ec04c5541d194eecea5a7952beec04bed611af0bd4ab7a8a8300e5ba3"
+    },
+    {
+      "path": "public/brand/hero-end-frame-mobile.webp",
+      "bytes": 26176,
+      "sourceSha256": "e1fc529b0d6a59af80e23acd1e0884f8b48debc7f8918f2c8228cdcd801b3208",
+      "bundleSha256": "e1fc529b0d6a59af80e23acd1e0884f8b48debc7f8918f2c8228cdcd801b3208"
+    },
+    {
+      "path": "public/brand/hero-end-frame.avif",
+      "bytes": 22098,
+      "sourceSha256": "b0a7657b7d6639fb11934aed6dd5cafff303786d653e94288417889ff3b775e9",
+      "bundleSha256": "b0a7657b7d6639fb11934aed6dd5cafff303786d653e94288417889ff3b775e9"
+    },
+    {
+      "path": "public/brand/hero-end-frame.png",
+      "bytes": 49697,
+      "sourceSha256": "f356dfe7d91efedf9e779134875051b98f52ea9ba88f6c83e78a1929d91e913e",
+      "bundleSha256": "f356dfe7d91efedf9e779134875051b98f52ea9ba88f6c83e78a1929d91e913e"
+    },
+    {
+      "path": "public/brand/hero-end-frame.webp",
+      "bytes": 35986,
+      "sourceSha256": "80c06619ed2cd28543df5cdf590cd91ee694f886d5556325d4ca6b0f452f8aee",
+      "bundleSha256": "80c06619ed2cd28543df5cdf590cd91ee694f886d5556325d4ca6b0f452f8aee"
+    },
+    {
+      "path": "public/media/README.md",
+      "bytes": 3018,
+      "sourceSha256": "749177b18685b2bbc532558b7299612ea212caf2b026f8e894a42fc993398800",
+      "bundleSha256": "749177b18685b2bbc532558b7299612ea212caf2b026f8e894a42fc993398800"
+    },
+    {
+      "path": "public/media/clips/.gitkeep",
+      "bytes": 2,
+      "sourceSha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "bundleSha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/index.m3u8",
+      "bytes": 571,
+      "sourceSha256": "178f193df7c6096fe9a677780d6b81069cf44177bac1039a4053bba5b0546451",
+      "bundleSha256": "178f193df7c6096fe9a677780d6b81069cf44177bac1039a4053bba5b0546451"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/init.mp4",
+      "bytes": 823,
+      "sourceSha256": "75ccea232e7dbb591d272ee543cdf6fd92faa5e9f7f1748b17a7a05b62adbdce",
+      "bundleSha256": "75ccea232e7dbb591d272ee543cdf6fd92faa5e9f7f1748b17a7a05b62adbdce"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/segment-000.m4s",
+      "bytes": 266581,
+      "sourceSha256": "5972517fd5c0f2519682d158a6be83bcbdccfcf81ed36e710da16e0c640d6bd5",
+      "bundleSha256": "5972517fd5c0f2519682d158a6be83bcbdccfcf81ed36e710da16e0c640d6bd5"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/segment-001.m4s",
+      "bytes": 725249,
+      "sourceSha256": "e2acf911fd1ff506c3c9606b4d39308deb8c1661809478a8701c973a8236d478",
+      "bundleSha256": "e2acf911fd1ff506c3c9606b4d39308deb8c1661809478a8701c973a8236d478"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/segment-002.m4s",
+      "bytes": 572848,
+      "sourceSha256": "3d82cccb3b7dfcf6d008441d9a4eeff10075f1ce6510eb241fe9ed0d26b9523c",
+      "bundleSha256": "3d82cccb3b7dfcf6d008441d9a4eeff10075f1ce6510eb241fe9ed0d26b9523c"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/segment-003.m4s",
+      "bytes": 751253,
+      "sourceSha256": "3132dc57c45950c8aadbf24c7ab9c6419b18a029b9bd0a9126d8a08d1990488f",
+      "bundleSha256": "3132dc57c45950c8aadbf24c7ab9c6419b18a029b9bd0a9126d8a08d1990488f"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/segment-004.m4s",
+      "bytes": 416276,
+      "sourceSha256": "8e1cd3e3a6467e2c902437e75688930e358af7d6dcb12e50c50e95478c2814a9",
+      "bundleSha256": "8e1cd3e3a6467e2c902437e75688930e358af7d6dcb12e50c50e95478c2814a9"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/segment-005.m4s",
+      "bytes": 338404,
+      "sourceSha256": "ec5f73a2e561b733b4efe53480c42684726f775711839e211f8c1af788061296",
+      "bundleSha256": "ec5f73a2e561b733b4efe53480c42684726f775711839e211f8c1af788061296"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/segment-006.m4s",
+      "bytes": 834562,
+      "sourceSha256": "77d17cabda166f0041d0e1b4371fdd13835768a1a6c12a82d9e4a1a523837100",
+      "bundleSha256": "77d17cabda166f0041d0e1b4371fdd13835768a1a6c12a82d9e4a1a523837100"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/segment-007.m4s",
+      "bytes": 769441,
+      "sourceSha256": "f738c49a158d2ababe1c305d37d3464afc7c18cacce8fcb84fc455206c3772ad",
+      "bundleSha256": "f738c49a158d2ababe1c305d37d3464afc7c18cacce8fcb84fc455206c3772ad"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/segment-008.m4s",
+      "bytes": 482173,
+      "sourceSha256": "def87ec5c125a6cc17c433c90423d716d9c04c3d61563a1db4e31df260302a72",
+      "bundleSha256": "def87ec5c125a6cc17c433c90423d716d9c04c3d61563a1db4e31df260302a72"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/segment-009.m4s",
+      "bytes": 858632,
+      "sourceSha256": "ab58bde808ab7e288279c2ce2fa4eac02104da3942380bfee62456d8f56941bb",
+      "bundleSha256": "ab58bde808ab7e288279c2ce2fa4eac02104da3942380bfee62456d8f56941bb"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-1080/segment-010.m4s",
+      "bytes": 414200,
+      "sourceSha256": "a9850637a76d78db5bc36c9acae268678315e72753b0c0ca119cc76c64324a71",
+      "bundleSha256": "a9850637a76d78db5bc36c9acae268678315e72753b0c0ca119cc76c64324a71"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/index.m3u8",
+      "bytes": 571,
+      "sourceSha256": "178f193df7c6096fe9a677780d6b81069cf44177bac1039a4053bba5b0546451",
+      "bundleSha256": "178f193df7c6096fe9a677780d6b81069cf44177bac1039a4053bba5b0546451"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/init.mp4",
+      "bytes": 823,
+      "sourceSha256": "e3ff7a60ee5b34535242a7eec0dc3b794d320a614c3a19b8352bf4695190242c",
+      "bundleSha256": "e3ff7a60ee5b34535242a7eec0dc3b794d320a614c3a19b8352bf4695190242c"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/segment-000.m4s",
+      "bytes": 120087,
+      "sourceSha256": "19606f1b95a420b4868ade84efe23212cb199188b011cb1cae973ad2a1c430b8",
+      "bundleSha256": "19606f1b95a420b4868ade84efe23212cb199188b011cb1cae973ad2a1c430b8"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/segment-001.m4s",
+      "bytes": 376340,
+      "sourceSha256": "2291d18d311ca2610ecf29635d3d8cb98d124da576aa4c8393a3baad1f248753",
+      "bundleSha256": "2291d18d311ca2610ecf29635d3d8cb98d124da576aa4c8393a3baad1f248753"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/segment-002.m4s",
+      "bytes": 275391,
+      "sourceSha256": "b5b2fda4d701359b4a295629683d89e924793503b02d96d78142c5a72cfca895",
+      "bundleSha256": "b5b2fda4d701359b4a295629683d89e924793503b02d96d78142c5a72cfca895"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/segment-003.m4s",
+      "bytes": 313463,
+      "sourceSha256": "0919980880444f8eb4acc544509eaa8150256e7f7df676f43c047e3dac911188",
+      "bundleSha256": "0919980880444f8eb4acc544509eaa8150256e7f7df676f43c047e3dac911188"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/segment-004.m4s",
+      "bytes": 204673,
+      "sourceSha256": "f015a1db3a6989e82cb4e7bf5537d7f8e30008d4df3e5db1c80e7c7560e9ec30",
+      "bundleSha256": "f015a1db3a6989e82cb4e7bf5537d7f8e30008d4df3e5db1c80e7c7560e9ec30"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/segment-005.m4s",
+      "bytes": 170452,
+      "sourceSha256": "272378e29cdf2f1142640e7d6d51579de933cb4e389b0a1ee1c3c1806f0fde85",
+      "bundleSha256": "272378e29cdf2f1142640e7d6d51579de933cb4e389b0a1ee1c3c1806f0fde85"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/segment-006.m4s",
+      "bytes": 391982,
+      "sourceSha256": "dc41360cc7cbfa10e26e4beeefe7188fd44093f7da772d831b86fd022cffbc19",
+      "bundleSha256": "dc41360cc7cbfa10e26e4beeefe7188fd44093f7da772d831b86fd022cffbc19"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/segment-007.m4s",
+      "bytes": 314324,
+      "sourceSha256": "4e68d7ef51f749b1ddf282f82878036c6a8b02044a35f74841f27c1eb61000e6",
+      "bundleSha256": "4e68d7ef51f749b1ddf282f82878036c6a8b02044a35f74841f27c1eb61000e6"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/segment-008.m4s",
+      "bytes": 226890,
+      "sourceSha256": "335dd043ec2861a5ea0640aab05b2d4760fbf2520e763291840d28a167249763",
+      "bundleSha256": "335dd043ec2861a5ea0640aab05b2d4760fbf2520e763291840d28a167249763"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/segment-009.m4s",
+      "bytes": 399135,
+      "sourceSha256": "c38ed1bf9e4c2f11a90bcac089250c47b4711ff418b9d774793750b085e1cc06",
+      "bundleSha256": "c38ed1bf9e4c2f11a90bcac089250c47b4711ff418b9d774793750b085e1cc06"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1-540/segment-010.m4s",
+      "bytes": 195525,
+      "sourceSha256": "e9aece2aebccc0316c849bec5d191eed01d60df51a7b0353c48b28068c99d57a",
+      "bundleSha256": "e9aece2aebccc0316c849bec5d191eed01d60df51a7b0353c48b28068c99d57a"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/av1.m3u8",
+      "bytes": 344,
+      "sourceSha256": "c58cb188b799f808c806feefa5ff5a9f2ac2495946e24c188b902baa09033d1d",
+      "bundleSha256": "c58cb188b799f808c806feefa5ff5a9f2ac2495946e24c188b902baa09033d1d"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080.mp4",
+      "bytes": 8883478,
+      "sourceSha256": "98374de028d2e3416a99f50dfd01a81f6369ca723660c96342fcc5491ca065c7",
+      "bundleSha256": "98374de028d2e3416a99f50dfd01a81f6369ca723660c96342fcc5491ca065c7"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/index.m3u8",
+      "bytes": 571,
+      "sourceSha256": "178f193df7c6096fe9a677780d6b81069cf44177bac1039a4053bba5b0546451",
+      "bundleSha256": "178f193df7c6096fe9a677780d6b81069cf44177bac1039a4053bba5b0546451"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/init.mp4",
+      "bytes": 852,
+      "sourceSha256": "7d72f83a97c4c0830f2109f83550be69debe87c8b877a2b0ffe85ed2a47b9dbc",
+      "bundleSha256": "7d72f83a97c4c0830f2109f83550be69debe87c8b877a2b0ffe85ed2a47b9dbc"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/segment-000.m4s",
+      "bytes": 463474,
+      "sourceSha256": "9b2a89479a052f1ec86def59d6d6417f88212e625363db3e0f43f030373d7e0e",
+      "bundleSha256": "9b2a89479a052f1ec86def59d6d6417f88212e625363db3e0f43f030373d7e0e"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/segment-001.m4s",
+      "bytes": 1245371,
+      "sourceSha256": "87e43f3e2418b3753276040499135ccb3bb1da746d6a0b707ff9e13d9d6e6012",
+      "bundleSha256": "87e43f3e2418b3753276040499135ccb3bb1da746d6a0b707ff9e13d9d6e6012"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/segment-002.m4s",
+      "bytes": 660819,
+      "sourceSha256": "22b8ce7ec8da5897623b6e38acec3c008c01a2f4e3d6f481782441d3958ce35b",
+      "bundleSha256": "22b8ce7ec8da5897623b6e38acec3c008c01a2f4e3d6f481782441d3958ce35b"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/segment-003.m4s",
+      "bytes": 1134206,
+      "sourceSha256": "02346877bc9e12219a94d89e0632595d6fa359e0351a28200d099d6d4a918d8f",
+      "bundleSha256": "02346877bc9e12219a94d89e0632595d6fa359e0351a28200d099d6d4a918d8f"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/segment-004.m4s",
+      "bytes": 528614,
+      "sourceSha256": "d74cfb2b2abf2209135cd42da0cb8bbb55ad03d38f4f49c50028c974c53ccebc",
+      "bundleSha256": "d74cfb2b2abf2209135cd42da0cb8bbb55ad03d38f4f49c50028c974c53ccebc"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/segment-005.m4s",
+      "bytes": 593686,
+      "sourceSha256": "9dedbb04528f1dd69f28bcbad8a7bb540fff21d9947bdd454697f83b93c2b5da",
+      "bundleSha256": "9dedbb04528f1dd69f28bcbad8a7bb540fff21d9947bdd454697f83b93c2b5da"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/segment-006.m4s",
+      "bytes": 1080572,
+      "sourceSha256": "3e336c1b3267cac06fd09f6f202653f6d2cec8ccd0fa30020af5c6f68bea98e9",
+      "bundleSha256": "3e336c1b3267cac06fd09f6f202653f6d2cec8ccd0fa30020af5c6f68bea98e9"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/segment-007.m4s",
+      "bytes": 884362,
+      "sourceSha256": "6cc14b4f93d5cceb0f72c94cc26d5f68cc47ee1a2b6a1e4cbfd7b0396d20ef31",
+      "bundleSha256": "6cc14b4f93d5cceb0f72c94cc26d5f68cc47ee1a2b6a1e4cbfd7b0396d20ef31"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/segment-008.m4s",
+      "bytes": 611819,
+      "sourceSha256": "466912ed3a034312ac375e7822d4f70951dbddca9dfba24b82c7cc04bdaf3c59",
+      "bundleSha256": "466912ed3a034312ac375e7822d4f70951dbddca9dfba24b82c7cc04bdaf3c59"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/segment-009.m4s",
+      "bytes": 1238464,
+      "sourceSha256": "13d2d53d14bc960011badd12d3d5237cc008317fa43934f59b4de980278b4773",
+      "bundleSha256": "13d2d53d14bc960011badd12d3d5237cc008317fa43934f59b4de980278b4773"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-1080/segment-010.m4s",
+      "bytes": 439655,
+      "sourceSha256": "c39b3656de68afa066d3d9cb2c662d11b8976adc40cef395faeb0115f78413a2",
+      "bundleSha256": "c39b3656de68afa066d3d9cb2c662d11b8976adc40cef395faeb0115f78413a2"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540.mp4",
+      "bytes": 3549061,
+      "sourceSha256": "180f0d45dc60462342cc9b20358ba56c4f37abc8d28ab2fd0ab42a337589e551",
+      "bundleSha256": "180f0d45dc60462342cc9b20358ba56c4f37abc8d28ab2fd0ab42a337589e551"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/index.m3u8",
+      "bytes": 571,
+      "sourceSha256": "178f193df7c6096fe9a677780d6b81069cf44177bac1039a4053bba5b0546451",
+      "bundleSha256": "178f193df7c6096fe9a677780d6b81069cf44177bac1039a4053bba5b0546451"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/init.mp4",
+      "bytes": 852,
+      "sourceSha256": "b37d6a73771124c0ea2d5794431a9aba36e6a9cc121767e5accf851627e0e7cb",
+      "bundleSha256": "b37d6a73771124c0ea2d5794431a9aba36e6a9cc121767e5accf851627e0e7cb"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/segment-000.m4s",
+      "bytes": 175786,
+      "sourceSha256": "4a655f7d89765a49b03dd4e3b3b816dd676be31479bfb587e6abd11d8da5c56b",
+      "bundleSha256": "4a655f7d89765a49b03dd4e3b3b816dd676be31479bfb587e6abd11d8da5c56b"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/segment-001.m4s",
+      "bytes": 512176,
+      "sourceSha256": "8bfe058188417c8c3dd5a5a3a743a5c4cb04438bdf157f9f0751b7963e081481",
+      "bundleSha256": "8bfe058188417c8c3dd5a5a3a743a5c4cb04438bdf157f9f0751b7963e081481"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/segment-002.m4s",
+      "bytes": 275158,
+      "sourceSha256": "0702c29e2fd2491e14ee1ca140681fe2d44f964a3da5af120146c28cf571b41f",
+      "bundleSha256": "0702c29e2fd2491e14ee1ca140681fe2d44f964a3da5af120146c28cf571b41f"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/segment-003.m4s",
+      "bytes": 457508,
+      "sourceSha256": "eada8b2226e60d42ae16a41ae3bf03335a0eb79cf00df03ce3ee929702698c3d",
+      "bundleSha256": "eada8b2226e60d42ae16a41ae3bf03335a0eb79cf00df03ce3ee929702698c3d"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/segment-004.m4s",
+      "bytes": 240695,
+      "sourceSha256": "b5ed6f304f232fa0572614d3e2eff45df9ec016be1adcfee8f22bc7c28aafb49",
+      "bundleSha256": "b5ed6f304f232fa0572614d3e2eff45df9ec016be1adcfee8f22bc7c28aafb49"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/segment-005.m4s",
+      "bytes": 244144,
+      "sourceSha256": "2673d35f1fd328c997b0e07a7e195c8befaf6ecf90a07d62f33b28ca287c99b5",
+      "bundleSha256": "2673d35f1fd328c997b0e07a7e195c8befaf6ecf90a07d62f33b28ca287c99b5"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/segment-006.m4s",
+      "bytes": 426100,
+      "sourceSha256": "f5ad9783fefac04f84340acece37257aa2e53510374b03611565208fbbf1f57b",
+      "bundleSha256": "f5ad9783fefac04f84340acece37257aa2e53510374b03611565208fbbf1f57b"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/segment-007.m4s",
+      "bytes": 323914,
+      "sourceSha256": "0aadf5535ad76e1f23858cd737bdbb27a3377cda955c12f5b54cfcc3530b0a10",
+      "bundleSha256": "0aadf5535ad76e1f23858cd737bdbb27a3377cda955c12f5b54cfcc3530b0a10"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/segment-008.m4s",
+      "bytes": 236202,
+      "sourceSha256": "8b3dcc464f29db32444e03a6771e0f008285421674ba91208fef3d30f4e4b795",
+      "bundleSha256": "8b3dcc464f29db32444e03a6771e0f008285421674ba91208fef3d30f4e4b795"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/segment-009.m4s",
+      "bytes": 471295,
+      "sourceSha256": "0d1bca15f4e73a5f22b374530691d759996702b75503ea8632b15b52780582ff",
+      "bundleSha256": "0d1bca15f4e73a5f22b374530691d759996702b75503ea8632b15b52780582ff"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264-540/segment-010.m4s",
+      "bytes": 183335,
+      "sourceSha256": "a368c2ba5e3d5a4ea5c6fa234696bf249e9c1d95ec151be990e6dc3557bd458f",
+      "bundleSha256": "a368c2ba5e3d5a4ea5c6fa234696bf249e9c1d95ec151be990e6dc3557bd458f"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/h264.m3u8",
+      "bytes": 342,
+      "sourceSha256": "48ff44d4cd2824c1de9ea36c721ff320cf43baf9f69e7e72a81d973809351874",
+      "bundleSha256": "48ff44d4cd2824c1de9ea36c721ff320cf43baf9f69e7e72a81d973809351874"
+    },
+    {
+      "path": "public/media/reel/b50237e4bd9a/poster.webp",
+      "bytes": 15984,
+      "sourceSha256": "79ad65936f86207187fbabf2277ae002948fc6fcaadc9bbe87b59cad35ff9de6",
+      "bundleSha256": "79ad65936f86207187fbabf2277ae002948fc6fcaadc9bbe87b59cad35ff9de6"
+    },
+    {
+      "path": "scripts/build-brand-assets.mjs",
+      "bytes": 5124,
+      "sourceSha256": "df9103985eb228d7c27fb19990064fcd1ab34b3de879cf34fb11e48a90b4f1dc",
+      "bundleSha256": "df9103985eb228d7c27fb19990064fcd1ab34b3de879cf34fb11e48a90b4f1dc"
+    },
+    {
+      "path": "scripts/build-reel-preview.mjs",
+      "bytes": 13646,
+      "sourceSha256": "297f24250ea89532a7f6d65b330fbfc8aeb95d8b425a8460ea54db2fda040584",
+      "bundleSha256": "297f24250ea89532a7f6d65b330fbfc8aeb95d8b425a8460ea54db2fda040584"
+    },
+    {
+      "path": "scripts/capture-game-stills.mjs",
+      "bytes": 5034,
+      "sourceSha256": "c222534e2b4003b8dcfad47bb036aeb49c389a14ed558c00509fcbd017a11a2d",
+      "bundleSha256": "c222534e2b4003b8dcfad47bb036aeb49c389a14ed558c00509fcbd017a11a2d"
+    },
+    {
+      "path": "scripts/capture-qa.mjs",
+      "bytes": 2761,
+      "sourceSha256": "e29093dd1811362b938a35e9eb844fe1eeffef359102c9fb16f8a56b650c92fe",
+      "bundleSha256": "e29093dd1811362b938a35e9eb844fe1eeffef359102c9fb16f8a56b650c92fe"
+    },
+    {
+      "path": "scripts/import-archive.mjs",
+      "bytes": 12739,
+      "sourceSha256": "93d44177eeca5a5e6a73ddbc33e7afeaf92960d479e242147cda415c1d288fde",
+      "bundleSha256": "93d44177eeca5a5e6a73ddbc33e7afeaf92960d479e242147cda415c1d288fde"
+    },
+    {
+      "path": "scripts/package-hero-reel.mjs",
+      "bytes": 5933,
+      "sourceSha256": "ef01e64b01dbf66ce582d7f8d852aeb255a80ad9fc6849e18af062894343976a",
+      "bundleSha256": "ef01e64b01dbf66ce582d7f8d852aeb255a80ad9fc6849e18af062894343976a"
+    },
+    {
+      "path": "scripts/prepare-pages-output.mjs",
+      "bytes": 1427,
+      "sourceSha256": "7fe95bd470adaf66ad1e13f27e2cd90e7e5e0374d23eee730abd6ae154bbbce9",
+      "bundleSha256": "7fe95bd470adaf66ad1e13f27e2cd90e7e5e0374d23eee730abd6ae154bbbce9"
+    },
+    {
+      "path": "scripts/preview-reel.mjs",
+      "bytes": 2291,
+      "sourceSha256": "d07ce10af9297166d5dac187a741498d9077c4fa26cede285e9b5c5e45b1a446",
+      "bundleSha256": "d07ce10af9297166d5dac187a741498d9077c4fa26cede285e9b5c5e45b1a446"
+    },
+    {
+      "path": "scripts/reel-preview.html",
+      "bytes": 5252,
+      "sourceSha256": "4aa687e163c30b3985525b6355cd8c6c30ce5ab34ffee94a1f932440c9705431",
+      "bundleSha256": "4aa687e163c30b3985525b6355cd8c6c30ce5ab34ffee94a1f932440c9705431"
+    },
+    {
+      "path": "scripts/serve-export.mjs",
+      "bytes": 3198,
+      "sourceSha256": "8e611c74176c48f5dd50d4d53394536149ca77e4a66fb51a02a4cb623e7afd63",
+      "bundleSha256": "8e611c74176c48f5dd50d4d53394536149ca77e4a66fb51a02a4cb623e7afd63"
+    },
+    {
+      "path": "scripts/smoke.mjs",
+      "bytes": 6641,
+      "sourceSha256": "613951564068e5bd5fba3767f461405c33f86d9d9f25739bc26fffcea148bdce",
+      "bundleSha256": "613951564068e5bd5fba3767f461405c33f86d9d9f25739bc26fffcea148bdce"
+    },
+    {
+      "path": "scripts/test-game-details.mjs",
+      "bytes": 7849,
+      "sourceSha256": "51a0b2204ae1723f48cbd29592d1a8018322d950692fe022a716c46566f2f4b0",
+      "bundleSha256": "51a0b2204ae1723f48cbd29592d1a8018322d950692fe022a716c46566f2f4b0"
+    },
+    {
+      "path": "scripts/test-hero-reel.mjs",
+      "bytes": 12632,
+      "sourceSha256": "b3e199bae5297e8a7792a02e4ae5d19b5f54c4560fe2a95a2cd19bf209e86910",
+      "bundleSha256": "b3e199bae5297e8a7792a02e4ae5d19b5f54c4560fe2a95a2cd19bf209e86910"
+    },
+    {
+      "path": "scripts/video-stills.config.json",
+      "bytes": 1609,
+      "sourceSha256": "13489ceb4f44508dcd1465b1feb64a97a2d0d3e3967f521f3ab903d2d9faded0",
+      "bundleSha256": "13489ceb4f44508dcd1465b1feb64a97a2d0d3e3967f521f3ab903d2d9faded0"
+    },
+    {
+      "path": "src/app/about/page.tsx",
+      "bytes": 4343,
+      "sourceSha256": "83e435118ac8096ba5e5bf721d318287d24c1ed0d35467b70f85b9f911797ed8",
+      "bundleSha256": "83e435118ac8096ba5e5bf721d318287d24c1ed0d35467b70f85b9f911797ed8"
+    },
+    {
+      "path": "src/app/activities/page.tsx",
+      "bytes": 3560,
+      "sourceSha256": "a78204ec3cec9a1380bb5b06e2259e1efb0350757281e319935b8b9a04c67d37",
+      "bundleSha256": "a78204ec3cec9a1380bb5b06e2259e1efb0350757281e319935b8b9a04c67d37"
+    },
+    {
+      "path": "src/app/games/[year]/[season]/[slug]/page.tsx",
+      "bytes": 5963,
+      "sourceSha256": "5fed8dd316c22d064dcb85dcaa58e3ae1d0688458b8b631b375236caead98374",
+      "bundleSha256": "5fed8dd316c22d064dcb85dcaa58e3ae1d0688458b8b631b375236caead98374"
+    },
+    {
+      "path": "src/app/games/[year]/[season]/page.tsx",
+      "bytes": 1945,
+      "sourceSha256": "23b810768eee2531d77b98aea478384234d17246584aa46831a554d727804ef8",
+      "bundleSha256": "23b810768eee2531d77b98aea478384234d17246584aa46831a554d727804ef8"
+    },
+    {
+      "path": "src/app/games/page.tsx",
+      "bytes": 924,
+      "sourceSha256": "a39328841357e621bcfd6a072a9ae2632cbd96438cae015bb48e89fd81e4fdb1",
+      "bundleSha256": "a39328841357e621bcfd6a072a9ae2632cbd96438cae015bb48e89fd81e4fdb1"
+    },
+    {
+      "path": "src/app/globals.css",
+      "bytes": 53584,
+      "sourceSha256": "bc97b8984a82d6b465bf859d602c3205d9b7d067b4f9405e8293dd84c92c32a6",
+      "bundleSha256": "bc97b8984a82d6b465bf859d602c3205d9b7d067b4f9405e8293dd84c92c32a6"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "bytes": 1806,
+      "sourceSha256": "f739a9d57263652d94b9d9e947d09e48ae02c866536ec78da592eddea85ce24e",
+      "bundleSha256": "f739a9d57263652d94b9d9e947d09e48ae02c866536ec78da592eddea85ce24e"
+    },
+    {
+      "path": "src/app/log/page.tsx",
+      "bytes": 1946,
+      "sourceSha256": "b2659d8387aef74496c54f82b10cf2f76f2c3059563a75a47954b7ecb5865c39",
+      "bundleSha256": "b2659d8387aef74496c54f82b10cf2f76f2c3059563a75a47954b7ecb5865c39"
+    },
+    {
+      "path": "src/app/not-found.tsx",
+      "bytes": 341,
+      "sourceSha256": "1680a719d04e40005b2605f87988488d4a93acb2e4f068bbbf2a71dfa7f16a23",
+      "bundleSha256": "1680a719d04e40005b2605f87988488d4a93acb2e4f068bbbf2a71dfa7f16a23"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "bytes": 6241,
+      "sourceSha256": "0d6c3c0ed28ea4d1c35ad1ed7de3b087e5d44aac25ec1f404f041d89353bc2ac",
+      "bundleSha256": "0d6c3c0ed28ea4d1c35ad1ed7de3b087e5d44aac25ec1f404f041d89353bc2ac"
+    },
+    {
+      "path": "src/app/personal/[[...path]]/route.ts",
+      "bytes": 413,
+      "sourceSha256": "d8d3d4ebcdd1be5634b7b8255221639a602ab74e24f3731a43701eb5215775b9",
+      "bundleSha256": "d8d3d4ebcdd1be5634b7b8255221639a602ab74e24f3731a43701eb5215775b9"
+    },
+    {
+      "path": "src/app/reports/[[...path]]/route.ts",
+      "bytes": 413,
+      "sourceSha256": "d8d3d4ebcdd1be5634b7b8255221639a602ab74e24f3731a43701eb5215775b9",
+      "bundleSha256": "d8d3d4ebcdd1be5634b7b8255221639a602ab74e24f3731a43701eb5215775b9"
+    },
+    {
+      "path": "src/app/robots.ts",
+      "bytes": 289,
+      "sourceSha256": "e9df2ac6a0bc9209b0502bcbb5a46e59cd73b68d94821340b2c422dc550748f9",
+      "bundleSha256": "e9df2ac6a0bc9209b0502bcbb5a46e59cd73b68d94821340b2c422dc550748f9"
+    },
+    {
+      "path": "src/app/sitemap.ts",
+      "bytes": 504,
+      "sourceSha256": "309c58824acee8db7f22a383be9d5ca215ec63145a81f07ced989ad92430fc97",
+      "bundleSha256": "309c58824acee8db7f22a383be9d5ca215ec63145a81f07ced989ad92430fc97"
+    },
+    {
+      "path": "src/app/template.tsx",
+      "bytes": 141,
+      "sourceSha256": "2a67dc2a262f5e4a572384dbd2a3dc415583bfd976c48a3af99011d248405f0d",
+      "bundleSha256": "2a67dc2a262f5e4a572384dbd2a3dc415583bfd976c48a3af99011d248405f0d"
+    },
+    {
+      "path": "src/components/ArchiveExplorer.tsx",
+      "bytes": 4739,
+      "sourceSha256": "aa404a2f9d3510617be28beda44487347c3a8b9eb46f5325f34677fdb2e17b36",
+      "bundleSha256": "aa404a2f9d3510617be28beda44487347c3a8b9eb46f5325f34677fdb2e17b36"
+    },
+    {
+      "path": "src/components/GameCard.tsx",
+      "bytes": 1119,
+      "sourceSha256": "8da43397c56b53947c20eae0b2735abbfd0a81bf07dfd7bb16f6a78a5cf9b0b3",
+      "bundleSha256": "8da43397c56b53947c20eae0b2735abbfd0a81bf07dfd7bb16f6a78a5cf9b0b3"
+    },
+    {
+      "path": "src/components/GameVisual.tsx",
+      "bytes": 750,
+      "sourceSha256": "67041271191ba56c95f3f9b491fb73e3b2d8c5caa0d88e03b4d94f4d4f1e3e1d",
+      "bundleSha256": "67041271191ba56c95f3f9b491fb73e3b2d8c5caa0d88e03b4d94f4d4f1e3e1d"
+    },
+    {
+      "path": "src/components/HeroReel.tsx",
+      "bytes": 8285,
+      "sourceSha256": "52fb411273305f6015d51b1e3a07ab4d865ac034c069e49a63bfafe3c295145e",
+      "bundleSha256": "52fb411273305f6015d51b1e3a07ab4d865ac034c069e49a63bfafe3c295145e"
+    },
+    {
+      "path": "src/components/HeroReelCredits.tsx",
+      "bytes": 3335,
+      "sourceSha256": "a76cd83e516867b677c765242f13c71a941ed632f83fb094225b430609d05e63",
+      "bundleSha256": "a76cd83e516867b677c765242f13c71a941ed632f83fb094225b430609d05e63"
+    },
+    {
+      "path": "src/components/MotionLayer.tsx",
+      "bytes": 5227,
+      "sourceSha256": "2caad9d69f2b021772d9aa95e30f30f615ffb9576db555a016fae80072e840f1",
+      "bundleSha256": "2caad9d69f2b021772d9aa95e30f30f615ffb9576db555a016fae80072e840f1"
+    },
+    {
+      "path": "src/components/RoleDeck.tsx",
+      "bytes": 1719,
+      "sourceSha256": "62212e00904b11e01687b0e717029e804800b06919c51faa011a39e6d0f7ccb2",
+      "bundleSha256": "62212e00904b11e01687b0e717029e804800b06919c51faa011a39e6d0f7ccb2"
+    },
+    {
+      "path": "src/components/SectionHeading.tsx",
+      "bytes": 391,
+      "sourceSha256": "dbf2340243b995ba984419cfcaa2512b320fb94f557360ca7e29df2d2324e590",
+      "bundleSha256": "dbf2340243b995ba984419cfcaa2512b320fb94f557360ca7e29df2d2324e590"
+    },
+    {
+      "path": "src/components/SiteFooter.tsx",
+      "bytes": 842,
+      "sourceSha256": "3986ec986447557c69391a0817501f075ac752a91bb7e434135b08a3472db0fd",
+      "bundleSha256": "3986ec986447557c69391a0817501f075ac752a91bb7e434135b08a3472db0fd"
+    },
+    {
+      "path": "src/components/SiteHeader.tsx",
+      "bytes": 4246,
+      "sourceSha256": "10298eb737c49c59c2a62afb3fdf3bea7ba7b0c9117c0e598c9ab50c0fb40690",
+      "bundleSha256": "10298eb737c49c59c2a62afb3fdf3bea7ba7b0c9117c0e598c9ab50c0fb40690"
+    },
+    {
+      "path": "src/data/archive/games.json",
+      "bytes": 300047,
+      "sourceSha256": "ee81acac17dd1fcb690fe43d93d5f30067e2737e49b404eb8ec0fc60ee2d3d48",
+      "bundleSha256": "ee81acac17dd1fcb690fe43d93d5f30067e2737e49b404eb8ec0fc60ee2d3d48"
+    },
+    {
+      "path": "src/data/archive/import-report.json",
+      "bytes": 1195,
+      "sourceSha256": "38ec3c670b4e0827932a6038ab94879d33d9453528d15aaa33610ff0b1f2b95b",
+      "bundleSha256": "38ec3c670b4e0827932a6038ab94879d33d9453528d15aaa33610ff0b1f2b95b"
+    },
+    {
+      "path": "src/data/archive/index.ts",
+      "bytes": 2699,
+      "sourceSha256": "6c1a94ed1496f3d81631e9943739242ca03fed1b1d8babadf92ec98add2e41c1",
+      "bundleSha256": "6c1a94ed1496f3d81631e9943739242ca03fed1b1d8babadf92ec98add2e41c1"
+    },
+    {
+      "path": "src/data/archive/manual-images.json",
+      "bytes": 650,
+      "sourceSha256": "6005ca031908e55a11c7d5d6cefbfc5c20e754300ab560d176190f6299291cb9",
+      "bundleSha256": "6005ca031908e55a11c7d5d6cefbfc5c20e754300ab560d176190f6299291cb9"
+    },
+    {
+      "path": "src/data/archive/media-manifest.json",
+      "bytes": 31679,
+      "sourceSha256": "9f2ba7f0e22145db12777ac49d6f3fa6860fd877b17d804e0b21530d154b4383",
+      "bundleSha256": "9f2ba7f0e22145db12777ac49d6f3fa6860fd877b17d804e0b21530d154b4383"
+    },
+    {
+      "path": "src/data/archive/raw/2018/summer.json",
+      "bytes": 2657,
+      "sourceSha256": "051443ec6d030a40053699ea1235f4d98efa8ea0a7655f953bae49f38a15420d",
+      "bundleSha256": "051443ec6d030a40053699ea1235f4d98efa8ea0a7655f953bae49f38a15420d"
+    },
+    {
+      "path": "src/data/archive/raw/2018/winter.json",
+      "bytes": 285,
+      "sourceSha256": "1595b5ff2b89636800069456561aa146a8990826f740cc7d8baf36cc464a1e69",
+      "bundleSha256": "1595b5ff2b89636800069456561aa146a8990826f740cc7d8baf36cc464a1e69"
+    },
+    {
+      "path": "src/data/archive/raw/2019/summer.json",
+      "bytes": 2696,
+      "sourceSha256": "ef2981c63d42285e8439d9a17a2b02c49e1a3c23b775a0bca60c86ca378064ea",
+      "bundleSha256": "ef2981c63d42285e8439d9a17a2b02c49e1a3c23b775a0bca60c86ca378064ea"
+    },
+    {
+      "path": "src/data/archive/raw/2019/winter.json",
+      "bytes": 1880,
+      "sourceSha256": "ee8405310ea736d23f5c3aac057019e58cacc99b4d8338846c3d540b2f8c67c0",
+      "bundleSha256": "ee8405310ea736d23f5c3aac057019e58cacc99b4d8338846c3d540b2f8c67c0"
+    },
+    {
+      "path": "src/data/archive/raw/2020/summer.json",
+      "bytes": 2486,
+      "sourceSha256": "f3b11c5e76664b6d69c198dd5a3d5c2be8221ec59c9baf516914154bddc1a3dd",
+      "bundleSha256": "f3b11c5e76664b6d69c198dd5a3d5c2be8221ec59c9baf516914154bddc1a3dd"
+    },
+    {
+      "path": "src/data/archive/raw/2020/winter.json",
+      "bytes": 2193,
+      "sourceSha256": "5691aa2006673aff1976ca120998d7695cf2dd7a867746d64e14e66b141cc9e2",
+      "bundleSha256": "5691aa2006673aff1976ca120998d7695cf2dd7a867746d64e14e66b141cc9e2"
+    },
+    {
+      "path": "src/data/archive/raw/2021/summer.json",
+      "bytes": 2063,
+      "sourceSha256": "d13997db82fad7935cb74e797c4f51d6cadacc84421d2e7a406ae90fc989f4a6",
+      "bundleSha256": "d13997db82fad7935cb74e797c4f51d6cadacc84421d2e7a406ae90fc989f4a6"
+    },
+    {
+      "path": "src/data/archive/raw/2021/winter.json",
+      "bytes": 2523,
+      "sourceSha256": "091182e8f11716ac58b8d6415d4a74dd6e780233510b19505cc1bf69ed32207b",
+      "bundleSha256": "091182e8f11716ac58b8d6415d4a74dd6e780233510b19505cc1bf69ed32207b"
+    },
+    {
+      "path": "src/data/archive/raw/2022/summer.json",
+      "bytes": 2932,
+      "sourceSha256": "cb67d0c1d70a762861810a4efb573721d4838d60463e31245f72294e2a355c05",
+      "bundleSha256": "cb67d0c1d70a762861810a4efb573721d4838d60463e31245f72294e2a355c05"
+    },
+    {
+      "path": "src/data/archive/raw/2022/winter.json",
+      "bytes": 4044,
+      "sourceSha256": "6107d98c96c629319de922ecb66d2ba2b54efa7c4c9ce01da48ec0ecf254c13b",
+      "bundleSha256": "6107d98c96c629319de922ecb66d2ba2b54efa7c4c9ce01da48ec0ecf254c13b"
+    },
+    {
+      "path": "src/data/archive/raw/2023/summer.json",
+      "bytes": 3236,
+      "sourceSha256": "f061e4a146f09bf410ce97c16d74143c532b52f316c074cf6a2d08b4513e9df4",
+      "bundleSha256": "f061e4a146f09bf410ce97c16d74143c532b52f316c074cf6a2d08b4513e9df4"
+    },
+    {
+      "path": "src/data/archive/raw/2023/winter.json",
+      "bytes": 3097,
+      "sourceSha256": "d3056716684fc4ae8b2778a08b19aca4f247f3b918507a53455d39079deaae08",
+      "bundleSha256": "d3056716684fc4ae8b2778a08b19aca4f247f3b918507a53455d39079deaae08"
+    },
+    {
+      "path": "src/data/archive/raw/2024/summer.json",
+      "bytes": 4487,
+      "sourceSha256": "f4c62130b5891eb1edc9c9fe4dce2c04dbc39c7abf93b11f51d6d2050cabe550",
+      "bundleSha256": "f4c62130b5891eb1edc9c9fe4dce2c04dbc39c7abf93b11f51d6d2050cabe550"
+    },
+    {
+      "path": "src/data/archive/raw/2024/winter.json",
+      "bytes": 3435,
+      "sourceSha256": "8adb9f7cfa039299a7fc16df75a7112ce09413a6ee4719ce6bfb7ea7de1d3518",
+      "bundleSha256": "8adb9f7cfa039299a7fc16df75a7112ce09413a6ee4719ce6bfb7ea7de1d3518"
+    },
+    {
+      "path": "src/data/archive/raw/2025/gamejam.json",
+      "bytes": 7526,
+      "sourceSha256": "343f3757d3423c5fa5bea11a8f9d6b176906d1ce8869849c1ec7928e361ecc7c",
+      "bundleSha256": "343f3757d3423c5fa5bea11a8f9d6b176906d1ce8869849c1ec7928e361ecc7c"
+    },
+    {
+      "path": "src/data/archive/raw/2025/summer.json",
+      "bytes": 11682,
+      "sourceSha256": "f9fa23599858880c0642c92dc8d5fbfd6f1899a2eaf031b0544451e0c5276a95",
+      "bundleSha256": "f9fa23599858880c0642c92dc8d5fbfd6f1899a2eaf031b0544451e0c5276a95"
+    },
+    {
+      "path": "src/data/archive/raw/2025/winter.json",
+      "bytes": 4779,
+      "sourceSha256": "7c54a121c58965f7b0e733d7f4a345fff0af481e7594af71f5196478bb3c86d6",
+      "bundleSha256": "7c54a121c58965f7b0e733d7f4a345fff0af481e7594af71f5196478bb3c86d6"
+    },
+    {
+      "path": "src/data/archive/raw/2026/winter.json",
+      "bytes": 5560,
+      "sourceSha256": "7348c7c5c15f10c6435608d6de8bfc7304c3a7ed6dcc8af82d210eab45c949f1",
+      "bundleSha256": "7348c7c5c15f10c6435608d6de8bfc7304c3a7ed6dcc8af82d210eab45c949f1"
+    },
+    {
+      "path": "src/data/archive/slug-registry.json",
+      "bytes": 5472,
+      "sourceSha256": "fe4289683893dbaa0008c5190a5ff6a85e7f9c7ff30f09143bf5217450ad4f2c",
+      "bundleSha256": "fe4289683893dbaa0008c5190a5ff6a85e7f9c7ff30f09143bf5217450ad4f2c"
+    },
+    {
+      "path": "src/data/archive/video-manifest.json",
+      "bytes": 4,
+      "sourceSha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f",
+      "bundleSha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "src/data/archive/video-stills.json",
+      "bytes": 8181,
+      "sourceSha256": "d122c461e26fb07ea8ed096ed780144f446fa19108da482c28ac4f309560c5c5",
+      "bundleSha256": "d122c461e26fb07ea8ed096ed780144f446fa19108da482c28ac4f309560c5c5"
+    },
+    {
+      "path": "src/data/hero-reel-game-ids.json",
+      "bytes": 356,
+      "sourceSha256": "0d43bc3e240f221c208314686713a0241aa096effe88914b3fd5692af54a0ef8",
+      "bundleSha256": "0d43bc3e240f221c208314686713a0241aa096effe88914b3fd5692af54a0ef8"
+    },
+    {
+      "path": "src/data/hero-reel-manifest.json",
+      "bytes": 6218,
+      "sourceSha256": "dc7c9e1af2c6eff850792cb47ba5506bd70607a800ec9368b695f28bf0a97972",
+      "bundleSha256": "dc7c9e1af2c6eff850792cb47ba5506bd70607a800ec9368b695f28bf0a97972"
+    },
+    {
+      "path": "src/data/site.ts",
+      "bytes": 3825,
+      "sourceSha256": "65c5faedf1d1905b80bdda6afaf1378bfd1da8bd579462ee6239566b80af0839",
+      "bundleSha256": "65c5faedf1d1905b80bdda6afaf1378bfd1da8bd579462ee6239566b80af0839"
+    },
+    {
+      "path": "src/lib/paths.ts",
+      "bytes": 320,
+      "sourceSha256": "428b1cde196c0b5933ab61a8ab3c228b657b19df564b64e2878a1ef4a635f947",
+      "bundleSha256": "428b1cde196c0b5933ab61a8ab3c228b657b19df564b64e2878a1ef4a635f947"
+    },
+    {
+      "path": "src/types/archive.ts",
+      "bytes": 1233,
+      "sourceSha256": "ef65d8974ee018fee5a8ec2396edededa285091213ea6333d661d61eae9be5fd",
+      "bundleSha256": "ef65d8974ee018fee5a8ec2396edededa285091213ea6333d661d61eae9be5fd"
+    },
+    {
+      "path": "src/types/hls-light.d.ts",
+      "bytes": 223,
+      "sourceSha256": "7df715458d2d9cfe8b7bab009bb005c6dbf847d80def62397a496dde06be40e0",
+      "bundleSha256": "7df715458d2d9cfe8b7bab009bb005c6dbf847d80def62397a496dde06be40e0"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 744,
+      "sourceSha256": "fae7176b0c23bbaaf6275ae35dbf80e14e36e4a4a729b545974d734995d1bbc2",
+      "bundleSha256": "fae7176b0c23bbaaf6275ae35dbf80e14e36e4a4a729b545974d734995d1bbc2"
+    },
+    {
+      "path": "vercel.json",
+      "bytes": 80,
+      "sourceSha256": "3e213b01e5bc9af28a20131246f7bfc62490b63b66d3e2fac578ff2251905101",
+      "bundleSha256": "3e213b01e5bc9af28a20131246f7bfc62490b63b66d3e2fac578ff2251905101"
+    }
+  ],
+  "modifiedSourceFiles": [
+    ".env.funding.example",
+    "README.md",
+    "discord-notifier/README.md",
+    "docs/dots-daily-brief.md",
+    "docs/dots-personal-brief.md",
+    "docs/vercel-html-reports.md"
+  ],
+  "addedFiles": [
+    {
+      "path": "README.md",
+      "bytes": 3869,
+      "sha256": "9074c1e69f40a513e1b6753c4d46104ed4c81f7372fee63d9aaac0c82f37eaa8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 177,
+      "sha256": "e773273c101cf5ce518fe986904f363313471500bea6c37bfb852553fd4f85f7"
+    },
+    {
+      "path": "code/.env.example",
+      "bytes": 1506,
+      "sha256": "a48dfbdf8e658e76d4ed4e2b7f676fcc0f9f5875d0a9dcb4181e84372e646568"
+    },
+    {
+      "path": "docs/OPERATIONS.md",
+      "bytes": 5883,
+      "sha256": "268ce6feaa0590f519852b08e08e5dd8c3c36fe41d4f2f279d09f79dda9e1da1"
+    },
+    {
+      "path": "docs/FILE-MAP.md",
+      "bytes": 2866,
+      "sha256": "f9b0d99b48fcb10c0c2f0834e72bebc8793bbc2217a5d0da6929456bb528f458"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 3023,
+      "sha256": "b5812775469a1379b970870f486d91f31d926f12891558be39ded75209b96cac"
+    },
+    {
+      "path": "prompts/README.md",
+      "bytes": 1428,
+      "sha256": "a496687d103bafe87a1fd0aed3a6aa7c61f92b42c09045b77c2eadba14af7fba"
+    },
+    {
+      "path": "prompts/01-gammaru.md",
+      "bytes": 13089,
+      "sha256": "e40859417fb1d7606f6334a4f6b662bc3db44130f5b34b649acc4161d8b2dae9"
+    },
+    {
+      "path": "prompts/02-personal.md",
+      "bytes": 10228,
+      "sha256": "d90fe31aeac2f2fc80d5d1705dcf3e49df8fb56b676193dd430f402b24703bf9"
+    }
+  ],
+  "excluded": [
+    "actual environment files and credentials",
+    "private report/member/profile/session data",
+    ".git",
+    ".vercel",
+    "node_modules",
+    ".next",
+    "test-results",
+    "TypeScript build caches"
+  ],
+  "verification": {
+    "reportTests": {
+      "passed": 91,
+      "failed": 0
+    },
+    "browser": "passed; mocked OAuth/storage/Discord",
+    "build": "passed; TypeScript and 172 static pages",
+    "liveOperationsPerformed": false
+  }
+}

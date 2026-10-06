@@ -1,0 +1,53 @@
+{
+  "name": "gammaru-landing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "preview:pages": "node scripts/serve-export.mjs",
+    "lint": "eslint .",
+    "funding:start": "node --env-file-if-exists=.env.funding funding/server.mjs",
+    "funding:test": "node --test funding/tests/*.test.mjs",
+    "funding:test:browser": "node funding/tests/browser.mjs",
+    "funding:preview": "node funding/preview.mjs",
+    "platform:dev": "node --env-file-if-exists=.env.funding funding/platform.mjs --dev",
+    "platform:start": "node --env-file-if-exists=.env.funding funding/platform.mjs",
+    "platform:test": "node --test funding/portal/tests/*.test.mjs",
+    "platform:test:browser": "node funding/portal/tests/browser.mjs",
+    "platform:preview": "node funding/portal/preview.mjs",
+    "reports:dev": "node --env-file-if-exists=.env.funding node_modules/next/dist/bin/next dev",
+    "personal:dev": "node --env-file=.env.personal funding/personal-local.mjs",
+    "reports:test": "node --test funding/vercel/tests/*.test.mjs",
+    "reports:test:browser": "node funding/vercel/tests/browser.mjs && node funding/vercel/tests/oauth-browser.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:smoke": "node scripts/smoke.mjs",
+    "test:reel": "node scripts/test-hero-reel.mjs",
+    "test:details": "node scripts/test-game-details.mjs",
+    "import:archive": "node scripts/import-archive.mjs --download-media",
+    "assets:brand": "node scripts/build-brand-assets.mjs",
+    "assets:game-stills": "node scripts/capture-game-stills.mjs",
+    "assets:reel": "node scripts/build-reel-preview.mjs && node scripts/package-hero-reel.mjs",
+    "assets:reel:package": "node scripts/package-hero-reel.mjs",
+    "preview:reel": "node scripts/preview-reel.mjs"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.8.0",
+    "hls.js": "1.7.2",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "sharp": "0.34.4"
+  },
+  "devDependencies": {
+    "@types/node": "26.4.1",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.4",
+    "ffmpeg-static": "^5.3.0",
+    "playwright": "1.62.1",
+    "typescript": "6.0.3"
+  }
+}
