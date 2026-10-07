@@ -98,7 +98,7 @@
       "path": "docs/dots-personal-brief.md",
       "bytes": 13232,
       "sourceSha256": "b873fccba51fb973e04a83ddb5d643a73784b09706a9c431abdd8065b247ead3",
-      "bundleSha256": "673a7372bb0643dc4fe7484ec0a0eabc52df1c202d9a36a5d4d425281627891b"
+      "bundleSha256": "066186a2757c542ece093ead7ba7da3618bfb50472b8e9316cef431ac9f283b6"
     },
     {
       "path": "docs/gammaru-platform-plan.md",
@@ -122,7 +122,7 @@
       "path": "docs/personal-service.md",
       "bytes": 7479,
       "sourceSha256": "9b943d70c74a87769c6be76c723e0a39f15ef0cdb3535a8b046c52b38a3bae62",
-      "bundleSha256": "9b943d70c74a87769c6be76c723e0a39f15ef0cdb3535a8b046c52b38a3bae62"
+      "bundleSha256": "0b24df7e953df67f59e6545180c9796f6e1b094711de496104f7f56baed51db8"
     },
     {
       "path": "docs/vercel-html-reports.md",
@@ -350,7 +350,7 @@
       "path": "funding/vercel/handler.mjs",
       "bytes": 35888,
       "sourceSha256": "6156f99e366b1b9f4c197402462475eeda05e40b28a91f0f0394e312cd4537ff",
-      "bundleSha256": "6156f99e366b1b9f4c197402462475eeda05e40b28a91f0f0394e312cd4537ff"
+      "bundleSha256": "a244501272cad4094b1842436db4aed2701fc469d097c06f1bfeb2bd6136318c"
     },
     {
       "path": "funding/vercel/local-files.mjs",
@@ -446,7 +446,7 @@
       "path": "funding/vercel/tests/browser.mjs",
       "bytes": 33025,
       "sourceSha256": "0986600e3e42eeaa7b26da382807da11a081e542b983eb95abbb44e8beb1a515",
-      "bundleSha256": "0986600e3e42eeaa7b26da382807da11a081e542b983eb95abbb44e8beb1a515"
+      "bundleSha256": "6bf566873a0f7502950af8dfb3bc16c1b02c1c79b18db636fda91c9e7cb6b9ca"
     },
     {
       "path": "funding/vercel/tests/channel-notifications.test.mjs",
@@ -554,7 +554,7 @@
       "path": "funding/vercel/views.mjs",
       "bytes": 31841,
       "sourceSha256": "9c091e36d3a574582a23cfd65751852af0e47febed357fb690b9d273eced2d0f",
-      "bundleSha256": "9c091e36d3a574582a23cfd65751852af0e47febed357fb690b9d273eced2d0f"
+      "bundleSha256": "14e25356cefd19a6dea973fa93cf2325212125ed42775f300d617db3fe7f3027"
     },
     {
       "path": "funding/vercel/worker-jobs.mjs",
@@ -2891,13 +2891,17 @@
     "discord-notifier/README.md",
     "docs/dots-daily-brief.md",
     "docs/dots-personal-brief.md",
-    "docs/vercel-html-reports.md"
+    "docs/personal-service.md",
+    "docs/vercel-html-reports.md",
+    "funding/vercel/handler.mjs",
+    "funding/vercel/tests/browser.mjs",
+    "funding/vercel/views.mjs"
   ],
   "addedFiles": [
     {
       "path": "README.md",
-      "bytes": 3869,
-      "sha256": "9074c1e69f40a513e1b6753c4d46104ed4c81f7372fee63d9aaac0c82f37eaa8"
+      "bytes": 4875,
+      "sha256": "2b1db16e19d0d57d4a2dca7cddd55d70e6f9f917a8a8caa7812cdcb4d5ba848c"
     },
     {
       "path": ".gitignore",
@@ -2911,18 +2915,18 @@
     },
     {
       "path": "docs/OPERATIONS.md",
-      "bytes": 5883,
-      "sha256": "268ce6feaa0590f519852b08e08e5dd8c3c36fe41d4f2f279d09f79dda9e1da1"
+      "bytes": 6964,
+      "sha256": "b42d985d9736bcddd07be4b4779e6baea7f3a820b2ca976374ab9fcd7e1f6cbd"
     },
     {
       "path": "docs/FILE-MAP.md",
-      "bytes": 2866,
-      "sha256": "f9b0d99b48fcb10c0c2f0834e72bebc8793bbc2217a5d0da6929456bb528f458"
+      "bytes": 3147,
+      "sha256": "8cb4bd6511c224fdcce94c51a5bbcfb8ee6222e6fbec23b3a23de0032d1eb9a5"
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 3023,
-      "sha256": "b5812775469a1379b970870f486d91f31d926f12891558be39ded75209b96cac"
+      "bytes": 3959,
+      "sha256": "c342a86be497c7cd5e86fa7591cc4d3e3f2f06c4402d5883abc01a5c36672fd2"
     },
     {
       "path": "prompts/README.md",
@@ -2936,8 +2940,18 @@
     },
     {
       "path": "prompts/02-personal.md",
-      "bytes": 10228,
-      "sha256": "d90fe31aeac2f2fc80d5d1705dcf3e49df8fb56b676193dd430f402b24703bf9"
+      "bytes": 10998,
+      "sha256": "f62bbfdcdbfce45b396e77ca096850db313388ced39c0f3394a637ce59031b82"
+    },
+    {
+      "path": "code/funding/vercel/notification-target.mjs",
+      "bytes": 1893,
+      "sha256": "b498b4e7abe53561fb0ae46b5a79df4b86bf3162046917f6892cc3905d434f62"
+    },
+    {
+      "path": "code/funding/vercel/tests/notification-target.test.mjs",
+      "bytes": 5685,
+      "sha256": "a9bdf0d339f26356b5459c95ad1781d0b1da38c248a21b9558003d9a86cc7513"
     }
   ],
   "excluded": [
@@ -2952,11 +2966,28 @@
   ],
   "verification": {
     "reportTests": {
-      "passed": 91,
+      "passed": 96,
       "failed": 0
     },
-    "browser": "passed; mocked OAuth/storage/Discord",
+    "browser": "passed; mocked Discord lookup, OAuth/storage; 320/390px checked",
     "build": "passed; TypeScript and 172 static pages",
-    "liveOperationsPerformed": false
-  }
+    "liveOperationsPerformed": "Read-only destination verification and publisher login/logout; no report or message created by verification"
+  },
+  "lastUpdatedDate": "2026-10-07",
+  "updates": [
+    {
+      "date": "2026-10-07",
+      "sourceCommit": "89aefe1017f69cee05bff3977e2be3c1f85b6c43",
+      "purpose": "Display notification destination and avoid repeated approval for the authorized personal channel",
+      "files": [
+        "code/docs/dots-personal-brief.md",
+        "code/docs/personal-service.md",
+        "code/funding/vercel/handler.mjs",
+        "code/funding/vercel/views.mjs",
+        "code/funding/vercel/notification-target.mjs",
+        "code/funding/vercel/tests/notification-target.test.mjs",
+        "code/funding/vercel/tests/browser.mjs"
+      ]
+    }
+  ]
 }

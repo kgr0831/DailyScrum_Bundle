@@ -30,3 +30,5 @@
 `prompts/`는 dots 대화에 붙이는 예약 연결용 문서입니다. 사이트에 제공되는 상세 지침은 위 `code/docs/` 파일이 기준입니다. 보고서 디자인 또는 업로드 데이터 구조를 바꿀 때는 상세 지침과 실행 코드를 함께 검토합니다.
 
 `SOURCE-MANIFEST.json`은 복사한 원본 파일의 커밋·크기·SHA-256과 보관본에서 바뀐 설명 문서, 추가 파일을 기록합니다. 비밀값·실제 회원 데이터는 포함하지 않습니다.
+
+2026-10-07 추가: `code/funding/vercel/notification-target.mjs`는 설정된 알림 대상 ID와 선택적인 Discord 이름 조회를 담당합니다. `code/funding/vercel/tests/notification-target.test.mjs`에서 권한·읽기 전용 동작·실패 처리를 검증합니다.
