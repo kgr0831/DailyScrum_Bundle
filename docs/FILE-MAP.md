@@ -32,3 +32,11 @@
 `SOURCE-MANIFEST.json`은 복사한 원본 파일의 커밋·크기·SHA-256과 보관본에서 바뀐 설명 문서, 추가 파일을 기록합니다. 비밀값·실제 회원 데이터는 포함하지 않습니다.
 
 2026-10-07 추가: `code/funding/vercel/notification-target.mjs`는 설정된 알림 대상 ID와 선택적인 Discord 이름 조회를 담당합니다. `code/funding/vercel/tests/notification-target.test.mjs`에서 권한·읽기 전용 동작·실패 처리를 검증합니다.
+
+2026-10-12 추가:
+
+- `code/funding/vercel/s3-files.mjs`, `store-factory.mjs`: 비공개 S3와 기존 Blob 저장소 선택.
+- `code/funding/vercel/migration.mjs`, `retention.mjs`, `maintenance.mjs`: 검증 후 데이터 복사, 7일 보관·삭제 재시도, 인증된 유지보수.
+- `code/src/app/api/maintenance/`: 이전 POST API와 일일 정리 GET API.
+- `code/scripts/bootstrap-reports-aws.py`, `code/infra/aws-bootstrap-permissions.json`: 지정 AWS 계정의 전용 버킷·OIDC 역할 구성과 권한.
+- `code/docs/aws-reports-storage.md`: 실제 이전 순서, 아직 해결되지 않은 권한·원본 접근 문제.

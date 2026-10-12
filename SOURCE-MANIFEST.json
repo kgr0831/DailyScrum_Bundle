@@ -92,13 +92,13 @@
       "path": "docs/dots-daily-brief.md",
       "bytes": 23273,
       "sourceSha256": "3e0a4e8a631cffd85f2a7babe86b734aa799d3a05759f159d5f6045f0e6121e9",
-      "bundleSha256": "b5ff362e4cd8796f85c9c5cef430809f8918525c8852982dac6345aade43b15e"
+      "bundleSha256": "e2509b68e54765b4b3d847bd7e9da3ee3cbd6466be07016c92925841364ef43f"
     },
     {
       "path": "docs/dots-personal-brief.md",
       "bytes": 13232,
       "sourceSha256": "b873fccba51fb973e04a83ddb5d643a73784b09706a9c431abdd8065b247ead3",
-      "bundleSha256": "066186a2757c542ece093ead7ba7da3618bfb50472b8e9316cef431ac9f283b6"
+      "bundleSha256": "b0008ee2505998a744328f71466bad7b4cf2ccf3c997b01102f3a2a3a20ee37e"
     },
     {
       "path": "docs/gammaru-platform-plan.md",
@@ -338,7 +338,7 @@
       "path": "funding/vercel/config.mjs",
       "bytes": 2831,
       "sourceSha256": "dc0c00f308e3e6947eb008d2585f839901d2d105a2749cdbf11f75b89b38d3b2",
-      "bundleSha256": "dc0c00f308e3e6947eb008d2585f839901d2d105a2749cdbf11f75b89b38d3b2"
+      "bundleSha256": "b80bc3953d722fbdbefbc8a880e9977f778864d3aa10e3b34b779b1776cc1e1c"
     },
     {
       "path": "funding/vercel/handler.d.mts",
@@ -350,7 +350,7 @@
       "path": "funding/vercel/handler.mjs",
       "bytes": 35888,
       "sourceSha256": "6156f99e366b1b9f4c197402462475eeda05e40b28a91f0f0394e312cd4537ff",
-      "bundleSha256": "a244501272cad4094b1842436db4aed2701fc469d097c06f1bfeb2bd6136318c"
+      "bundleSha256": "71f3a3e3b9b700bd60711323df14fa8de87e9e935defbc56d465c132d96821a8"
     },
     {
       "path": "funding/vercel/local-files.mjs",
@@ -374,7 +374,7 @@
       "path": "funding/vercel/opportunities.mjs",
       "bytes": 11485,
       "sourceSha256": "1f6ae8f4fae256641f75acd3d4ac0fdd08a99ae4b62356fe7e40d5b5497d7e9c",
-      "bundleSha256": "1f6ae8f4fae256641f75acd3d4ac0fdd08a99ae4b62356fe7e40d5b5497d7e9c"
+      "bundleSha256": "befb9c7d2b4feff014953bac19ec5012a8b4314e3f2d4ee11da3c81be4176df2"
     },
     {
       "path": "funding/vercel/paths.mjs",
@@ -428,7 +428,7 @@
       "path": "funding/vercel/storage.mjs",
       "bytes": 11471,
       "sourceSha256": "3a827d07cb26eee207ad92f7b5d7a0e863657593b106d9fdf3e3812f1ce2b43d",
-      "bundleSha256": "dc470b63f86dfa55105a20e4ba15e8af45fd8cfd8401f3d120b7c2a18841ff1e"
+      "bundleSha256": "c9aa09e94f4b991f98278ba7c46ba4ec9533832b9283907af217b9182d1fd69d"
     },
     {
       "path": "funding/vercel/tests/approval-notice.test.mjs",
@@ -446,19 +446,19 @@
       "path": "funding/vercel/tests/browser.mjs",
       "bytes": 33025,
       "sourceSha256": "0986600e3e42eeaa7b26da382807da11a081e542b983eb95abbb44e8beb1a515",
-      "bundleSha256": "6bf566873a0f7502950af8dfb3bc16c1b02c1c79b18db636fda91c9e7cb6b9ca"
+      "bundleSha256": "a0dc12f2514d9ede97d9280ea1888ea09c1366ac8308200682418d0c149abf5b"
     },
     {
       "path": "funding/vercel/tests/channel-notifications.test.mjs",
       "bytes": 7324,
       "sourceSha256": "22ec8a7381fb481a28489ef9ef0b4dfdc035d5a8cf2ce489b1f52a7ba4df6ba5",
-      "bundleSha256": "22ec8a7381fb481a28489ef9ef0b4dfdc035d5a8cf2ce489b1f52a7ba4df6ba5"
+      "bundleSha256": "59f5804f015ab34426d789938007cfb97787fa73fd63b236c764dcf9800a64f5"
     },
     {
       "path": "funding/vercel/tests/helpers.mjs",
       "bytes": 3175,
       "sourceSha256": "a1282dd412e666496be88940185cb3991c7109a9763cdbde5c018a17eef04379",
-      "bundleSha256": "a1282dd412e666496be88940185cb3991c7109a9763cdbde5c018a17eef04379"
+      "bundleSha256": "8732822d0ba5adf78625f8caf9fab62f151e85dbb4c060223daa8f4848643e9f"
     },
     {
       "path": "funding/vercel/tests/local-files.test.mjs",
@@ -482,7 +482,7 @@
       "path": "funding/vercel/tests/opportunities.test.mjs",
       "bytes": 10512,
       "sourceSha256": "9b6da45ca2765acf64ce4b1008ade327249e08eb0f87c7bc1043b6e421fa146d",
-      "bundleSha256": "9b6da45ca2765acf64ce4b1008ade327249e08eb0f87c7bc1043b6e421fa146d"
+      "bundleSha256": "e557c9005e2e36f98ab2ec249c3462fa36463f2933d54d1a48b784ab35826c73"
     },
     {
       "path": "funding/vercel/tests/personal-account.test.mjs",
@@ -530,13 +530,13 @@
       "path": "funding/vercel/tests/reissue.test.mjs",
       "bytes": 12421,
       "sourceSha256": "42a2b070da96c9fefa3df4edc8bb6c5cfd88edff89eab387d23e9f498b782a01",
-      "bundleSha256": "42a2b070da96c9fefa3df4edc8bb6c5cfd88edff89eab387d23e9f498b782a01"
+      "bundleSha256": "eea18ff51d153debe6e65c16741c4a6908ea035adc71d5ee60c3998c2fb3bbc7"
     },
     {
       "path": "funding/vercel/tests/reports.test.mjs",
       "bytes": 12705,
       "sourceSha256": "ead5378288c032466354aeca3ad282430cab2e6a271995831720ecc22ad7ee6a",
-      "bundleSha256": "ead5378288c032466354aeca3ad282430cab2e6a271995831720ecc22ad7ee6a"
+      "bundleSha256": "537e1ca4453539e2cc5dc7f26d16d9b6edca304acfb06c4a4980dba3d57da680"
     },
     {
       "path": "funding/vercel/tests/service-isolation.test.mjs",
@@ -554,7 +554,7 @@
       "path": "funding/vercel/views.mjs",
       "bytes": 31841,
       "sourceSha256": "9c091e36d3a574582a23cfd65751852af0e47febed357fb690b9d273eced2d0f",
-      "bundleSha256": "14e25356cefd19a6dea973fa93cf2325212125ed42775f300d617db3fe7f3027"
+      "bundleSha256": "3569486b46888aca05807006521431533f628cc26c8f2b932647244f26b28b43"
     },
     {
       "path": "funding/vercel/worker-jobs.mjs",
@@ -584,13 +584,13 @@
       "path": "package-lock.json",
       "bytes": 258377,
       "sourceSha256": "784fc0f81b620933965a45b059a9f967d8f893da4eec00ca569bac55fd13df62",
-      "bundleSha256": "784fc0f81b620933965a45b059a9f967d8f893da4eec00ca569bac55fd13df62"
+      "bundleSha256": "0b49096210534fcb4a055fb351f92f3ede08c9aacadc0a2c3ea4b2fc41ab68e0"
     },
     {
       "path": "package.json",
       "bytes": 2319,
       "sourceSha256": "6d8db9e3d98f9f4e43203f48e0bc547850592982e1ae5b3d2766b0a781435a21",
-      "bundleSha256": "6d8db9e3d98f9f4e43203f48e0bc547850592982e1ae5b3d2766b0a781435a21"
+      "bundleSha256": "cdac4ff957a87cb8e63df06888be29c72c03c8003b6a667d33737fd130e0c4dd"
     },
     {
       "path": "public/archive/games/g-2025-gj-001/cover.avif",
@@ -2882,7 +2882,7 @@
       "path": "vercel.json",
       "bytes": 80,
       "sourceSha256": "3e213b01e5bc9af28a20131246f7bfc62490b63b66d3e2fac578ff2251905101",
-      "bundleSha256": "3e213b01e5bc9af28a20131246f7bfc62490b63b66d3e2fac578ff2251905101"
+      "bundleSha256": "e7082cfc2de1cb2904edd230f95e9eaaf4fbf3320f9fba1a9911456617e845fa"
     }
   ],
   "modifiedSourceFiles": [
@@ -2893,13 +2893,23 @@
     "docs/dots-personal-brief.md",
     "docs/personal-service.md",
     "docs/vercel-html-reports.md",
+    "funding/vercel/config.mjs",
     "funding/vercel/handler.mjs",
+    "funding/vercel/opportunities.mjs",
     "funding/vercel/storage.mjs",
     "funding/vercel/tests/blob-cas.test.mjs",
     "funding/vercel/tests/browser.mjs",
+    "funding/vercel/tests/channel-notifications.test.mjs",
+    "funding/vercel/tests/helpers.mjs",
+    "funding/vercel/tests/opportunities.test.mjs",
+    "funding/vercel/tests/reissue.test.mjs",
+    "funding/vercel/tests/reports.test.mjs",
     "funding/vercel/tests/worker-jobs.test.mjs",
     "funding/vercel/views.mjs",
-    "funding/vercel/worker-jobs.mjs"
+    "funding/vercel/worker-jobs.mjs",
+    "package-lock.json",
+    "package.json",
+    "vercel.json"
   ],
   "addedFiles": [
     {
@@ -2919,18 +2929,18 @@
     },
     {
       "path": "docs/OPERATIONS.md",
-      "bytes": 7688,
-      "sha256": "582c5f86af58bd9f5657233f283609cb32b93d5e7769c5ed979d3a2cda35d265"
+      "bytes": 8801,
+      "sha256": "22171b16c18ddeecf461feaaa1c3ffd0016e771a459d263c9f1b554d788a2856"
     },
     {
       "path": "docs/FILE-MAP.md",
-      "bytes": 3147,
-      "sha256": "8cb4bd6511c224fdcce94c51a5bbcfb8ee6222e6fbec23b3a23de0032d1eb9a5"
+      "bytes": 3780,
+      "sha256": "0654d59bf8dfaabbaf2b47460d39a36c2f7d2b2107c87fb366051dabc2de31ba"
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 4707,
-      "sha256": "c5eefe5ec0ebe8b8df930019c9746017171e14e31b2e737efbb99e99024670a6"
+      "bytes": 5996,
+      "sha256": "66516ff2c0a115de35b8ff43d7f5acefa0be6286d3afffb8e0c7dd17908f943c"
     },
     {
       "path": "prompts/README.md",
@@ -2939,13 +2949,13 @@
     },
     {
       "path": "prompts/01-gammaru.md",
-      "bytes": 13089,
-      "sha256": "e40859417fb1d7606f6334a4f6b662bc3db44130f5b34b649acc4161d8b2dae9"
+      "bytes": 13780,
+      "sha256": "f1b5b1241022208c8229d29c2803ee4626d3df835efb91da2b728c9c1b4c2ec5"
     },
     {
       "path": "prompts/02-personal.md",
-      "bytes": 10998,
-      "sha256": "f62bbfdcdbfce45b396e77ca096850db313388ced39c0f3394a637ce59031b82"
+      "bytes": 11657,
+      "sha256": "2395aad94c337934b929bff19c4ae467d2db57c51171d620dc7b2954b6f8157d"
     },
     {
       "path": "code/funding/vercel/notification-target.mjs",
@@ -2961,6 +2971,81 @@
       "path": "code/docs/blob-recovery.md",
       "bytes": 3763,
       "sha256": "6ca98ab5261408512e68a2122b36c88e6d7c0c70f6ccc759816b64a0de07864e"
+    },
+    {
+      "path": "code/docs/aws-reports-storage.md",
+      "bytes": 6253,
+      "sha256": "f33e8ceab908735c29c4f5fcbaa88ec7ccff7d903f18a3454d590a019f1573a1"
+    },
+    {
+      "path": "code/funding/vercel/maintenance.d.mts",
+      "bytes": 70,
+      "sha256": "917bb94276ab6fd0fad7067d10f478f0747c936595f220ef787d4f627cd908e2"
+    },
+    {
+      "path": "code/funding/vercel/maintenance.mjs",
+      "bytes": 1515,
+      "sha256": "88faf5b03b0cb4b6ec09af812e6abed35a777468cffcf2987ee7eb6463d59d34"
+    },
+    {
+      "path": "code/funding/vercel/migration.d.mts",
+      "bytes": 70,
+      "sha256": "149d7cd6dd7bdb0d9b6fd3fe69502cf66800386277c11400bcbe267108ecd138"
+    },
+    {
+      "path": "code/funding/vercel/migration.mjs",
+      "bytes": 3827,
+      "sha256": "6239a70ea7acd7146b1028555077b944c2c041aad658bf37c5edcc060fb25778"
+    },
+    {
+      "path": "code/funding/vercel/retention.mjs",
+      "bytes": 2952,
+      "sha256": "8077db49f5f495e2255ac2061638d0241ae31dc32a0ecf326bf3120531e66a99"
+    },
+    {
+      "path": "code/funding/vercel/s3-files.mjs",
+      "bytes": 3451,
+      "sha256": "cea0203813e02faf60917126aa72f58da017e9d32dac98d70874f5f3ef51f314"
+    },
+    {
+      "path": "code/funding/vercel/store-factory.mjs",
+      "bytes": 551,
+      "sha256": "7a9267dec49171fc1d26b4ca10796eb20a8a55bc57623bd55db0676a2f988659"
+    },
+    {
+      "path": "code/funding/vercel/tests/migration.test.mjs",
+      "bytes": 3728,
+      "sha256": "62319e0e510668656e3ad136aa87383a228798082a6bf6a8df8b1d24511a5f93"
+    },
+    {
+      "path": "code/funding/vercel/tests/retention.test.mjs",
+      "bytes": 6523,
+      "sha256": "b62abc2cf944e41838553f3b689bd03a521ea37ff0529763d3e762e3393316b5"
+    },
+    {
+      "path": "code/funding/vercel/tests/s3-files.test.mjs",
+      "bytes": 3249,
+      "sha256": "8a7a48c3d6c25979e57df28fd2bc43cb9e4d11682a8f11087ecbd2fdc749b376"
+    },
+    {
+      "path": "code/infra/aws-bootstrap-permissions.json",
+      "bytes": 1530,
+      "sha256": "ee0f809e435027145e8abe8c349b3d42eacd231462d67b69c292996328b914ff"
+    },
+    {
+      "path": "code/scripts/bootstrap-reports-aws.py",
+      "bytes": 4931,
+      "sha256": "eec754f386f26b6efceb2bc2c6066e3a4f5a7b51dc13fe0af0060c4cab4bdf01"
+    },
+    {
+      "path": "code/src/app/api/maintenance/report-migration/route.ts",
+      "bytes": 270,
+      "sha256": "1cfa8a1234c3010d994877cb96182c4f57e82ac3700044e4558b4b0f711f60d1"
+    },
+    {
+      "path": "code/src/app/api/maintenance/report-retention/route.ts",
+      "bytes": 271,
+      "sha256": "d588098da174f82821e52350ca37ba66756efda55ef93354e7ae5248cec6192d"
     }
   ],
   "excluded": [
@@ -2975,12 +3060,12 @@
   ],
   "verification": {
     "reportTests": {
-      "passed": 100,
+      "passed": 112,
       "failed": 0
     },
-    "browser": "2026-10-07 passed; not rerun for 2026-10-12 server storage-only changes",
-    "build": "passed; TypeScript and 172 static pages",
-    "liveOperationsPerformed": "Read-only Blob metadata diagnosis: usage quota exceeded, suspended. No report or Discord message created; service recovery pending quota reset or owner-approved plan change."
+    "browser": "Passed on 2026-10-12: report workflows, isolated member state, 320/390px and OAuth",
+    "build": "Passed: TypeScript, 172 static pages, two maintenance APIs",
+    "liveOperationsPerformed": "Source commit deployed to production; backend remains Blob. No report or Discord message created. S3 provisioning and data migration pending AWS permissions and suspended Blob source recovery."
   },
   "lastUpdatedDate": "2026-10-12",
   "updates": [
@@ -3009,6 +3094,46 @@
         "code/funding/vercel/tests/worker-jobs.test.mjs",
         "code/docs/blob-recovery.md"
       ]
+    },
+    {
+      "date": "2026-10-12",
+      "sourceCommit": "ccf8b3aa89006479bfffbf68bcf65c61ca33b5d3",
+      "purpose": "Prepare private Seoul S3 migration with Vercel OIDC; retain seven KST report dates without losing progress or notes",
+      "files": [
+        "code/docs/aws-reports-storage.md",
+        "code/docs/dots-daily-brief.md",
+        "code/docs/dots-personal-brief.md",
+        "code/funding/vercel/config.mjs",
+        "code/funding/vercel/handler.mjs",
+        "code/funding/vercel/maintenance.d.mts",
+        "code/funding/vercel/maintenance.mjs",
+        "code/funding/vercel/migration.d.mts",
+        "code/funding/vercel/migration.mjs",
+        "code/funding/vercel/opportunities.mjs",
+        "code/funding/vercel/retention.mjs",
+        "code/funding/vercel/s3-files.mjs",
+        "code/funding/vercel/storage.mjs",
+        "code/funding/vercel/store-factory.mjs",
+        "code/funding/vercel/tests/browser.mjs",
+        "code/funding/vercel/tests/channel-notifications.test.mjs",
+        "code/funding/vercel/tests/helpers.mjs",
+        "code/funding/vercel/tests/migration.test.mjs",
+        "code/funding/vercel/tests/opportunities.test.mjs",
+        "code/funding/vercel/tests/reissue.test.mjs",
+        "code/funding/vercel/tests/reports.test.mjs",
+        "code/funding/vercel/tests/retention.test.mjs",
+        "code/funding/vercel/tests/s3-files.test.mjs",
+        "code/funding/vercel/views.mjs",
+        "code/infra/aws-bootstrap-permissions.json",
+        "code/package-lock.json",
+        "code/package.json",
+        "code/scripts/bootstrap-reports-aws.py",
+        "code/src/app/api/maintenance/report-migration/route.ts",
+        "code/src/app/api/maintenance/report-retention/route.ts",
+        "code/vercel.json"
+      ],
+      "productionDeployment": "dpl_3RozoypPijFsUtRZvyTH2Cgi8nfH",
+      "cutoverComplete": false
     }
   ]
 }
