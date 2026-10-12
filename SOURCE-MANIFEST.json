@@ -2929,8 +2929,8 @@
     },
     {
       "path": "docs/OPERATIONS.md",
-      "bytes": 8801,
-      "sha256": "22171b16c18ddeecf461feaaa1c3ffd0016e771a459d263c9f1b554d788a2856"
+      "bytes": 9209,
+      "sha256": "4f0061aee4385157e0c3e1966dc875bf47087d9ccf5acfadd398e6866dc453d4"
     },
     {
       "path": "docs/FILE-MAP.md",
@@ -2939,8 +2939,8 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 5996,
-      "sha256": "66516ff2c0a115de35b8ff43d7f5acefa0be6286d3afffb8e0c7dd17908f943c"
+      "bytes": 6452,
+      "sha256": "63d6d8d898158ebf668e6028fb79f4b30cf39c4a83800521d181232b590deecd"
     },
     {
       "path": "prompts/README.md",
@@ -2974,8 +2974,8 @@
     },
     {
       "path": "code/docs/aws-reports-storage.md",
-      "bytes": 6253,
-      "sha256": "f33e8ceab908735c29c4f5fcbaa88ec7ccff7d903f18a3454d590a019f1573a1"
+      "bytes": 8281,
+      "sha256": "e617fc9ac0bc02fa1279a3dc194938df6218056c00d5f2c74d4dfb1a799bfa8e"
     },
     {
       "path": "code/funding/vercel/maintenance.d.mts",
@@ -3065,7 +3065,7 @@
     },
     "browser": "Passed on 2026-10-12: report workflows, isolated member state, 320/390px and OAuth",
     "build": "Passed: TypeScript, 172 static pages, two maintenance APIs",
-    "liveOperationsPerformed": "Source commit deployed to production; backend remains Blob. No report or Discord message created. S3 provisioning and data migration pending AWS permissions and suspended Blob source recovery."
+    "liveOperationsPerformed": "Dedicated private Seoul S3 bucket and production OIDC role created. CLI read/write/CAS checks passed in both namespaces; temporary probes removed. Source Blob remains suspended; data migration and production OIDC runtime verification pending. Credit query blocked by account-level IAM billing access."
   },
   "lastUpdatedDate": "2026-10-12",
   "updates": [
@@ -3133,6 +3133,17 @@
         "code/vercel.json"
       ],
       "productionDeployment": "dpl_3RozoypPijFsUtRZvyTH2Cgi8nfH",
+      "cutoverComplete": false
+    },
+    {
+      "date": "2026-10-12",
+      "sourceCommit": "1aa2934bf11d0c2058688d1d5b128afe83e4551b",
+      "purpose": "Record successful AWS provisioning and real storage checks; keep cutover blocked on source Blob recovery",
+      "files": [
+        "code/docs/aws-reports-storage.md",
+        "docs/OPERATIONS.md",
+        "docs/VALIDATION.md"
+      ],
       "cutoverComplete": false
     }
   ]
