@@ -40,3 +40,12 @@
 - `code/src/app/api/maintenance/`: 이전 POST API와 일일 정리 GET API.
 - `code/scripts/bootstrap-reports-aws.py`, `code/infra/aws-bootstrap-permissions.json`: 지정 AWS 계정의 전용 버킷·OIDC 역할 구성과 권한.
 - `code/docs/aws-reports-storage.md`: 실제 이전 순서, 아직 해결되지 않은 권한·원본 접근 문제.
+
+전체 웹 AWS 이전 추가:
+
+- `code/infra/aws-web.json`, `aws-web-bootstrap.sh`: 전용 EC2·IAM·CloudFront VPC origin과 초기 서비스 준비.
+- `code/infra/aws-web-deploy-permissions.json`: 고객 관리형 IAM 정책으로 추가할 웹 배포 권한.
+- `code/scripts/deploy-aws-web.py`, `aws-install-release.sh`, `aws-configure-runtime.py`: 계정·대상 확인, 소스 배포, Linux 빌드, 암호화 설정과 systemd.
+- `code/scripts/run-report-retention.mjs`: AWS의 7일 HTML 정리 타이머 진입점.
+- `code/scripts/test-aws-standalone.mjs`, `funding/vercel/tests/proxy-origin.test.mjs`: 자체 호스팅 로그인·프록시 신뢰 경계 검증.
+- `code/docs/aws-web-migration.md`: 최신 결정, 남은 권한, 배포와 dots 전환 절차.
