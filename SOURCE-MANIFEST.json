@@ -588,9 +588,9 @@
     },
     {
       "path": "package.json",
-      "bytes": 2424,
+      "bytes": 2481,
       "sourceSha256": "6d8db9e3d98f9f4e43203f48e0bc547850592982e1ae5b3d2766b0a781435a21",
-      "bundleSha256": "c4fb88495c4958f95cf37f827727c21fba7cd5307af1583446ebdeea50b4d306"
+      "bundleSha256": "d506d88fa15a1fe29d1b32456cfedecbf2a8a09df6a01b2f366dbd87a96d0d00"
     },
     {
       "path": "public/archive/games/g-2025-gj-001/cover.avif",
@@ -2538,27 +2538,27 @@
     },
     {
       "path": "src/app/activities/page.tsx",
-      "bytes": 3541,
+      "bytes": 4002,
       "sourceSha256": "a78204ec3cec9a1380bb5b06e2259e1efb0350757281e319935b8b9a04c67d37",
-      "bundleSha256": "72a9f2c915149b1ab1fe12c27cd1d34aaa12e2dbc9205344fd048632a71ac347"
+      "bundleSha256": "2f0995bd1b4f9dd3fcc701f2855526152e7af5cdb031792fe4bd360bb8aac1cb"
     },
     {
       "path": "src/app/games/[year]/[season]/[slug]/page.tsx",
-      "bytes": 5962,
+      "bytes": 6149,
       "sourceSha256": "5fed8dd316c22d064dcb85dcaa58e3ae1d0688458b8b631b375236caead98374",
-      "bundleSha256": "e392730202088d82de798f8a58f5948a2b6e8bb8a85acbe100cdbdfe7d2ee54a"
+      "bundleSha256": "0c96a064e0c740f3be514ad9eed35d5f9eead363305eb7deb334162c1567b654"
     },
     {
       "path": "src/app/games/[year]/[season]/page.tsx",
-      "bytes": 1945,
+      "bytes": 2146,
       "sourceSha256": "23b810768eee2531d77b98aea478384234d17246584aa46831a554d727804ef8",
-      "bundleSha256": "23b810768eee2531d77b98aea478384234d17246584aa46831a554d727804ef8"
+      "bundleSha256": "a3f1e20236f8eeb12d85334661a9fe0558f57f0eeb39c4cc9b33c0b7987324b4"
     },
     {
       "path": "src/app/games/page.tsx",
-      "bytes": 923,
+      "bytes": 1091,
       "sourceSha256": "a39328841357e621bcfd6a072a9ae2632cbd96438cae015bb48e89fd81e4fdb1",
-      "bundleSha256": "1b649e9fba910a1ccd7f19d2071a96a3da8714a4ce045f5ef89868c0136fc3e7"
+      "bundleSha256": "af05e1ee457558e7cfdbcb384ecd7512f124247ca8efef629aa217b8a55f83d1"
     },
     {
       "path": "src/app/globals.css",
@@ -2568,15 +2568,15 @@
     },
     {
       "path": "src/app/layout.tsx",
-      "bytes": 1811,
+      "bytes": 2257,
       "sourceSha256": "f739a9d57263652d94b9d9e947d09e48ae02c866536ec78da592eddea85ce24e",
-      "bundleSha256": "bdac106be0b538a7758cde4fc2ef1be3288b64a84c95bb46d301871d6d240bfb"
+      "bundleSha256": "9ac50fd25913c2b03694074528db94da100d9b5dc08ef668aea41961a5d4fc40"
     },
     {
       "path": "src/app/log/page.tsx",
-      "bytes": 1941,
+      "bytes": 2052,
       "sourceSha256": "b2659d8387aef74496c54f82b10cf2f76f2c3059563a75a47954b7ecb5865c39",
-      "bundleSha256": "c3089b2041c6599398a71722220e7db772d7983cc67bd44ff609b8569ea4ca26"
+      "bundleSha256": "6ae30931c87b5a5c5af7e677f4ef90963655b477521aedad21542ad909b1017a"
     },
     {
       "path": "src/app/not-found.tsx",
@@ -2652,9 +2652,9 @@
     },
     {
       "path": "src/components/RoleDeck.tsx",
-      "bytes": 1719,
+      "bytes": 1914,
       "sourceSha256": "62212e00904b11e01687b0e717029e804800b06919c51faa011a39e6d0f7ccb2",
-      "bundleSha256": "62212e00904b11e01687b0e717029e804800b06919c51faa011a39e6d0f7ccb2"
+      "bundleSha256": "58991621b3d1dfe0e84ca1fcf280619dfd9c5b7bb7f535e9e78e7a8456288166"
     },
     {
       "path": "src/components/SectionHeading.tsx",
@@ -2912,10 +2912,12 @@
     "src/app/about/page.tsx",
     "src/app/activities/page.tsx",
     "src/app/games/[year]/[season]/[slug]/page.tsx",
+    "src/app/games/[year]/[season]/page.tsx",
     "src/app/games/page.tsx",
     "src/app/globals.css",
     "src/app/layout.tsx",
     "src/app/log/page.tsx",
+    "src/components/RoleDeck.tsx",
     "src/components/SiteFooter.tsx",
     "src/components/SiteHeader.tsx",
     "vercel.json"
@@ -2943,13 +2945,13 @@
     },
     {
       "path": "docs/FILE-MAP.md",
-      "bytes": 5605,
-      "sha256": "dd3e8e36e250db911b709c2e7d05c1f5144234e46b7b305e427576a62646eda5"
+      "bytes": 6045,
+      "sha256": "a1f1769947254e08c5d864e829cfeb889adfbacd034b6c9572515b3c72f7d9ee"
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 11434,
-      "sha256": "d92838b7e0ccf1f5ee682020b13a40b5f87a1dfe4514360a07bf4eb054d08ca7"
+      "bytes": 12452,
+      "sha256": "b6455adccce7718650ff69278c247fc68b6e0ccb4bf40d7eee01f436adbaebc2"
     },
     {
       "path": "prompts/README.md",
@@ -3118,8 +3120,8 @@
     },
     {
       "path": "code/docs/landing-redesign.md",
-      "bytes": 3718,
-      "sha256": "7a315b0b9bc9fe3fa4cf12dea4ea0070f738f48bc052215e33ccbafb27ac6191"
+      "bytes": 4913,
+      "sha256": "d03125ffe042ebcfc71259cdbb0f9be9e9abce7fa2f128fdd1d919ad60c9a84e"
     },
     {
       "path": "code/src/app/route.ts",
@@ -3158,8 +3160,8 @@
     },
     {
       "path": "code/public/landing/illustrations.js",
-      "bytes": 16325,
-      "sha256": "0d6ecb806817298139f419ac58e18dc7580869913f79481330c6f756324f978e"
+      "bytes": 17320,
+      "sha256": "2f883bf6bebfa25886c965395c9bc151535400f0641c1a99bcbb1ddd176d3454"
     },
     {
       "path": "code/public/landing/motion.js",
@@ -3178,8 +3180,18 @@
     },
     {
       "path": "code/src/app/interior.css",
-      "bytes": 8517,
-      "sha256": "ce5d020d97df945aac229573e6857ae43184859a60dbd13d4e48381e12c18832"
+      "bytes": 10871,
+      "sha256": "e3f3b65e432bc756ef0ac5789f041593aa1e037249dea8d3f90032f2a33a4ed4"
+    },
+    {
+      "path": "code/scripts/test-pixel-scenes.mjs",
+      "bytes": 7546,
+      "sha256": "abf845cd9ef3b18fae7ecbbc25dca6566ab1539569208dab459d7c3d3a60fd41"
+    },
+    {
+      "path": "code/src/components/PixelScene.tsx",
+      "bytes": 862,
+      "sha256": "1b94cd0f73541b75fb0401849cfa7775359674ed1caff666f4daf705179b26ab"
     }
   ],
   "excluded": [
@@ -3202,9 +3214,10 @@
     "liveOperationsPerformed": "Full AWS stack deployed. Real HTTPS publisher/admin login, S3 sessions, fresh state, isolated cookies, CSRF and both Discord destination lookups passed. Worker connected; retention service executed successfully. Discord callback registered. Legacy Vercel report paths redirect and old cron removed. No original Blob data changed. No reports or Discord test messages created. Dots schedule/login handoff and first real publish remain.",
     "awsInfrastructure": "CloudFormation CREATE_COMPLETE, CloudFront deployed, dedicated Seoul EC2 web/notifier/nginx/timer active. S3 private. VPC-origin managed security group only. Credit balance unverified.",
     "landing": "Selected pixel design: ESLint, standalone build, browser smoke on 320/390/1280/1440/1920 widths, gallery/dialog/tab/menu/session links, all reel credits, responsive video playback, motion/data settings and poster fallback passed. Real AWS landing/scripts/mobile/archive navigation, publisher guides and worker connection verified.",
-    "interiorDesign": "Shared landing/archive/detail header, footer, fonts and palette. ESLint, standalone build (172 routes), smoke/details/reel passed. 146 titles checked at 6 widths; live AWS verified at 320/1440px, page navigation, home return and both guest session APIs. No report data or Discord messages created."
+    "interiorDesign": "Shared landing/archive/detail header, footer, fonts and palette. ESLint, standalone build (172 routes), smoke/details/reel passed. 146 titles checked at 6 widths; live AWS verified at 320/1440px, page navigation, home return and both guest session APIs. No report data or Discord messages created.",
+    "pixelMotion": "ESLint, AWS standalone build (172 routes), standalone pixels/smoke/reel tests and live AWS pixel-motion suite passed. Verified scene switching, cleanup, pause preferences and 320/390/1440px layouts; no report data changed."
   },
-  "lastUpdatedDate": "2026-10-12",
+  "lastUpdatedDate": "2026-10-13",
   "updates": [
     {
       "date": "2026-10-07",
@@ -3392,6 +3405,30 @@
       ],
       "awsDeploymentVerified": true,
       "awsCommandId": "733c0559-78a9-4b29-ad74-fe74c7e6b05f"
+    },
+    {
+      "date": "2026-10-13",
+      "sourceCommit": "4031aa619ac26e8d45b05fdfb66c62fbce3cbf52",
+      "purpose": "Reuse animated pixel scenes across archive, details and club pages",
+      "files": [
+        "code/docs/landing-redesign.md",
+        "code/package.json",
+        "code/public/landing/illustrations.js",
+        "code/scripts/test-pixel-scenes.mjs",
+        "code/src/app/activities/page.tsx",
+        "code/src/app/games/[year]/[season]/[slug]/page.tsx",
+        "code/src/app/games/[year]/[season]/page.tsx",
+        "code/src/app/games/page.tsx",
+        "code/src/app/interior.css",
+        "code/src/app/layout.tsx",
+        "code/src/app/log/page.tsx",
+        "code/src/components/PixelScene.tsx",
+        "code/src/components/RoleDeck.tsx",
+        "docs/FILE-MAP.md",
+        "docs/VALIDATION.md"
+      ],
+      "awsDeploymentVerified": true,
+      "awsCommandId": "8bf6b4de-2483-4a92-8fdf-15be95daea15"
     }
   ],
   "removedSourceFiles": [

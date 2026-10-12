@@ -61,3 +61,5 @@
 - `code/docs/landing-redesign.md`: 시안 출처·운영 통합·검증 명령.
 - `code/public/landing/chrome.css`: 메인과 내부 페이지가 함께 쓰는 반투명 메뉴·푸터·색상.
 - `code/src/app/interior.css`, `code/src/components/SiteHeader.tsx`, `SiteFooter.tsx`: 게임 목록·상세·소개·활동·기록의 디자인 통일과 내부 페이지 보고서 메뉴.
+- `code/src/components/PixelScene.tsx`, `code/public/landing/illustrations.js`: 메인과 내부 페이지에서 함께 사용하는 도트·모션 장면. 화면 밖·메뉴 뒤·숨긴 탭에서 정지하며 페이지 전환 때 이전 장면을 해제한다.
+- `code/scripts/test-pixel-scenes.mjs`: 실제 픽셀 재생·정지, 역할 탭, 페이지 이동·중복 방지, 동작 줄이기·데이터 절약과 반응형 화면 검증.
