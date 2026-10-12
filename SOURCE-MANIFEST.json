@@ -590,7 +590,7 @@
       "path": "package.json",
       "bytes": 2319,
       "sourceSha256": "6d8db9e3d98f9f4e43203f48e0bc547850592982e1ae5b3d2766b0a781435a21",
-      "bundleSha256": "cdac4ff957a87cb8e63df06888be29c72c03c8003b6a667d33737fd130e0c4dd"
+      "bundleSha256": "c4fb88495c4958f95cf37f827727c21fba7cd5307af1583446ebdeea50b4d306"
     },
     {
       "path": "public/archive/games/g-2025-gj-001/cover.avif",
@@ -2510,7 +2510,7 @@
       "path": "scripts/smoke.mjs",
       "bytes": 6641,
       "sourceSha256": "613951564068e5bd5fba3767f461405c33f86d9d9f25739bc26fffcea148bdce",
-      "bundleSha256": "613951564068e5bd5fba3767f461405c33f86d9d9f25739bc26fffcea148bdce"
+      "bundleSha256": "e3006458a36282482739fdf490a5603569b5e1cbf57db849a81c96b5a8bbb621"
     },
     {
       "path": "scripts/test-game-details.mjs",
@@ -2583,12 +2583,6 @@
       "bytes": 341,
       "sourceSha256": "1680a719d04e40005b2605f87988488d4a93acb2e4f068bbbf2a71dfa7f16a23",
       "bundleSha256": "1680a719d04e40005b2605f87988488d4a93acb2e4f068bbbf2a71dfa7f16a23"
-    },
-    {
-      "path": "src/app/page.tsx",
-      "bytes": 6241,
-      "sourceSha256": "0d6c3c0ed28ea4d1c35ad1ed7de3b087e5d44aac25ec1f404f041d89353bc2ac",
-      "bundleSha256": "0d6c3c0ed28ea4d1c35ad1ed7de3b087e5d44aac25ec1f404f041d89353bc2ac"
     },
     {
       "path": "src/app/personal/[[...path]]/route.ts",
@@ -2678,7 +2672,7 @@
       "path": "src/components/SiteHeader.tsx",
       "bytes": 4246,
       "sourceSha256": "10298eb737c49c59c2a62afb3fdf3bea7ba7b0c9117c0e598c9ab50c0fb40690",
-      "bundleSha256": "10298eb737c49c59c2a62afb3fdf3bea7ba7b0c9117c0e598c9ab50c0fb40690"
+      "bundleSha256": "f0a0ad75ba916ae05694fd7c09264d566982cf5a6688a400ba45db07ab1fcb9d"
     },
     {
       "path": "src/data/archive/games.json",
@@ -2913,13 +2907,15 @@
     "next.config.ts",
     "package-lock.json",
     "package.json",
+    "scripts/smoke.mjs",
+    "src/components/SiteHeader.tsx",
     "vercel.json"
   ],
   "addedFiles": [
     {
       "path": "README.md",
-      "bytes": 5348,
-      "sha256": "1d4457bc815f91ce35429a7b133639abdcc73d373b36feee2311680efcc12bbc"
+      "bytes": 5660,
+      "sha256": "18262b0b5f147abdd6d1bce859b7b9cdf60d5717cea1ae1a6081bdc7c005aab5"
     },
     {
       "path": ".gitignore",
@@ -2938,13 +2934,13 @@
     },
     {
       "path": "docs/FILE-MAP.md",
-      "bytes": 4817,
-      "sha256": "a7ef5e435eb85430acd3d57b431d130f9d5e9b7832d5a2e27b49001082dba207"
+      "bytes": 5300,
+      "sha256": "0ef0f9b232ff379b974d9e93a4f386d5fd9fb129d34abc32ea774401499ed73c"
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 8889,
-      "sha256": "e39dbc7dfab7a4e8d3ceda006283fa5b831eea50dfe9014cb8aeb6e1c968a29e"
+      "bytes": 10264,
+      "sha256": "4093ecb027a91915d833c3a250cc4dd72f6ab7c6cef2b4403c26b308773e082d"
     },
     {
       "path": "prompts/README.md",
@@ -3110,6 +3106,61 @@
       "path": "code/docs/dots-aws-switch.md",
       "bytes": 2940,
       "sha256": "18557a34536ad58619a76d53aff5ee7c4876f918e1931e8d99399afb94cafbe8"
+    },
+    {
+      "path": "code/docs/landing-redesign.md",
+      "bytes": 2357,
+      "sha256": "c1a8a3a5d90a60c7a73869a0abc973c284f0bf428902e7407997a722a9abd3d3"
+    },
+    {
+      "path": "code/src/app/route.ts",
+      "bytes": 1407,
+      "sha256": "4738a035dca447d44a2b02801045775dc3858088aee3410192490555c4b58d1c"
+    },
+    {
+      "path": "code/src/landing/index.html",
+      "bytes": 12471,
+      "sha256": "33a24a078fa328c0ae95acc0289d9bc927b2ec47cc1ee546bc76de75c111a166"
+    },
+    {
+      "path": "code/scripts/test-landing-reel.mjs",
+      "bytes": 6769,
+      "sha256": "13141069aa67f1d6f5ecce859b2db23240d61c6a910322766dd8a742eacf2a7f"
+    },
+    {
+      "path": "code/public/landing/styles.css",
+      "bytes": 25683,
+      "sha256": "46310af718180e6d428b3bbc02050b1b7a3bf3497e63250ff583e314cf249864"
+    },
+    {
+      "path": "code/public/landing/games.js",
+      "bytes": 3484,
+      "sha256": "2c61963b68673bb66d00f1123fcd0bf47a6253c565b7f65f4c2efa0c73101fe1"
+    },
+    {
+      "path": "code/public/landing/reel.js",
+      "bytes": 11582,
+      "sha256": "3354c57ce5211443954f225a657720fadedd7b309eab26252b3a26be2bef88e3"
+    },
+    {
+      "path": "code/public/landing/script.js",
+      "bytes": 12128,
+      "sha256": "34e894e78924ba72b9b6be82f1184e7761d7e53130178ab85307811186612b87"
+    },
+    {
+      "path": "code/public/landing/illustrations.js",
+      "bytes": 16325,
+      "sha256": "0d6ecb806817298139f419ac58e18dc7580869913f79481330c6f756324f978e"
+    },
+    {
+      "path": "code/public/landing/motion.js",
+      "bytes": 1780,
+      "sha256": "ae88fd7882f9d7d56d77b5544bfeee33e4feb2271a8dbb85118f531e82518d85"
+    },
+    {
+      "path": "code/public/landing/session.js",
+      "bytes": 2030,
+      "sha256": "7694b6e5bcebaad4dd003e0a3fec12320c089c4b7b85a37327d265e611abc95d"
     }
   ],
   "excluded": [
@@ -3130,7 +3181,8 @@
     "browser": "Passed on 2026-10-12: report workflows, isolated member state, 320/390px and OAuth",
     "build": "Passed: AWS standalone, TypeScript, 172 static pages; local HTTPS proxy/login smoke with fake S3 passed",
     "liveOperationsPerformed": "Full AWS stack deployed. Real HTTPS publisher/admin login, S3 sessions, fresh state, isolated cookies, CSRF and both Discord destination lookups passed. Worker connected; retention service executed successfully. Discord callback registered. Legacy Vercel report paths redirect and old cron removed. No original Blob data changed. No reports or Discord test messages created. Dots schedule/login handoff and first real publish remain.",
-    "awsInfrastructure": "CloudFormation CREATE_COMPLETE, CloudFront deployed, dedicated Seoul EC2 web/notifier/nginx/timer active. S3 private. VPC-origin managed security group only. Credit balance unverified."
+    "awsInfrastructure": "CloudFormation CREATE_COMPLETE, CloudFront deployed, dedicated Seoul EC2 web/notifier/nginx/timer active. S3 private. VPC-origin managed security group only. Credit balance unverified.",
+    "landing": "Selected pixel design: ESLint, standalone build, browser smoke on 320/390/1280/1440/1920 widths, gallery/dialog/tab/menu/session links, all reel credits, responsive video playback, motion/data settings and poster fallback passed. Real AWS landing/scripts/mobile/archive navigation, publisher guides and worker connection verified."
   },
   "lastUpdatedDate": "2026-10-12",
   "updates": [
@@ -3260,6 +3312,46 @@
       "legacyRedirectDeployment": "dpl_6RtyKeY2S2Ar1kHLNXakKbe8mwtu",
       "legacyRootAndReportRedirectsVerified": true,
       "legacyCronsRemoved": true
+    },
+    {
+      "date": "2026-10-12",
+      "sourceCommit": "d5b9912ff59570ef2126e9a3e3979cae0f1b43a7",
+      "purpose": "Integrate user-selected page-change pixel landing and authenticated report navigation, deploy to existing AWS origin",
+      "files": [
+        "code/docs/landing-redesign.md",
+        "code/src/app/route.ts",
+        "code/src/landing/index.html",
+        "code/scripts/test-landing-reel.mjs",
+        "code/public/landing/styles.css",
+        "code/public/landing/games.js",
+        "code/public/landing/reel.js",
+        "code/public/landing/script.js",
+        "code/public/landing/illustrations.js",
+        "code/public/landing/motion.js",
+        "code/public/landing/session.js",
+        "code/package.json",
+        "code/scripts/smoke.mjs",
+        "code/src/components/SiteHeader.tsx",
+        "README.md",
+        "docs/FILE-MAP.md",
+        "docs/VALIDATION.md"
+      ],
+      "removedFiles": [
+        "code/src/app/page.tsx"
+      ],
+      "awsDeploymentVerified": true,
+      "reportStateBeforeAndAfter": {
+        "club": 0,
+        "personal": 0
+      }
+    }
+  ],
+  "removedSourceFiles": [
+    {
+      "path": "src/app/page.tsx",
+      "sourceSha256": "0d6c3c0ed28ea4d1c35ad1ed7de3b087e5d44aac25ec1f404f041d89353bc2ac",
+      "reason": "Replaced by src/app/route.ts and src/landing/index.html for the selected full-document design",
+      "sourceCommit": "d5b9912ff59570ef2126e9a3e3979cae0f1b43a7"
     }
   ]
 }

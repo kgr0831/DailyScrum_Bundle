@@ -52,3 +52,10 @@
 - `code/docs/dots-aws-switch.md`: 기존 두 dots 예약의 주소만 바꾸는 복사용 전달문.
 - `code/.gitattributes`: AWS Linux 실행 스크립트의 LF 줄바꿈 유지.
 - `code/vercel.json`: 이전 도메인의 AWS redirect. 기존 Vercel cron은 제거.
+
+도트 랜딩 통합:
+
+- `code/src/app/route.ts`, `code/src/landing/index.html`: `/`에서 완성 HTML 제공. 이전 홈 `page.tsx`를 교체했다.
+- `code/public/landing/`: 선택한 도트 시안의 스타일·영상·작품·canvas와 세션 기반 보고서 메뉴.
+- `code/scripts/test-landing-reel.mjs`: 새 MP4 플레이어의 반응형 재생·제작자 표시·정지·대체 화면 검증.
+- `code/docs/landing-redesign.md`: 시안 출처·운영 통합·검증 명령.
