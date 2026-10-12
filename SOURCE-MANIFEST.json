@@ -50,7 +50,7 @@
       "path": "README.md",
       "bytes": 6315,
       "sourceSha256": "783b2244d359e2241ceea89f497b914c06356e33c97d721b0ef49118b33dc9bf",
-      "bundleSha256": "27dea5e7fe5fa2365e148d1e7ea4e8c04664d121a705ff4be941a247ae6b2db8"
+      "bundleSha256": "a6d7865e4b205d81d09b212158ddc7a723967d285acb5c767008b66ffd771b4c"
     },
     {
       "path": "discord-notifier/.env.example",
@@ -92,7 +92,7 @@
       "path": "docs/dots-daily-brief.md",
       "bytes": 23273,
       "sourceSha256": "3e0a4e8a631cffd85f2a7babe86b734aa799d3a05759f159d5f6045f0e6121e9",
-      "bundleSha256": "ae28c35b1ac4a6bcd349b017486f94728c1e39911f1f0c24e0c89c2c6065a982"
+      "bundleSha256": "32496f45987ee3572df086c4ca54e84a74e25835c0540330a625e3d95dd6de71"
     },
     {
       "path": "docs/dots-personal-brief.md",
@@ -2882,7 +2882,7 @@
       "path": "vercel.json",
       "bytes": 80,
       "sourceSha256": "3e213b01e5bc9af28a20131246f7bfc62490b63b66d3e2fac578ff2251905101",
-      "bundleSha256": "e7082cfc2de1cb2904edd230f95e9eaaf4fbf3320f9fba1a9911456617e845fa"
+      "bundleSha256": "d10a8266e7d070caf8c5e237baee8bf9c5035fd31262f0a15151ec8cde109a22"
     }
   ],
   "modifiedSourceFiles": [
@@ -2918,8 +2918,8 @@
   "addedFiles": [
     {
       "path": "README.md",
-      "bytes": 5154,
-      "sha256": "5d71dc168c1c88c0cded0a67dd65f5f80b173ee9b4b0b48168922d7749af5ed7"
+      "bytes": 5348,
+      "sha256": "1d4457bc815f91ce35429a7b133639abdcc73d373b36feee2311680efcc12bbc"
     },
     {
       "path": ".gitignore",
@@ -2933,33 +2933,33 @@
     },
     {
       "path": "docs/OPERATIONS.md",
-      "bytes": 9935,
-      "sha256": "1aac40db4de3d4639b679c926e1ee7b7c2f5f2de164e7819611168f65e657a1f"
+      "bytes": 10179,
+      "sha256": "c98e7074729160dbbdd25e5f8f4eaff517752d4e7b46a0239cfeab13a3eb8af9"
     },
     {
       "path": "docs/FILE-MAP.md",
-      "bytes": 4546,
-      "sha256": "a4012ec4ec5e0968819988174e93b5c49506fdd737fd27aafb29a2fe48357863"
+      "bytes": 4817,
+      "sha256": "a7ef5e435eb85430acd3d57b431d130f9d5e9b7832d5a2e27b49001082dba207"
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 7213,
-      "sha256": "80f466cf3ce4d5e15a7b7c41f082d69b64b76e82cfbfe7cbd06ece002efa44a9"
+      "bytes": 8889,
+      "sha256": "e39dbc7dfab7a4e8d3ceda006283fa5b831eea50dfe9014cb8aeb6e1c968a29e"
     },
     {
       "path": "prompts/README.md",
-      "bytes": 1491,
-      "sha256": "5a7ae16c55841cc939b385a96103432aeb1f55d03b18b91f91633154eb69ee3e"
+      "bytes": 1543,
+      "sha256": "3b176c0cb20a448d5458f7dc9fb7727353ec279487eb5face30ce335568bd8d9"
     },
     {
       "path": "prompts/01-gammaru.md",
-      "bytes": 13780,
-      "sha256": "f1b5b1241022208c8229d29c2803ee4626d3df835efb91da2b728c9c1b4c2ec5"
+      "bytes": 14022,
+      "sha256": "5c53d4b39892a67c32304488bb806acd13caa4ddc8e978f0f8b93dc08af231bd"
     },
     {
       "path": "prompts/02-personal.md",
-      "bytes": 11657,
-      "sha256": "2395aad94c337934b929bff19c4ae467d2db57c51171d620dc7b2954b6f8157d"
+      "bytes": 11899,
+      "sha256": "912534b887015bb908605e6c0cb8a04ff22520f79f2f13f8f4dbdf158329ee2f"
     },
     {
       "path": "code/funding/vercel/notification-target.mjs",
@@ -3053,8 +3053,8 @@
     },
     {
       "path": "code/docs/aws-web-migration.md",
-      "bytes": 10813,
-      "sha256": "8cf6094bc01ab1a62f81d6a4631cd7cd25e8f8d2a5da5633af120ab2d07520ab"
+      "bytes": 12409,
+      "sha256": "bda6fa18007f666fad319059ae5940ab5cf134a5dfb64011ba99a5f1a9d17c48"
     },
     {
       "path": "code/funding/vercel/tests/proxy-origin.test.mjs",
@@ -3088,8 +3088,8 @@
     },
     {
       "path": "code/scripts/deploy-aws-web.py",
-      "bytes": 14003,
-      "sha256": "d6de970916b5224b277247875f592577e9bcc0d00b52144d8cdccc2cab09dfff"
+      "bytes": 14219,
+      "sha256": "1362afb4f8d6ee72add40dbb16ddd23b40af1e18920c9009e2333de48eaa9255"
     },
     {
       "path": "code/scripts/run-report-retention.mjs",
@@ -3100,6 +3100,16 @@
       "path": "code/scripts/test-aws-standalone.mjs",
       "bytes": 6601,
       "sha256": "a1157f1d19a03ce44310e6ae0d4be8d93b6236b297a626d2c9548ee524b8e15d"
+    },
+    {
+      "path": "code/.gitattributes",
+      "bytes": 17,
+      "sha256": "1d5d71dcc6ccd28ab46a335349ecc74742ca4b81f4fcad212f8d134f70f1f13e"
+    },
+    {
+      "path": "code/docs/dots-aws-switch.md",
+      "bytes": 2940,
+      "sha256": "18557a34536ad58619a76d53aff5ee7c4876f918e1931e8d99399afb94cafbe8"
     }
   ],
   "excluded": [
@@ -3119,8 +3129,8 @@
     },
     "browser": "Passed on 2026-10-12: report workflows, isolated member state, 320/390px and OAuth",
     "build": "Passed: AWS standalone, TypeScript, 172 static pages; local HTTPS proxy/login smoke with fake S3 passed",
-    "liveOperationsPerformed": "Dedicated Seoul S3 and Vercel OIDC role created and S3 CAS verified. No original report data copied. User selected full AWS hosting with fresh state; new web infrastructure awaits IAM permissions. Old Vercel data unchanged; AWS credit balance unverified.",
-    "awsInfrastructure": "CloudFormation cfn-lint passed. Full AWS web deployment awaits additional IAM permissions. Fresh AWS start authorized; Vercel data unchanged."
+    "liveOperationsPerformed": "Full AWS stack deployed. Real HTTPS publisher/admin login, S3 sessions, fresh state, isolated cookies, CSRF and both Discord destination lookups passed. Worker connected; retention service executed successfully. Discord callback registered. Legacy Vercel report paths redirect and old cron removed. No original Blob data changed. No reports or Discord test messages created. Dots schedule/login handoff and first real publish remain.",
+    "awsInfrastructure": "CloudFormation CREATE_COMPLETE, CloudFront deployed, dedicated Seoul EC2 web/notifier/nginx/timer active. S3 private. VPC-origin managed security group only. Credit balance unverified."
   },
   "lastUpdatedDate": "2026-10-12",
   "updates": [
@@ -3221,6 +3231,35 @@
         "code/docs/dots-daily-brief.md"
       ],
       "cutoverComplete": false
+    },
+    {
+      "date": "2026-10-12",
+      "sourceCommit": "0f5ca73647b99de07083259ba5f0344ef14dde86",
+      "awsRuntimeCommit": "363e790d226c1737f711e4f074e970a0d908622f",
+      "purpose": "Deploy full AWS site and notifier with fresh state, configure legacy redirects, and update existing dots URL handoff",
+      "files": [
+        "README.md",
+        "code/README.md",
+        "code/docs/aws-web-migration.md",
+        "code/docs/dots-daily-brief.md",
+        "code/scripts/deploy-aws-web.py",
+        "code/vercel.json",
+        "docs/FILE-MAP.md",
+        "docs/OPERATIONS.md",
+        "docs/VALIDATION.md",
+        "prompts/01-gammaru.md",
+        "prompts/02-personal.md",
+        "prompts/README.md",
+        "code/.gitattributes",
+        "code/docs/dots-aws-switch.md"
+      ],
+      "awsSiteUrl": "https://d3ktbkaahtexzk.cloudfront.net",
+      "awsHostingComplete": true,
+      "dotsCutoverVerified": false,
+      "originalDataImported": false,
+      "legacyRedirectDeployment": "dpl_6RtyKeY2S2Ar1kHLNXakKbe8mwtu",
+      "legacyRootAndReportRedirectsVerified": true,
+      "legacyCronsRemoved": true
     }
   ]
 }

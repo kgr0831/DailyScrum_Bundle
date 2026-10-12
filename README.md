@@ -1,6 +1,6 @@
 # 겜마루 · 공모전/채용 데일리 스크럼 보관본
 
-**2026-10-12 최신 상태:** 웹사이트·저장소·알림 봇 전체 AWS 이전과 새 출발을 준비했습니다. S3는 준비됐고 웹 인프라는 추가 권한 대기입니다. [AWS 배포·권한·dots 전환 안내](code/docs/aws-web-migration.md)를 따릅니다.
+**2026-10-12 최신 상태:** 웹사이트·저장소·알림 봇을 AWS에 배포했습니다. 새 주소는 **https://d3ktbkaahtexzk.cloudfront.net** 입니다. 새 회원·상태로 시작하며 기존 Vercel 원본은 보존합니다. [AWS 운영 안내](code/docs/aws-web-migration.md)와 [dots 주소 변경 전달문](code/docs/dots-aws-switch.md)을 확인하세요. dots의 재로그인·예약 주소 변경은 아직 별도 작업입니다.
 
 기존 프로젝트의 코드, 공개 이미지·영상, dots 지침과 운영 문서를 모은 독립 보관 폴더입니다. 원본 프로젝트와 운영 사이트를 변경하지 않았습니다.
 
@@ -31,7 +31,7 @@ npm run dev
 - 랜딩: `http://localhost:3000/`
 - 겜마루 보고서: `http://localhost:3000/reports`
 - 공모전·채용 보고서: `http://localhost:3000/personal`
-- 관리·업로드·Discord 로그인·보고서 저장에는 환경변수와 개발용 Private Blob 연결이 필요합니다. 빈 예제 파일만으로 해당 기능이 연결되지는 않습니다.
+- 관리·업로드·Discord 로그인·보고서 저장에는 환경변수와 개발용 비공개 S3 또는 Private Blob 연결이 필요합니다. 빈 예제 파일만으로 해당 기능이 연결되지는 않습니다.
 - Discord OAuth에는 실행 주소에 맞는 `/reports/auth/callback` 등록이 필요합니다. 두 보고서 공간이 같은 콜백을 사용합니다.
 
 비밀값 없이 코드 검증만 하려면 `code/`에서 다음을 실행합니다. 보고서 테스트는 가상 저장소와 가상 Discord 응답을 사용합니다.

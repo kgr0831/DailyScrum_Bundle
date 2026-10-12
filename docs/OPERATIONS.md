@@ -1,6 +1,6 @@
 # 현재 운영 기준
 
-이 문서는 2026-10-06의 구현과 사용자가 전달한 운영 설정을 정리한 것입니다. 이전 시제품 문서보다 현재 운영 판단에 우선합니다. 이번 폴더 정리에서 클라우드 예약·운영 데이터·서비스 설정을 변경하지 않았습니다.
+2026-10-12 현재 주소는 **https://d3ktbkaahtexzk.cloudfront.net** 입니다. 웹사이트·저장소·알림 봇을 AWS로 옮겼으며 새 회원·상태로 시작합니다. Vercel 원본은 보존합니다. 아래 날짜별 기록은 이전 작업 이력이며, 최신 운영 기준은 이 표와 [AWS 안내](../code/docs/aws-web-migration.md)입니다.
 
 ## 두 보고서 공간
 
@@ -11,7 +11,7 @@
 | 읽기 권한 | Discord 로그인 후 관리자 승인 | Discord 로그인 즉시, 승인 없음 |
 | 진행 상태·메모 | 동아리 공유 | Discord 계정별 서버 저장 |
 | 일일 알림 | 겜마루 봇 서버의 데일리-스크럼 | 별도 데일리 스크럼 서버의 데일리-스크럼 |
-| 실제 발송 | Dishost 워커 | Vercel에서 Discord REST API 호출 |
+| 실제 발송 | AWS EC2 워커 | AWS EC2 웹 프로세스에서 Discord REST API 호출 |
 | 업로드 로그인 | `/reports/login/publisher` | `/personal/login/publisher` |
 | 업로드 키 변수 | `FUNDING_PUBLISHER_TOKEN` | `PERSONAL_PUBLISHER_TOKEN` |
 | 조사 자료 | `/reports/upload?guide=1` | `/personal/upload?guide=1` |
@@ -33,12 +33,12 @@
 
 웹사이트는 [code/.env.example](../code/.env.example), 봇은 [봇 환경변수 예제](../code/discord-notifier/.env.example)를 기준으로 설정합니다. 토큰 값은 이 보관본에 없습니다.
 
-- 웹사이트: Private Blob, 양쪽 관리자·업로드 키, 공통 Discord OAuth, 서로 다른 채널 ID를 설정합니다.
-- 겜마루 워커: 웹사이트와 Dishost의 `DISCORD_WORKER_TOKEN`이 같아야 하며 웹사이트는 `DISCORD_DELIVERY_MODE=worker`를 사용합니다.
-- 공모전·채용: `PERSONAL_DISCORD_REPORT_CHANNEL_ID`를 사용합니다. 워커 모드와 별개로 Vercel에서 직접 보내므로 **Vercel의 `DISCORD_BOT_TOKEN`도 유지**합니다.
+- 웹사이트: 비공개 S3, 양쪽 관리자·업로드 키, 공통 Discord OAuth, 서로 다른 채널 ID를 설정합니다. AWS SSM SecureString을 서버에서 읽습니다.
+- 겜마루 워커: 웹사이트와 AWS 워커의 `DISCORD_WORKER_TOKEN`이 같아야 하며 웹사이트는 `DISCORD_DELIVERY_MODE=worker`를 사용합니다.
+- 공모전·채용: `PERSONAL_DISCORD_REPORT_CHANNEL_ID`를 사용합니다. 워커 모드와 별개로 웹 프로세스에서 직접 보내므로 웹 환경에도 `DISCORD_BOT_TOKEN`을 유지합니다.
 - 봇: `REPORTS_SITE_URL`, `DISCORD_BOT_TOKEN`, `DISCORD_WORKER_TOKEN`, `DISCORD_POLL_SECONDS`만 필요합니다. 관리자·업로드·Blob 키는 전달하지 않습니다.
 - OAuth: 두 공간 모두 `<사이트 원점>/reports/auth/callback`을 사용합니다.
-- Vercel 구성의 함수 리전은 `icn1`입니다. 기존 연결 정보 `.vercel/`은 복사하지 않았습니다.
+- AWS 리전은 서울 `ap-northeast-2`입니다. Vercel은 기존 주소를 새 주소로 이동시키는 redirect만 남깁니다.
 
 같은 운영 Blob을 새 실행본에 연결하면 기존 회원·보고서 데이터에 접근하게 됩니다. 개발용 설정은 운영용과 분리해 직접 입력합니다. 이 폴더는 운영 데이터 백업이 아닙니다.
 
@@ -56,7 +56,7 @@
 
 `funding/server.mjs`, `funding/providers.mjs`, `funding/platform.mjs`, `funding/portal/server.mjs`는 초기 상시 서버 시제품입니다. 해당 README의 FactChat 대체 조사·메일 실행 승인·SQLite·CMS 설명은 현재 Vercel 보고서 기능과 구분합니다.
 
-현재 흐름에서는 dots가 조사·HTML 작성, Vercel이 저장·권한·상태, Dishost가 동아리 알림 전송을 맡습니다. FactChat 자동 대체와 Codex CLI 조사는 시제품 코드에 보관되어 있으며 현재 업로드 경로에 연결되어 있지 않습니다.
+현재 흐름에서는 dots가 조사·HTML 작성, AWS 웹사이트와 S3가 저장·권한·상태, AWS 워커가 동아리 알림 전송을 맡습니다. FactChat 자동 대체와 Codex CLI 조사는 시제품 코드에 보관되어 있으며 현재 업로드 경로에 연결되어 있지 않습니다.
 
 ## 2026-10-07: 전송 대상 확인으로 멈춘 경우
 
@@ -82,6 +82,6 @@ AWS 권한 추가 후 서울 비공개 버킷·OIDC 역할 생성과 실제 S3 �
 
 ## 2026-10-12 최종 결정: 전체 AWS 이전과 새 출발
 
-위의 저장소만 이전하고 Blob 복구를 기다리는 계획은 변경됐다. 웹사이트·알림 워커·저장소를 AWS로 옮기고 새 회원·상태로 시작한다. Vercel 원본은 그대로 보존하며 자동 병합하지 않는다. 서울 S3는 구성 완료, EC2·CloudFront는 추가 IAM 권한 대기다. [추가 정책과 배포 절차](../code/docs/aws-web-migration.md)를 따른다.
+위의 저장소만 이전하고 Blob 복구를 기다리는 계획은 변경됐다. 웹사이트·알림 워커·저장소를 AWS로 옮기고 새 회원·상태로 시작했다. Vercel 원본은 그대로 보존하며 자동 병합하지 않는다. 서울 S3·EC2·CloudFront 구성과 양쪽 업로드 로그인·채널 조회·워커 연결을 확인했다. [운영 절차](../code/docs/aws-web-migration.md)를 따른다.
 
-개인 공간은 Discord 로그인만으로 열리며 계정별 상태를 새로 저장한다. 동아리는 재로그인·재승인이 필요하다. 새 도메인의 Discord callback과 dots 주소를 바꾸기 전에는 이전 완료가 아니다. 기존 dots 08시 조사·09시 보고 일정은 유지한다.
+개인 공간은 Discord 로그인만으로 열리며 계정별 상태를 새로 저장한다. 동아리는 재로그인·재승인이 필요하다. 새 Discord callback은 등록 확인했고, dots 주소 변경·클라우드 재로그인·첫 실제 발행 확인은 남아 있다. 기존 dots 08시 조사·09시 보고 일정은 유지한다.

@@ -5,6 +5,7 @@
 ```text
 이번 요청은 기존 ‘겜마루 일일 지원 보고’의 작업 지시 교체야.
 기존 예약의 08:00 조사·09:00 보고, Asia/Seoul 시간대와 활성 상태를 유지해줘.
+2026-10-12 AWS의 새 저장소에서 시작했으므로 이전 Vercel의 회원·진행 상태·메모가 옮겨졌다고 가정하지 마. 매번 새 사이트의 실제 상태를 읽어줘.
 08시 실행은 최신 자료 확인·조사·초안 준비까지만 하고 발행·알림을 하지 마.
 09시 실행은 08시 결과를 활용하되 지침·상태·접수 여부를 다시 확인하고 HTML 작성·발행·알림까지 진행해줘.
 08시 결과에 접근할 수 없으면 09시에 필요한 조사를 다시 수행하고 확인한 내용만 발행해줘.
@@ -30,9 +31,9 @@
 - 자체 게임잼, 보드게임잼, 개발 스터디, 지식 발표회, 선배·현업자·타 대학 동아리와의 교류 활동이 있어.
 - 공개 소개에는 Unity·Unreal 등을 다루는 스터디와 72시간 게임잼이 기록돼 있어.
 - 작품 아카이브와 활동 기록은 후원 제안의 근거로 쓸 수 있어.
-  소개: https://gammarupage.vercel.app/about
-  활동: https://gammarupage.vercel.app/activities
-  작품: https://gammarupage.vercel.app/games
+  소개: https://d3ktbkaahtexzk.cloudfront.net/about
+  활동: https://d3ktbkaahtexzk.cloudfront.net/activities
+  작품: https://d3ktbkaahtexzk.cloudfront.net/games
 - 위 정보는 저장된 동아리 소개와 활동 기록이야. 과거 활동을 현재 확정된 행사로 말하지 마.
 - 현재 회원 수·예산·필요 물품 수량·향후 행사 일정·장소·담당자 연락처는 미확인이야.
   겜마루가 법인·사업자·창업팀이라고 가정하거나, 수상·협약·기존 후원 실적을 만들지 마.
@@ -69,10 +70,10 @@
 무료 상품 정가를 확보한 현금으로 더하거나, 확인되지 않은 지출을 절감액으로 계산하지 마.
 
 [4. 매일 읽을 자료와 진행 기록]
-사이트: https://gammarupage.vercel.app
-로그인: https://gammarupage.vercel.app/reports/login/publisher
-전체 조사 자료: https://gammarupage.vercel.app/reports/upload?guide=1
-업로드: https://gammarupage.vercel.app/reports/upload
+사이트: https://d3ktbkaahtexzk.cloudfront.net
+로그인: https://d3ktbkaahtexzk.cloudfront.net/reports/login/publisher
+전체 조사 자료: https://d3ktbkaahtexzk.cloudfront.net/reports/upload?guide=1
+업로드: https://d3ktbkaahtexzk.cloudfront.net/reports/upload
 
 매 실행 시작 때 전체 조사 자료를 새로고침하고 작업 지침·동아리 정보·Design.md·진행 기록을 모두 읽어줘.
 진행 기록은 research-state-json 영역의 전체 JSON을 사용해줘.

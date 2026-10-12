@@ -48,4 +48,7 @@
 - `code/scripts/deploy-aws-web.py`, `aws-install-release.sh`, `aws-configure-runtime.py`: 계정·대상 확인, 소스 배포, Linux 빌드, 암호화 설정과 systemd.
 - `code/scripts/run-report-retention.mjs`: AWS의 7일 HTML 정리 타이머 진입점.
 - `code/scripts/test-aws-standalone.mjs`, `funding/vercel/tests/proxy-origin.test.mjs`: 자체 호스팅 로그인·프록시 신뢰 경계 검증.
-- `code/docs/aws-web-migration.md`: 최신 결정, 남은 권한, 배포와 dots 전환 절차.
+- `code/docs/aws-web-migration.md`: 실제 AWS 주소·구성·검증·운영과 dots 전환 절차.
+- `code/docs/dots-aws-switch.md`: 기존 두 dots 예약의 주소만 바꾸는 복사용 전달문.
+- `code/.gitattributes`: AWS Linux 실행 스크립트의 LF 줄바꿈 유지.
+- `code/vercel.json`: 이전 도메인의 AWS redirect. 기존 Vercel cron은 제거.

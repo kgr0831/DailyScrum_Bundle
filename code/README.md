@@ -1,6 +1,6 @@
 # GAMMARU Landing
 
-**2026-10-12 최신 결정:** 웹사이트·저장소·알림 봇 전체 AWS 이전과 새 저장소 시작. 현재 웹 배포 권한 추가 대기이며 [AWS 이전 안내](docs/aws-web-migration.md)를 따릅니다.
+**2026-10-12:** 웹사이트·저장소·알림 봇을 AWS에 배포했습니다. **https://d3ktbkaahtexzk.cloudfront.net** 에서 새 회원·상태로 시작합니다. [AWS 운영 안내](docs/aws-web-migration.md)와 [dots 주소 변경 전달문](docs/dots-aws-switch.md)을 따릅니다.
 
 숭실대학교 게임 제작 중앙동아리 겜마루의 랜딩페이지와 공개 게임 아카이브입니다.
 
@@ -8,7 +8,7 @@
 
 ## 구독자 전용 데일리 브리프
 
-기존 Vercel 사이트 **https://gammarupage.vercel.app/** 에 붙일 HTML 보고서 보관함을 추가했습니다. dots가 동아리가 직접 받을 운영비·후원 물품·장비·공간·단체 서비스 지원을 조사하고 [Design.md](Design.md)를 따라 완성한 HTML을 올리는 방식입니다. 채용공고 수집이 아닙니다.
+AWS 사이트의 `/reports`는 HTML 보고서 보관함입니다. dots가 동아리가 직접 받을 운영비·후원 물품·장비·공간·단체 서비스 지원을 조사하고 [Design.md](Design.md)를 따라 완성한 HTML을 올립니다.
 
 - `/reports/upload`: HTML 업로드 → 미리보기 → 등록
 - `/reports`: 지금까지 올린 보고서 목록·검색
@@ -16,7 +16,7 @@
 - `/reports/account`: Discord 로그인·구독 신청
 - `/reports/admin`: 관리자 로그인 후 이름·Discord 프로필로 구독 승인
 
-목록과 HTML 원문은 승인된 구독자만 열람하며, 공개 랜딩 메뉴에는 링크를 추가하지 않습니다. 겜마루 일일 알림은 Dishost 워커가 지정 서버 채널에 요약·링크로 게시합니다. Private Blob에 저장하므로 최초 기능 배포 후 매일 업로드할 때는 재배포하지 않습니다.
+동아리 목록과 HTML은 승인된 구독자만 열람합니다. 겜마루 알림은 AWS 워커가 지정 서버 채널에 요약·링크로 게시합니다. 비공개 S3에 저장하므로 매일 업로드할 때 재배포하지 않습니다.
 
 ```bash
 npm run reports:dev
@@ -24,7 +24,7 @@ npm run reports:dev
 
 로컬 `/reports` 실행에는 `.env.funding`의 개발용 저장소·로그인 설정이 필요합니다. [Vercel 연결 안내](docs/vercel-html-reports.md), [dots 예약 작업 지시문](docs/dots-daily-brief.md)을 참고하세요. 운영 웹사이트와 알림은 연결된 상태이며, 이 보관본에는 운영 키·데이터·배포 연결이 없습니다. dots 예약은 사용자가 전달한 확인 내용상 08시 조사·09시 보고이며 이번 정리에서는 직접 조회하지 않았습니다.
 
-`/personal`은 개발·AI·IT 공모전·채용 보고서입니다. Discord 로그인만으로 열람하며 상태·메모는 계정별로 서버에 저장합니다. 알림은 Vercel이 별도 서버 채널에 직접 게시합니다. [현재 운영 안내](../docs/OPERATIONS.md)와 [공모전·채용 안내](docs/personal-service.md)를 참고하세요.
+`/personal`은 개발·AI·IT 공모전·채용 보고서입니다. Discord 로그인만으로 열람하며 상태·메모는 계정별로 서버에 저장합니다. 알림은 AWS 웹 프로세스가 별도 서버 채널에 직접 게시합니다. [현재 운영 안내](../docs/OPERATIONS.md)와 [공모전·채용 안내](docs/personal-service.md)를 참고하세요.
 
 ## 기존 운영자금 탐색·승인 시제품
 

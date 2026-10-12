@@ -68,3 +68,15 @@
 - CloudFormation cfn-lint, Python 구문, Bash 구문 검사 통과. 배포용 Git 소스 압축에 환경 파일과 실행 데이터가 없는지 검증했다.
 - AWS에서는 CloudFormation·CloudFront·공개 AMI 파라미터 접근이 거절된다. 새 웹 인프라·새 URL·OAuth·실제 알림은 아직 미검증이다.
 - 사용자가 AWS 새 출발을 선택했다. 기존 Blob 원본 및 dots 예약은 변경하지 않았다.
+
+## 2026-10-12 AWS 실제 배포 검증
+
+- 서울 CloudFormation 스택 `gammaru-web` 생성 완료. CloudFront `https://d3ktbkaahtexzk.cloudfront.net`과 전용 EC2·SSM 역할·비공개 S3 연결을 확인했다.
+- Linux ARM에서 의존성 설치 및 Next.js standalone 빌드 성공. 배포 archive 내부 shell 파일의 LF를 검사해 Windows CRLF 오류 재발을 막는다.
+- AWS 주소의 랜딩·이미지·sitemap 200, 양쪽 publisher와 관리자 로그인·S3 세션 저장·지침 읽기·CSRF·공간별 쿠키 분리 통과. 새 보고서 0건·stateVersion 0 확인. 검증 세션은 로그아웃했다.
+- 사용자가 등록한 Discord callback을 API로 확인했고 양쪽 OAuth 시작 주소가 새 callback을 사용한다. 실제 사용자 OAuth 완료는 별도 확인 대상이다.
+- 두 Discord 채널의 서버·채널 조회, 워커 인증 연결 ready=true, 무인증 워커 요청 403 확인. 실제 보고서·테스트 알림은 발송하지 않았다.
+- 웹·nginx·알림 워커·7일 정리 timer active. 새 저장소에서 정리 서비스 수동 실행으로 실행 가능 여부를 확인했다.
+- Vercel의 기존 보고서·업로드·유지보수 주소는 AWS로 redirect, Vercel cron definitions는 빈 배열이다. 기존 Blob 원본은 읽거나 변경하지 않았다.
+- 남은 외부 연결: dots 기존 예약의 AWS 주소 변경·클라우드 재로그인·첫 실제 발행과 채널 전송 확인, 불필요해진 Dishost 프로세스 중지. 크레딧 잔액은 여전히 미확인이다.
+- 기존 보고서 테스트 116개에 더해 이번 지침 수정 후 publisher guide 관련 4개를 재실행해 통과했다.

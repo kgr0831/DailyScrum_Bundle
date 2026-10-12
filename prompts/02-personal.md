@@ -7,6 +7,7 @@
 겜마루 동아리 예약은 변경하지 말고 같은 개인용 예약이 이미 있으면 그 예약만 갱신해줘. 중복 예약은 만들지 마.
 개인 PC가 꺼져 있어도 가능한 너의 클라우드 컴퓨터에서 실행해줘.
 기존 예약의 08:00 조사·09:00 보고, Asia/Seoul 시간대와 활성 상태를 유지해줘.
+2026-10-12 AWS의 새 저장소에서 시작했으므로 이전 Vercel의 회원·진행 상태·메모가 옮겨졌다고 가정하지 마. 매번 새 사이트의 실제 상태를 읽어줘.
 08시 실행은 최신 자료 확인·조사·초안 준비까지만 하고 발행·알림을 하지 마.
 09시 실행은 08시 결과를 활용하되 지침·상태·접수 여부를 다시 확인하고 HTML 작성·발행·알림까지 진행해줘.
 08시 결과에 접근할 수 없으면 09시에 필요한 조사를 다시 수행하고 확인한 내용만 발행해줘.
@@ -19,13 +20,13 @@
 이번 지침 저장 결과는 예약 이름·활성 상태·시간대·실제 시스템이 반환한 다음 실행 시각으로 확인해줘.
 다음 실행 시각이 null이면 미확인이라고 말해줘.
 
-1. https://gammarupage.vercel.app/personal/upload?guide=1 을 실제로 열어줘.
+1. https://d3ktbkaahtexzk.cloudfront.net/personal/upload?guide=1 을 실제로 열어줘.
    로그인 화면이면 비공개 로그인 인계를 요청해줘.
    이 페이지의 운영 지침, 조사 대상 정보, Design.md, research-state-json 전체를 읽어줘.
    조사 대상 정보 아래에 소유자가 비공개로 저장한 학적·기술·프로젝트·동아리 활동·선호·지역·참가 조건 등이 있으면 그 조건을 적용해줘.
    직접 제공한 경험과 현재 기획 중인 프로젝트를 구분하고, 미완성 프로젝트를 경력이나 수상 실적으로 바꾸지 마.
    해당 내용을 발행 HTML·항목 설명·채널 요약에 그대로 복사하지 마. 빈 조건은 미정으로 두고 자격을 추정하지 마.
-   https://gammarupage.vercel.app/personal/context, https://gammarupage.vercel.app/personal/design, https://gammarupage.vercel.app/personal/research-state에서도 같은 자료를 얻을 수 있어.
+   https://d3ktbkaahtexzk.cloudfront.net/personal/context, https://d3ktbkaahtexzk.cloudfront.net/personal/design, https://d3ktbkaahtexzk.cloudfront.net/personal/research-state에서도 같은 자료를 얻을 수 있어.
    HTML 자료 보기에도 접근할 수 없으면 추측해서 진행하지 말고 막힌 단계를 알려줘.
 
 2. 한국시간 오늘 날짜와 stateVersion, known, carryForwardIds, legacyIds,
@@ -45,7 +46,7 @@
    B. 채용: 개발·AI·IT 기업의 공식 개별 공고. 직무, 경력·기술 요건, 고용형태,
       근무지·원격 여부, 접수 상태, 마감, 명시된 보상을 확인해줘.
       마감된 채용을 현재 지원 가능하다고 쓰지 마. 비공식 재게시만으로 접수를 확정하지 마.
-   개인의 학적·경력·지역 등 미확정 조건은 https://gammarupage.vercel.app/personal/context 기준으로 표시해줘.
+   개인의 학적·경력·지역 등 미확정 조건은 https://d3ktbkaahtexzk.cloudfront.net/personal/context 기준으로 표시해줘.
    자격이 불분명하면 지원 자격 확인 필요로 분류하고 적합하다고 단정하지 마.
 
 4. 새 정보는 공모전 최대 3개, 채용 최대 3개를 우선하고,
@@ -70,7 +71,7 @@
    보류/진행 중/완료/안함 버튼과 메모 저장은 사이트가 제공해. HTML에 상태 변경 코드를 넣지 마.
    내용과 금액·마감·위험을 숨기지 않으면서 benefit은 80자 안팎, nextAction은 60자 안팎으로 요약해줘.
 
-7. https://gammarupage.vercel.app/personal/upload에서 오늘 날짜, 제목, 300자 이내의 2~3문장 요약, HTML 파일을 입력해줘.
+7. https://d3ktbkaahtexzk.cloudfront.net/personal/upload에서 오늘 날짜, 제목, 300자 이내의 2~3문장 요약, HTML 파일을 입력해줘.
    파일 선택이 어려우면 '파일 대신 HTML 내용 붙여넣기'에 전체 문서를 입력해줘. 두 방식 중 하나만 사용해줘.
    제목은 '개인 데일리 브리핑 — YYYY-MM-DD'처럼 작성하고 두 분야를 요약에 담아줘.
    '오늘 보고서의 제목·요약·링크를 Discord 서버 채널에 게시하기'를 켜고 HTML 미리보기에서 내용·출처·시각·자격·모바일 표시를 검토해줘.
@@ -88,7 +89,7 @@
    확인 체크 후 '이 HTML 등록하기' 또는 '이 수정본 재발행하기'를 눌러줘.
    수정본은 같은 URL에서 열리며 이전 HTML과 상태·메모는 보관돼. 버전 충돌이면 최신 자료를 읽고 내용을 다시 반영해줘.
 
-8. 완료 화면의 발행 날짜와 https://gammarupage.vercel.app/personal/YYYY-MM-DD 주소를 확인해줘.
+8. 완료 화면의 발행 날짜와 https://d3ktbkaahtexzk.cloudfront.net/personal/YYYY-MM-DD 주소를 확인해줘.
    자료 보기를 새로고침하고 previousReports에 audience=personal인 오늘 보고서가 있는지 확인해줘.
    업로드 계정은 구독자 보고서를 열 수 없으므로 미리보기와 등록 영수증으로 확인해줘.
    사이트가 지정 채널의 알림을 처리한다. 직접 Discord에 글을 쓰거나 회원 명단을 읽지 마.
