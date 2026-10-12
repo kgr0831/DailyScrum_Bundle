@@ -59,3 +59,5 @@
 - `code/public/landing/`: 선택한 도트 시안의 스타일·영상·작품·canvas와 세션 기반 보고서 메뉴.
 - `code/scripts/test-landing-reel.mjs`: 새 MP4 플레이어의 반응형 재생·제작자 표시·정지·대체 화면 검증.
 - `code/docs/landing-redesign.md`: 시안 출처·운영 통합·검증 명령.
+- `code/public/landing/chrome.css`: 메인과 내부 페이지가 함께 쓰는 반투명 메뉴·푸터·색상.
+- `code/src/app/interior.css`, `code/src/components/SiteHeader.tsx`, `SiteFooter.tsx`: 게임 목록·상세·소개·활동·기록의 디자인 통일과 내부 페이지 보고서 메뉴.

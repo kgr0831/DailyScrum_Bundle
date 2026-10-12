@@ -6,7 +6,7 @@
   "sourceFiles": [
     {
       "path": ".env.funding.example",
-      "bytes": 2645,
+      "bytes": 2784,
       "sourceSha256": "1b14858c6d4b665d2c3d15289188d0c13ced13f067f7852516ed4771e9ebd93e",
       "bundleSha256": "a5b3dbfb57f882b2267f2eada5b36003e51e320327aea8150aadc3140f4ba6e1"
     },
@@ -18,7 +18,7 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 308,
+      "bytes": 321,
       "sourceSha256": "34df188ff2d0d1af17bfeb3c463c036ce664cee1bef9aadec6bd3f1aed7a0641",
       "bundleSha256": "0d98200e829751fb19db498a6c02fdda07f8c2e6a53893479bcb05898ecf3989"
     },
@@ -48,7 +48,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 6315,
+      "bytes": 6925,
       "sourceSha256": "783b2244d359e2241ceea89f497b914c06356e33c97d721b0ef49118b33dc9bf",
       "bundleSha256": "a6d7865e4b205d81d09b212158ddc7a723967d285acb5c767008b66ffd771b4c"
     },
@@ -60,7 +60,7 @@
     },
     {
       "path": "discord-notifier/README.md",
-      "bytes": 4260,
+      "bytes": 4367,
       "sourceSha256": "179de56fcf172694cf0592dab57b51c6b9458b3653faed7a6925639d0de8f903",
       "bundleSha256": "27d721f2b0e223677ab513767d7682978260c5ce1b6884f27ad4f02f815dd74b"
     },
@@ -90,13 +90,13 @@
     },
     {
       "path": "docs/dots-daily-brief.md",
-      "bytes": 23273,
+      "bytes": 25029,
       "sourceSha256": "3e0a4e8a631cffd85f2a7babe86b734aa799d3a05759f159d5f6045f0e6121e9",
       "bundleSha256": "32496f45987ee3572df086c4ca54e84a74e25835c0540330a625e3d95dd6de71"
     },
     {
       "path": "docs/dots-personal-brief.md",
-      "bytes": 13232,
+      "bytes": 17192,
       "sourceSha256": "b873fccba51fb973e04a83ddb5d643a73784b09706a9c431abdd8065b247ead3",
       "bundleSha256": "b0008ee2505998a744328f71466bad7b4cf2ccf3c997b01102f3a2a3a20ee37e"
     },
@@ -120,13 +120,13 @@
     },
     {
       "path": "docs/personal-service.md",
-      "bytes": 7479,
+      "bytes": 8151,
       "sourceSha256": "9b943d70c74a87769c6be76c723e0a39f15ef0cdb3535a8b046c52b38a3bae62",
       "bundleSha256": "0b24df7e953df67f59e6545180c9796f6e1b094711de496104f7f56baed51db8"
     },
     {
       "path": "docs/vercel-html-reports.md",
-      "bytes": 15148,
+      "bytes": 15431,
       "sourceSha256": "c131b57a1fb2b949c18dcc2bfd68a0d26315a964787e2c6b6421c610f4e3d55c",
       "bundleSha256": "5df92a2683b51b67d0af33e44ee22e6e00646cff78c813dc9a95865ce12eefa3"
     },
@@ -336,7 +336,7 @@
     },
     {
       "path": "funding/vercel/config.mjs",
-      "bytes": 2831,
+      "bytes": 3079,
       "sourceSha256": "dc0c00f308e3e6947eb008d2585f839901d2d105a2749cdbf11f75b89b38d3b2",
       "bundleSha256": "b80bc3953d722fbdbefbc8a880e9977f778864d3aa10e3b34b779b1776cc1e1c"
     },
@@ -348,7 +348,7 @@
     },
     {
       "path": "funding/vercel/handler.mjs",
-      "bytes": 35888,
+      "bytes": 36232,
       "sourceSha256": "6156f99e366b1b9f4c197402462475eeda05e40b28a91f0f0394e312cd4537ff",
       "bundleSha256": "71f3a3e3b9b700bd60711323df14fa8de87e9e935defbc56d465c132d96821a8"
     },
@@ -372,7 +372,7 @@
     },
     {
       "path": "funding/vercel/opportunities.mjs",
-      "bytes": 11485,
+      "bytes": 11636,
       "sourceSha256": "1f6ae8f4fae256641f75acd3d4ac0fdd08a99ae4b62356fe7e40d5b5497d7e9c",
       "bundleSha256": "befb9c7d2b4feff014953bac19ec5012a8b4314e3f2d4ee11da3c81be4176df2"
     },
@@ -420,13 +420,13 @@
     },
     {
       "path": "funding/vercel/router.mjs",
-      "bytes": 1462,
+      "bytes": 2650,
       "sourceSha256": "63803418c69bd6411ab1787d2bcb4adeafc24bde62391449baf854bb4fec9cce",
       "bundleSha256": "9bd06047d3666123eff75d6c0da2c3301f7f3795c6dbb27131e2a29217dd89bc"
     },
     {
       "path": "funding/vercel/storage.mjs",
-      "bytes": 11471,
+      "bytes": 13900,
       "sourceSha256": "3a827d07cb26eee207ad92f7b5d7a0e863657593b106d9fdf3e3812f1ce2b43d",
       "bundleSha256": "c9aa09e94f4b991f98278ba7c46ba4ec9533832b9283907af217b9182d1fd69d"
     },
@@ -438,25 +438,25 @@
     },
     {
       "path": "funding/vercel/tests/blob-cas.test.mjs",
-      "bytes": 1988,
+      "bytes": 5203,
       "sourceSha256": "92a628ca11753842b507db88476d8613adaa4941b96db2fabee1db9eb8377b50",
       "bundleSha256": "6a6423a54502d00515bc58f452eae7dffe1de01dbee53117c3f694d46d29ea83"
     },
     {
       "path": "funding/vercel/tests/browser.mjs",
-      "bytes": 33025,
+      "bytes": 34212,
       "sourceSha256": "0986600e3e42eeaa7b26da382807da11a081e542b983eb95abbb44e8beb1a515",
       "bundleSha256": "a0dc12f2514d9ede97d9280ea1888ea09c1366ac8308200682418d0c149abf5b"
     },
     {
       "path": "funding/vercel/tests/channel-notifications.test.mjs",
-      "bytes": 7324,
+      "bytes": 7329,
       "sourceSha256": "22ec8a7381fb481a28489ef9ef0b4dfdc035d5a8cf2ce489b1f52a7ba4df6ba5",
       "bundleSha256": "59f5804f015ab34426d789938007cfb97787fa73fd63b236c764dcf9800a64f5"
     },
     {
       "path": "funding/vercel/tests/helpers.mjs",
-      "bytes": 3175,
+      "bytes": 3343,
       "sourceSha256": "a1282dd412e666496be88940185cb3991c7109a9763cdbde5c018a17eef04379",
       "bundleSha256": "8732822d0ba5adf78625f8caf9fab62f151e85dbb4c060223daa8f4848643e9f"
     },
@@ -480,7 +480,7 @@
     },
     {
       "path": "funding/vercel/tests/opportunities.test.mjs",
-      "bytes": 10512,
+      "bytes": 10485,
       "sourceSha256": "9b6da45ca2765acf64ce4b1008ade327249e08eb0f87c7bc1043b6e421fa146d",
       "bundleSha256": "e557c9005e2e36f98ab2ec249c3462fa36463f2933d54d1a48b784ab35826c73"
     },
@@ -516,7 +516,7 @@
     },
     {
       "path": "funding/vercel/tests/publisher-guide.test.mjs",
-      "bytes": 4350,
+      "bytes": 5101,
       "sourceSha256": "e68fb77546244cf2c04aa4df4a6a4cc875b26015656b8f78e38ffb1ebebd8231",
       "bundleSha256": "15a7fe44cf80e1e35fee568b05b548f7d83966e734dd081979745d4345284da7"
     },
@@ -528,13 +528,13 @@
     },
     {
       "path": "funding/vercel/tests/reissue.test.mjs",
-      "bytes": 12421,
+      "bytes": 12426,
       "sourceSha256": "42a2b070da96c9fefa3df4edc8bb6c5cfd88edff89eab387d23e9f498b782a01",
       "bundleSha256": "eea18ff51d153debe6e65c16741c4a6908ea035adc71d5ee60c3998c2fb3bbc7"
     },
     {
       "path": "funding/vercel/tests/reports.test.mjs",
-      "bytes": 12705,
+      "bytes": 12689,
       "sourceSha256": "ead5378288c032466354aeca3ad282430cab2e6a271995831720ecc22ad7ee6a",
       "bundleSha256": "537e1ca4453539e2cc5dc7f26d16d9b6edca304acfb06c4a4980dba3d57da680"
     },
@@ -546,19 +546,19 @@
     },
     {
       "path": "funding/vercel/tests/worker-jobs.test.mjs",
-      "bytes": 10429,
+      "bytes": 12194,
       "sourceSha256": "d93b7bded439af8f539be2445b3f29b2fc175d1097e9b261381c61082ba1c52b",
       "bundleSha256": "2ad16826882e04679ce53a5e9fba885149c5ab9dccfbb39bdff61f101881e4e1"
     },
     {
       "path": "funding/vercel/views.mjs",
-      "bytes": 31841,
+      "bytes": 34193,
       "sourceSha256": "9c091e36d3a574582a23cfd65751852af0e47febed357fb690b9d273eced2d0f",
       "bundleSha256": "3569486b46888aca05807006521431533f628cc26c8f2b932647244f26b28b43"
     },
     {
       "path": "funding/vercel/worker-jobs.mjs",
-      "bytes": 7539,
+      "bytes": 7549,
       "sourceSha256": "8c034f64484828cf8f4c539778af90a6134637110c8d1cb12d7ac0d5517272cb",
       "bundleSha256": "9b22d065b97417bfe92ba6781ec9c868dd4c64dc4ef5cd0d790c36f5694bd722"
     },
@@ -576,19 +576,19 @@
     },
     {
       "path": "next.config.ts",
-      "bytes": 1220,
+      "bytes": 1290,
       "sourceSha256": "afdd97005e455215f35dbc878ff61044f32472c69172d11da4c568a2796196eb",
       "bundleSha256": "314c0a0d75e58a6f4cb06241f7f711dc6199c774326766a52d53a6fec1e92461"
     },
     {
       "path": "package-lock.json",
-      "bytes": 258377,
+      "bytes": 275438,
       "sourceSha256": "784fc0f81b620933965a45b059a9f967d8f893da4eec00ca569bac55fd13df62",
       "bundleSha256": "0b49096210534fcb4a055fb351f92f3ede08c9aacadc0a2c3ea4b2fc41ab68e0"
     },
     {
       "path": "package.json",
-      "bytes": 2319,
+      "bytes": 2424,
       "sourceSha256": "6d8db9e3d98f9f4e43203f48e0bc547850592982e1ae5b3d2766b0a781435a21",
       "bundleSha256": "c4fb88495c4958f95cf37f827727c21fba7cd5307af1583446ebdeea50b4d306"
     },
@@ -2508,15 +2508,15 @@
     },
     {
       "path": "scripts/smoke.mjs",
-      "bytes": 6641,
+      "bytes": 11586,
       "sourceSha256": "613951564068e5bd5fba3767f461405c33f86d9d9f25739bc26fffcea148bdce",
-      "bundleSha256": "e3006458a36282482739fdf490a5603569b5e1cbf57db849a81c96b5a8bbb621"
+      "bundleSha256": "08468fea5e4b511ba0871882d43ee92e890fef68812fc176ee9a95f5dec6b8c1"
     },
     {
       "path": "scripts/test-game-details.mjs",
-      "bytes": 7849,
+      "bytes": 7994,
       "sourceSha256": "51a0b2204ae1723f48cbd29592d1a8018322d950692fe022a716c46566f2f4b0",
-      "bundleSha256": "51a0b2204ae1723f48cbd29592d1a8018322d950692fe022a716c46566f2f4b0"
+      "bundleSha256": "7546dddaca840e009ff4f6a739c0cf4ad768ab3672e1dbc49ee2c52e15451358"
     },
     {
       "path": "scripts/test-hero-reel.mjs",
@@ -2532,21 +2532,21 @@
     },
     {
       "path": "src/app/about/page.tsx",
-      "bytes": 4343,
+      "bytes": 4347,
       "sourceSha256": "83e435118ac8096ba5e5bf721d318287d24c1ed0d35467b70f85b9f911797ed8",
-      "bundleSha256": "83e435118ac8096ba5e5bf721d318287d24c1ed0d35467b70f85b9f911797ed8"
+      "bundleSha256": "6f2a1557a6aad318400a13da86d2e7483571f71553f3d38c402cf7ef3ef74749"
     },
     {
       "path": "src/app/activities/page.tsx",
-      "bytes": 3560,
+      "bytes": 3541,
       "sourceSha256": "a78204ec3cec9a1380bb5b06e2259e1efb0350757281e319935b8b9a04c67d37",
-      "bundleSha256": "a78204ec3cec9a1380bb5b06e2259e1efb0350757281e319935b8b9a04c67d37"
+      "bundleSha256": "72a9f2c915149b1ab1fe12c27cd1d34aaa12e2dbc9205344fd048632a71ac347"
     },
     {
       "path": "src/app/games/[year]/[season]/[slug]/page.tsx",
-      "bytes": 5963,
+      "bytes": 5962,
       "sourceSha256": "5fed8dd316c22d064dcb85dcaa58e3ae1d0688458b8b631b375236caead98374",
-      "bundleSha256": "5fed8dd316c22d064dcb85dcaa58e3ae1d0688458b8b631b375236caead98374"
+      "bundleSha256": "e392730202088d82de798f8a58f5948a2b6e8bb8a85acbe100cdbdfe7d2ee54a"
     },
     {
       "path": "src/app/games/[year]/[season]/page.tsx",
@@ -2556,27 +2556,27 @@
     },
     {
       "path": "src/app/games/page.tsx",
-      "bytes": 924,
+      "bytes": 923,
       "sourceSha256": "a39328841357e621bcfd6a072a9ae2632cbd96438cae015bb48e89fd81e4fdb1",
-      "bundleSha256": "a39328841357e621bcfd6a072a9ae2632cbd96438cae015bb48e89fd81e4fdb1"
+      "bundleSha256": "1b649e9fba910a1ccd7f19d2071a96a3da8714a4ce045f5ef89868c0136fc3e7"
     },
     {
       "path": "src/app/globals.css",
-      "bytes": 53584,
+      "bytes": 47530,
       "sourceSha256": "bc97b8984a82d6b465bf859d602c3205d9b7d067b4f9405e8293dd84c92c32a6",
-      "bundleSha256": "bc97b8984a82d6b465bf859d602c3205d9b7d067b4f9405e8293dd84c92c32a6"
+      "bundleSha256": "1043f86e76c1d9f921c2328e571dac285148eb3fbae2580e606c219a15b03ea0"
     },
     {
       "path": "src/app/layout.tsx",
-      "bytes": 1806,
+      "bytes": 1811,
       "sourceSha256": "f739a9d57263652d94b9d9e947d09e48ae02c866536ec78da592eddea85ce24e",
-      "bundleSha256": "f739a9d57263652d94b9d9e947d09e48ae02c866536ec78da592eddea85ce24e"
+      "bundleSha256": "bdac106be0b538a7758cde4fc2ef1be3288b64a84c95bb46d301871d6d240bfb"
     },
     {
       "path": "src/app/log/page.tsx",
-      "bytes": 1946,
+      "bytes": 1941,
       "sourceSha256": "b2659d8387aef74496c54f82b10cf2f76f2c3059563a75a47954b7ecb5865c39",
-      "bundleSha256": "b2659d8387aef74496c54f82b10cf2f76f2c3059563a75a47954b7ecb5865c39"
+      "bundleSha256": "c3089b2041c6599398a71722220e7db772d7983cc67bd44ff609b8569ea4ca26"
     },
     {
       "path": "src/app/not-found.tsx",
@@ -2664,15 +2664,15 @@
     },
     {
       "path": "src/components/SiteFooter.tsx",
-      "bytes": 842,
+      "bytes": 966,
       "sourceSha256": "3986ec986447557c69391a0817501f075ac752a91bb7e434135b08a3472db0fd",
-      "bundleSha256": "3986ec986447557c69391a0817501f075ac752a91bb7e434135b08a3472db0fd"
+      "bundleSha256": "9d26fdd2fb346c7ec418fd9d13d42eb3154cd990e44e9e14eb72eef8129dbe4b"
     },
     {
       "path": "src/components/SiteHeader.tsx",
-      "bytes": 4246,
+      "bytes": 5806,
       "sourceSha256": "10298eb737c49c59c2a62afb3fdf3bea7ba7b0c9117c0e598c9ab50c0fb40690",
-      "bundleSha256": "f0a0ad75ba916ae05694fd7c09264d566982cf5a6688a400ba45db07ab1fcb9d"
+      "bundleSha256": "7dbfc8cf7f674f4b26c9639cf25cc76882a831fa60568c21130b1f6f9d0d2ea0"
     },
     {
       "path": "src/data/archive/games.json",
@@ -2874,7 +2874,7 @@
     },
     {
       "path": "vercel.json",
-      "bytes": 80,
+      "bytes": 290,
       "sourceSha256": "3e213b01e5bc9af28a20131246f7bfc62490b63b66d3e2fac578ff2251905101",
       "bundleSha256": "d10a8266e7d070caf8c5e237baee8bf9c5035fd31262f0a15151ec8cde109a22"
     }
@@ -2908,6 +2908,15 @@
     "package-lock.json",
     "package.json",
     "scripts/smoke.mjs",
+    "scripts/test-game-details.mjs",
+    "src/app/about/page.tsx",
+    "src/app/activities/page.tsx",
+    "src/app/games/[year]/[season]/[slug]/page.tsx",
+    "src/app/games/page.tsx",
+    "src/app/globals.css",
+    "src/app/layout.tsx",
+    "src/app/log/page.tsx",
+    "src/components/SiteFooter.tsx",
     "src/components/SiteHeader.tsx",
     "vercel.json"
   ],
@@ -2934,13 +2943,13 @@
     },
     {
       "path": "docs/FILE-MAP.md",
-      "bytes": 5300,
-      "sha256": "0ef0f9b232ff379b974d9e93a4f386d5fd9fb129d34abc32ea774401499ed73c"
+      "bytes": 5605,
+      "sha256": "dd3e8e36e250db911b709c2e7d05c1f5144234e46b7b305e427576a62646eda5"
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 10264,
-      "sha256": "4093ecb027a91915d833c3a250cc4dd72f6ab7c6cef2b4403c26b308773e082d"
+      "bytes": 11434,
+      "sha256": "d92838b7e0ccf1f5ee682020b13a40b5f87a1dfe4514360a07bf4eb054d08ca7"
     },
     {
       "path": "prompts/README.md",
@@ -3109,18 +3118,18 @@
     },
     {
       "path": "code/docs/landing-redesign.md",
-      "bytes": 2357,
-      "sha256": "c1a8a3a5d90a60c7a73869a0abc973c284f0bf428902e7407997a722a9abd3d3"
+      "bytes": 3718,
+      "sha256": "7a315b0b9bc9fe3fa4cf12dea4ea0070f738f48bc052215e33ccbafb27ac6191"
     },
     {
       "path": "code/src/app/route.ts",
-      "bytes": 1407,
-      "sha256": "4738a035dca447d44a2b02801045775dc3858088aee3410192490555c4b58d1c"
+      "bytes": 1421,
+      "sha256": "f43a71d3cba4e5d553caa9d220f4f42fecb3fe1ed87af0fa896d421b2608b906"
     },
     {
       "path": "code/src/landing/index.html",
-      "bytes": 12471,
-      "sha256": "33a24a078fa328c0ae95acc0289d9bc927b2ec47cc1ee546bc76de75c111a166"
+      "bytes": 12546,
+      "sha256": "57f1f25cfec72c6c360ecdcf998596a18cbec3594ef3f327b8473450887d9397"
     },
     {
       "path": "code/scripts/test-landing-reel.mjs",
@@ -3129,8 +3138,8 @@
     },
     {
       "path": "code/public/landing/styles.css",
-      "bytes": 25683,
-      "sha256": "46310af718180e6d428b3bbc02050b1b7a3bf3497e63250ff583e314cf249864"
+      "bytes": 20986,
+      "sha256": "253b03f81870a301f7d4156ef8ca937f686414600e190e73315197aa42c7fb37"
     },
     {
       "path": "code/public/landing/games.js",
@@ -3161,6 +3170,16 @@
       "path": "code/public/landing/session.js",
       "bytes": 2030,
       "sha256": "7694b6e5bcebaad4dd003e0a3fec12320c089c4b7b85a37327d265e611abc95d"
+    },
+    {
+      "path": "code/public/landing/chrome.css",
+      "bytes": 5448,
+      "sha256": "2f1e13aa963f45060a223be1d63a18c3d698e99c8a56c2bab9bedc6a59647f40"
+    },
+    {
+      "path": "code/src/app/interior.css",
+      "bytes": 8517,
+      "sha256": "ce5d020d97df945aac229573e6857ae43184859a60dbd13d4e48381e12c18832"
     }
   ],
   "excluded": [
@@ -3182,7 +3201,8 @@
     "build": "Passed: AWS standalone, TypeScript, 172 static pages; local HTTPS proxy/login smoke with fake S3 passed",
     "liveOperationsPerformed": "Full AWS stack deployed. Real HTTPS publisher/admin login, S3 sessions, fresh state, isolated cookies, CSRF and both Discord destination lookups passed. Worker connected; retention service executed successfully. Discord callback registered. Legacy Vercel report paths redirect and old cron removed. No original Blob data changed. No reports or Discord test messages created. Dots schedule/login handoff and first real publish remain.",
     "awsInfrastructure": "CloudFormation CREATE_COMPLETE, CloudFront deployed, dedicated Seoul EC2 web/notifier/nginx/timer active. S3 private. VPC-origin managed security group only. Credit balance unverified.",
-    "landing": "Selected pixel design: ESLint, standalone build, browser smoke on 320/390/1280/1440/1920 widths, gallery/dialog/tab/menu/session links, all reel credits, responsive video playback, motion/data settings and poster fallback passed. Real AWS landing/scripts/mobile/archive navigation, publisher guides and worker connection verified."
+    "landing": "Selected pixel design: ESLint, standalone build, browser smoke on 320/390/1280/1440/1920 widths, gallery/dialog/tab/menu/session links, all reel credits, responsive video playback, motion/data settings and poster fallback passed. Real AWS landing/scripts/mobile/archive navigation, publisher guides and worker connection verified.",
+    "interiorDesign": "Shared landing/archive/detail header, footer, fonts and palette. ESLint, standalone build (172 routes), smoke/details/reel passed. 146 titles checked at 6 widths; live AWS verified at 320/1440px, page navigation, home return and both guest session APIs. No report data or Discord messages created."
   },
   "lastUpdatedDate": "2026-10-12",
   "updates": [
@@ -3344,6 +3364,34 @@
         "club": 0,
         "personal": 0
       }
+    },
+    {
+      "date": "2026-10-12",
+      "sourceCommit": "4e185bfc6c2f3739ee06c38ce8883b60f4b4f3e8",
+      "purpose": "Unify game archive, details and information pages with the selected pixel landing",
+      "files": [
+        "code/docs/landing-redesign.md",
+        "code/public/landing/chrome.css",
+        "code/public/landing/styles.css",
+        "code/scripts/smoke.mjs",
+        "code/scripts/test-game-details.mjs",
+        "code/src/app/about/page.tsx",
+        "code/src/app/activities/page.tsx",
+        "code/src/app/games/[year]/[season]/[slug]/page.tsx",
+        "code/src/app/games/page.tsx",
+        "code/src/app/globals.css",
+        "code/src/app/interior.css",
+        "code/src/app/layout.tsx",
+        "code/src/app/log/page.tsx",
+        "code/src/app/route.ts",
+        "code/src/components/SiteFooter.tsx",
+        "code/src/components/SiteHeader.tsx",
+        "code/src/landing/index.html",
+        "docs/FILE-MAP.md",
+        "docs/VALIDATION.md"
+      ],
+      "awsDeploymentVerified": true,
+      "awsCommandId": "733c0559-78a9-4b29-ad74-fe74c7e6b05f"
     }
   ],
   "removedSourceFiles": [
