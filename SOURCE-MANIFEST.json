@@ -3088,8 +3088,8 @@
     },
     {
       "path": "code/scripts/deploy-aws-web.py",
-      "bytes": 13458,
-      "sha256": "b872d3590482a0e99029bbc15482a0cf14f126e81c3c6e238da2b9247adda073"
+      "bytes": 14003,
+      "sha256": "d6de970916b5224b277247875f592577e9bcc0d00b52144d8cdccc2cab09dfff"
     },
     {
       "path": "code/scripts/run-report-retention.mjs",
@@ -3203,7 +3203,7 @@
     },
     {
       "date": "2026-10-12",
-      "sourceCommit": "e1c0f6f077720ebfb09bd50a463560930e16ee20",
+      "sourceCommit": "268808e21e2edc03451a1be3cc5e68f1aefa9b41",
       "purpose": "Prepare full AWS web and notifier hosting with fresh state and HTTPS proxy authentication",
       "files": [
         "code/docs/aws-web-migration.md",
