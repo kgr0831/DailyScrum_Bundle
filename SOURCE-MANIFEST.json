@@ -428,7 +428,7 @@
       "path": "funding/vercel/storage.mjs",
       "bytes": 11471,
       "sourceSha256": "3a827d07cb26eee207ad92f7b5d7a0e863657593b106d9fdf3e3812f1ce2b43d",
-      "bundleSha256": "3a827d07cb26eee207ad92f7b5d7a0e863657593b106d9fdf3e3812f1ce2b43d"
+      "bundleSha256": "dc470b63f86dfa55105a20e4ba15e8af45fd8cfd8401f3d120b7c2a18841ff1e"
     },
     {
       "path": "funding/vercel/tests/approval-notice.test.mjs",
@@ -440,7 +440,7 @@
       "path": "funding/vercel/tests/blob-cas.test.mjs",
       "bytes": 1988,
       "sourceSha256": "92a628ca11753842b507db88476d8613adaa4941b96db2fabee1db9eb8377b50",
-      "bundleSha256": "92a628ca11753842b507db88476d8613adaa4941b96db2fabee1db9eb8377b50"
+      "bundleSha256": "6a6423a54502d00515bc58f452eae7dffe1de01dbee53117c3f694d46d29ea83"
     },
     {
       "path": "funding/vercel/tests/browser.mjs",
@@ -548,7 +548,7 @@
       "path": "funding/vercel/tests/worker-jobs.test.mjs",
       "bytes": 10429,
       "sourceSha256": "d93b7bded439af8f539be2445b3f29b2fc175d1097e9b261381c61082ba1c52b",
-      "bundleSha256": "d93b7bded439af8f539be2445b3f29b2fc175d1097e9b261381c61082ba1c52b"
+      "bundleSha256": "2ad16826882e04679ce53a5e9fba885149c5ab9dccfbb39bdff61f101881e4e1"
     },
     {
       "path": "funding/vercel/views.mjs",
@@ -560,7 +560,7 @@
       "path": "funding/vercel/worker-jobs.mjs",
       "bytes": 7539,
       "sourceSha256": "8c034f64484828cf8f4c539778af90a6134637110c8d1cb12d7ac0d5517272cb",
-      "bundleSha256": "8c034f64484828cf8f4c539778af90a6134637110c8d1cb12d7ac0d5517272cb"
+      "bundleSha256": "9b22d065b97417bfe92ba6781ec9c868dd4c64dc4ef5cd0d790c36f5694bd722"
     },
     {
       "path": "gammaruInfo.md",
@@ -2894,8 +2894,12 @@
     "docs/personal-service.md",
     "docs/vercel-html-reports.md",
     "funding/vercel/handler.mjs",
+    "funding/vercel/storage.mjs",
+    "funding/vercel/tests/blob-cas.test.mjs",
     "funding/vercel/tests/browser.mjs",
-    "funding/vercel/views.mjs"
+    "funding/vercel/tests/worker-jobs.test.mjs",
+    "funding/vercel/views.mjs",
+    "funding/vercel/worker-jobs.mjs"
   ],
   "addedFiles": [
     {
@@ -2915,8 +2919,8 @@
     },
     {
       "path": "docs/OPERATIONS.md",
-      "bytes": 6964,
-      "sha256": "b42d985d9736bcddd07be4b4779e6baea7f3a820b2ca976374ab9fcd7e1f6cbd"
+      "bytes": 7688,
+      "sha256": "582c5f86af58bd9f5657233f283609cb32b93d5e7769c5ed979d3a2cda35d265"
     },
     {
       "path": "docs/FILE-MAP.md",
@@ -2925,8 +2929,8 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 3959,
-      "sha256": "c342a86be497c7cd5e86fa7591cc4d3e3f2f06c4402d5883abc01a5c36672fd2"
+      "bytes": 4707,
+      "sha256": "c5eefe5ec0ebe8b8df930019c9746017171e14e31b2e737efbb99e99024670a6"
     },
     {
       "path": "prompts/README.md",
@@ -2952,6 +2956,11 @@
       "path": "code/funding/vercel/tests/notification-target.test.mjs",
       "bytes": 5685,
       "sha256": "a9bdf0d339f26356b5459c95ad1781d0b1da38c248a21b9558003d9a86cc7513"
+    },
+    {
+      "path": "code/docs/blob-recovery.md",
+      "bytes": 3763,
+      "sha256": "6ca98ab5261408512e68a2122b36c88e6d7c0c70f6ccc759816b64a0de07864e"
     }
   ],
   "excluded": [
@@ -2966,14 +2975,14 @@
   ],
   "verification": {
     "reportTests": {
-      "passed": 96,
+      "passed": 100,
       "failed": 0
     },
-    "browser": "passed; mocked Discord lookup, OAuth/storage; 320/390px checked",
+    "browser": "2026-10-07 passed; not rerun for 2026-10-12 server storage-only changes",
     "build": "passed; TypeScript and 172 static pages",
-    "liveOperationsPerformed": "Read-only destination verification and publisher login/logout; no report or message created by verification"
+    "liveOperationsPerformed": "Read-only Blob metadata diagnosis: usage quota exceeded, suspended. No report or Discord message created; service recovery pending quota reset or owner-approved plan change."
   },
-  "lastUpdatedDate": "2026-10-07",
+  "lastUpdatedDate": "2026-10-12",
   "updates": [
     {
       "date": "2026-10-07",
@@ -2987,6 +2996,18 @@
         "code/funding/vercel/notification-target.mjs",
         "code/funding/vercel/tests/notification-target.test.mjs",
         "code/funding/vercel/tests/browser.mjs"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "sourceCommit": "d1815ae6b8a911b2d24c8f34e507d616d1e3686c",
+      "purpose": "Reduce idle Blob origin reads without caching permissions or CAS; explain storage restrictions",
+      "files": [
+        "code/funding/vercel/storage.mjs",
+        "code/funding/vercel/worker-jobs.mjs",
+        "code/funding/vercel/tests/blob-cas.test.mjs",
+        "code/funding/vercel/tests/worker-jobs.test.mjs",
+        "code/docs/blob-recovery.md"
       ]
     }
   ]
